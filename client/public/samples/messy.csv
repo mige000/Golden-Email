@@ -1,0 +1,2368 @@
+ Cust # ,Txn Dt,Order No,Item,Qty,Unit Price,Grand Total,E-mail
+c00534,01/11/2024,#50000,Outdoor,2,23.39,$46.78,hiro.okafor534@example.com
+ C00066 ,02/11/2024,#50001,Outdoor,1,$16.08,$16.08,priya.chen66@example.com
+c00066,02/11/2024,#50001,Stationery,2,8.04,16.08,priya.chen66@example.com
+C00066,02/11/2024,#50001,Home,3,"€5,36",16.08,priya.chen66@example.com
+C00252,02/11/2024,#50002,Stationery,1,$54.18,$54.18,jonah.okafor252@example.com
+C00486,2024-11-03,#50003,Stationery,1,$39.54,$39.54,hiro.chen486@example.com
+C00486,2024-11-03,#50003,Kitchen,3,13.18,,hiro.chen486@example.com
+C00486,2024-11-03,#50003,Beauty,2,"€19,77",,hiro.chen486@example.com
+C00361,04/11/2024,#50004,Home,3,$7.10,$21.30,dan.martin361@example.com
+C00361,04/11/2024,#50004,Kitchen,2,$10.64,21.28,dan.martin361@example.com
+c00063,05/11/2024,#50005,Kitchen,1,31.06,$31.06,dan.rossi63@example.com
+C00063,05/11/2024,#50005,Kitchen,2,$15.53,,dan.rossi63@example.com
+C00063,05/11/2024,#50005,Beauty,3,$10.35,31.05,dan.rossi63@example.com
+C00429,05/11/2024,#50006,Stationery,2,$20.38,40.76,femi.martin429@example.com
+ C00528 ,2024-11-05,#50007,Home,3,42.61,$127.83,rosa.lopez528@example.com
+C00462,08/11/2024,#50008,Kitchen,3,7.51,22.53,victor.evans462@example.com
+C00079,2024-11-10,#50009,Toys,3,$8.76,$26.28,priya.taylor79@example.com
+ C00079 ,2024-11-10,#50009,Kitchen,1,"€26,28","€26,28",priya.taylor79@example.com
+C00247,10/11/2024,#50010,Home,2,18.61,,zoe.chen247@example.com
+C00247,10/11/2024,#50010,Home,1,"€37,20",$37.20,zoe.chen247@example.com
+C00470,10/11/2024,#50011,Home,3,46.61,$139.83,dan.nguyen470@example.com
+C00542,11/11/2024,#50012,Beauty,3,15.23,$45.69,sam.khan542@example.com
+c00542,11/11/2024,#50012,Stationery,1,"€45,68",45.68,sam.khan542@example.com
+C00542,11/11/2024,#50012,Beauty,2,22.84,"€45,68",sam.khan542@example.com
+C00128,13/11/2024,#50013,Beauty,3,7.45,$22.35,wen.rossi128@example.com
+C00128,13/11/2024,#50013,Outdoor,1,"€22,35","€22,35",wen.rossi128@example.com
+C00128,20/11/2024,#R50013,Refund,1,,(22.35),wen.rossi128@example.com
+C00235,2024-11-13,#50014,Toys,2,41.96,,omar.brown235@example.com
+C00417,13/11/2024,#50015,Toys,3,6.40,"€19,20",isla.walker417@example.com
+C00417,13/11/2024,#50015,Stationery,1,"€19,19",19.19,isla.walker417@example.com
+C00417,13/11/2024,#50015,Beauty,2,9.60,19.20,isla.walker417@example.com
+C00408,17/11/2024,#50016,Outdoor,2,16.76,$33.52,victor.diaz408@example.com
+c00408,17/11/2024,#50016,Home,3,$11.17,,victor.diaz408@example.com
+C00234,18/11/2024,#50017,Home,1,"€60,88",60.88,victor.martin234@example.com
+C00114,20/11/2024,#50018,Toys,2,$17.20,$34.40,priya.young114@example.com
+C00114,20/11/2024,#50018,Kitchen,1,$34.40,34.40,priya.young114@example.com
+,,,,,,,
+C00027,"Nov 21, 2024",#50019,Kitchen,1,28.66,"€28,66",chloe.patel27@example.com
+ C00027 ,"Nov 21, 2024",#50019,Stationery,1,$28.65,$28.65,chloe.patel27@example.com
+c00494,2024-11-22,#50020,Outdoor,3,$11.98,$35.94,hiro.patel494@example.com
+C00037,2024-11-23,#50021,Toys,1,33.01,"€33,01",xavi.ito37@example.com
+C00037,2024-11-23,#50021,Home,1,$33.01,$33.01,xavi.ito37@example.com
+C00037,2024-11-23,#50021,Home,2,$16.51,33.02,xavi.ito37@example.com
+C00582,2024-11-23,#50022,Beauty,3,3.36,,wen.martin582@example.com
+ C00582 ,2024-11-23,#50022,Beauty,1,10.08,10.08,wen.martin582@example.com
+C00539,24/11/2024,#50023,Stationery,2,$11.78,23.56,xavi.hughes539@example.com
+ C00539 ,24/11/2024,#50023,Stationery,1,$23.56,$23.56,xavi.hughes539@example.com
+C00539,03/12/2024,#R50023,Refund,1,,(23.56),xavi.hughes539@example.com
+C00482,2024-11-26,#50024,Kitchen,2,$30.71,$61.42,xavi.zhang482@example.com
+C00482,2024-11-26,#50024,Home,3,$20.47,$61.41,xavi.zhang482@example.com
+ C00512 ,2024-11-28,#50025,Kitchen,1,$26.84,26.84,maya.young512@example.com
+C00512,2024-11-28,#50025,Stationery,2,"€13,42",$26.84,maya.young512@example.com
+C00591,28/11/2024,#50026,Toys,1,"€29,25",29.25,femi.taylor591@example.com
+c00591,28/11/2024,#50026,Outdoor,3,"€9,75",29.25,femi.taylor591@example.com
+C00591,28/11/2024,#50026,Outdoor,3,$9.75,29.25,femi.taylor591@example.com
+C00328,29/11/2024,#50027,Home,3,$2.49,,zoe.ito328@example.com
+c00328,29/11/2024,#50027,Kitchen,3,2.49,$7.47,zoe.ito328@example.com
+C00328,29/11/2024,#50027,Outdoor,1,$7.47,"€7,47",zoe.ito328@example.com
+C00142,01/12/2024,#50028,Outdoor,2,26.75,$53.50,isla.martin142@example.com
+c00142,01/12/2024,#50028,Toys,3,$17.83,$53.49,isla.martin142@example.com
+C00142,01/12/2024,#50028,Toys,2,26.75,,isla.martin142@example.com
+C00244,02/12/2024,#50029,Stationery,2,17.40,,ben.okafor244@example.com
+C00592,03/12/2024,#50030,Beauty,1,$71.44,"€71,44",noor.okafor592@example.com
+C00031,05/12/2024,#50031,Home,3,7.57,,wen.diaz31@example.com
+C00031,05/12/2024,#50031,Toys,2,$11.35,22.70,wen.diaz31@example.com
+ C00463 ,2024-12-06,#50032,Toys,3,$6.20,,jonah.evans463@example.com
+C00463,2024-12-06,#50032,Kitchen,3,6.20,$18.60,jonah.evans463@example.com
+C00066,2024-12-08,#50033,Stationery,3,$12.53,"€37,59",priya.chen66@example.com
+C00399,08/12/2024,#50034,Beauty,1,20.96,20.96,chloe.jones399@example.com
+C00399,08/12/2024,#50034,Stationery,3,$6.99,,chloe.jones399@example.com
+C00399,08/12/2024,#50034,Kitchen,1,$20.96,20.96,chloe.jones399@example.com
+C00015,09/12/2024,#50035,Outdoor,1,15.64,$15.64,maya.adams15@example.com
+C00015,09/12/2024,#50035,Kitchen,1,15.63,15.63,maya.adams15@example.com
+C00309,09/12/2024,#50036,Beauty,1,38.59,38.59,liam.patel309@example.com
+C00309,09/12/2024,#50036,Stationery,2,$19.30,"€38,60",liam.patel309@example.com
+C00029,10/12/2024,#50037,Toys,2,$29.11,$58.22,yara.diaz29@example.com
+ C00127 ,2024-12-13,#50038,Stationery,1,$59.13,$59.13,ben.khan127@example.com
+C00405,13/12/2024,#50039,Kitchen,1,$25.94,$25.94,yara.garcia405@example.com
+C00405,13/12/2024,#50039,Beauty,3,8.64,25.92,yara.garcia405@example.com
+ C00153 ,15/12/2024,#50040,Toys,3,$5.24,"€15,72",chloe.garcia153@example.com
+C00153,15/12/2024,#50040,Outdoor,2,$7.86,15.72,chloe.garcia153@example.com
+C00153,15/12/2024,#50040,Beauty,3,5.24,,chloe.garcia153@example.com
+C00223,15/12/2024,#50041,Outdoor,3,7.31,$21.93,noor.brown223@example.com
+C00223,15/12/2024,#50041,Kitchen,3,$7.31,21.93,noor.brown223@example.com
+C00574,2024-12-17,#50042,Beauty,1,$79.31,$79.31,noor.silva574@example.com
+C00357,20/12/2024,#50043,Kitchen,1,"€41,43","€41,43",jonah.taylor357@example.com
+c00357,20/12/2024,#50043,Kitchen,1,41.43,41.43,jonah.taylor357@example.com
+C00357,20/12/2024,#50043,Kitchen,3,$13.81,$41.43,jonah.taylor357@example.com
+C00536,20/12/2024,#50044,Beauty,3,"€50,81",152.43,chloe.walker536@example.com
+,,,,,,,
+C00172,21/12/2024,#50045,Beauty,3,16.05,48.15,victor.evans172@example.com
+C00307,21/12/2024,#50046,Kitchen,2,5.93,$11.86,victor.chen307@example.com
+C00307,21/12/2024,#50046,Toys,3,"€3,95",$11.85,victor.chen307@example.com
+c00307,21/12/2024,#50046,Outdoor,1,$11.85,$11.85,victor.chen307@example.com
+C00510,21/12/2024,#50047,Stationery,2,5.96,11.92,chloe.evans510@example.com
+C00510,21/12/2024,#50047,Kitchen,1,$11.91,"€11,91",chloe.evans510@example.com
+C00510,21/12/2024,#50047,Stationery,2,5.96,11.92,chloe.evans510@example.com
+C00242,23/12/2024,#50048,Outdoor,3,$4.11,12.33,yara.chen242@example.com
+C00242,23/12/2024,#50048,Stationery,2,6.17,12.34,yara.chen242@example.com
+ C00242 ,23/12/2024,#50048,Home,3,$4.11,$12.33,yara.chen242@example.com
+C00417,24/12/2024,#50049,Outdoor,2,"€14,70",$29.40,isla.walker417@example.com
+C00417,24/12/2024,#50049,Toys,2,"€14,69",29.38,isla.walker417@example.com
+C00449,2024-12-24,#50050,Kitchen,1,"€21,46","€21,46",dan.jones449@example.com
+C00449,2024-12-24,#50050,Stationery,1,21.46,$21.46,dan.jones449@example.com
+C00449,2024-12-24,#50050,Stationery,3,$7.15,"€21,45",dan.jones449@example.com
+ C00023 ,26/12/2024,#50051,Beauty,2,8.51,$17.02,tara.brown23@example.com
+C00023,26/12/2024,#50051,Outdoor,2,"€8,51","€17,02",tara.brown23@example.com
+C00023,26/12/2024,#50051,Outdoor,3,5.67,$17.01,tara.brown23@example.com
+C00135,26/12/2024,#50052,Stationery,2,73.78,$147.56,liam.zhang135@example.com
+C00135,02/01/2025,#R50052,Refund,1,,(73.78),liam.zhang135@example.com
+C00506,26/12/2024,#50053,Toys,2,$24.31,48.62,quinn.adams506@example.com
+c00506,26/12/2024,#50053,Outdoor,2,24.30,48.60,quinn.adams506@example.com
+C00460,27/12/2024,#50054,Outdoor,1,$135.22,$135.22,xavi.zhang460@example.com
+C00398,28/12/2024,#50055,Toys,1,$22.87,"€22,87",ava.khan398@example.com
+C00398,28/12/2024,#50055,Toys,2,"€11,44",22.88,ava.khan398@example.com
+C00398,28/12/2024,#50055,Toys,1,22.86,,ava.khan398@example.com
+C00421,30/12/2024,#50056,Kitchen,3,12.56,37.68,elena.diaz421@example.com
+C00188,31/12/2024,#50057,Kitchen,1,$19.18,"€19,18",priya.diaz188@example.com
+C00188,31/12/2024,#50057,Outdoor,2,9.59,"€19,18",priya.diaz188@example.com
+C00386,2024-12-31,#50058,Stationery,1,22.26,,quinn.zhang386@example.com
+ C00386 ,2024-12-31,#50058,Stationery,3,$7.42,$22.26,quinn.zhang386@example.com
+c00386,2024-12-31,#50058,Outdoor,3,$7.42,22.26,quinn.zhang386@example.com
+,01/01/2025,#50059,Kitchen,2,"€8,80",$17.60,wen.diaz31@example.com
+c00031,01/01/2025,#50059,Home,1,17.60,,wen.diaz31@example.com
+,01/01/2025,#50060,Kitchen,2,22.18,44.36,uma.walker339@example.com
+C00339,01/01/2025,#50060,Beauty,3,14.79,,uma.walker339@example.com
+C00339,01/01/2025,#50060,Home,2,22.18,"€44,36",uma.walker339@example.com
+C00123,2025-01-02,#50061,Kitchen,3,10.08,$30.24,dan.adams123@example.com
+C00360,2025-01-03,#50062,Stationery,2,$88.00,"€176,00",noor.martin360@example.com
+C00376,04/01/2025,#50063,Kitchen,1,$8.99,$8.99,sam.silva376@example.com
+C00376,04/01/2025,#50063,Toys,3,$3.00,9.00,sam.silva376@example.com
+C00046,2025-01-06,#50064,Home,1,"€19,82",19.82,kira.ito46@example.com
+C00187,06/01/2025,#50065,Outdoor,3,"€6,68","€20,04",yara.jones187@example.com
+C00187,06/01/2025,#50065,Outdoor,3,$6.68,,yara.jones187@example.com
+C00187,06/01/2025,#50065,Stationery,2,"€10,03",$20.06,yara.jones187@example.com
+ C00044 ,09/01/2025,#50066,Outdoor,1,$38.68,$38.68,victor.walker44@example.com
+C00154,"Jan 12, 2025",#50067,Stationery,2,7.46,$14.92,dan.young154@example.com
+C00154,"Jan 12, 2025",#50067,Toys,3,$4.97,$14.91,dan.young154@example.com
+C00188,12/01/2025,#50068,Kitchen,3,5.19,15.57,priya.diaz188@example.com
+C00188,12/01/2025,#50068,Kitchen,2,7.79,,priya.diaz188@example.com
+C00218,13/01/2025,#50069,Beauty,3,3.86,$11.58,noor.diaz218@example.com
+C00218,13/01/2025,#50069,Outdoor,1,11.57,,noor.diaz218@example.com
+c00218,13/01/2025,#50069,Kitchen,2,5.78,$11.56,noor.diaz218@example.com
+C00047,"Jan 14, 2025",#50070,Toys,1,17.79,$17.79,maya.young47@example.com
+C00047,"Jan 14, 2025",#50070,Outdoor,1,$17.78,17.78,maya.young47@example.com
+C00336,15/01/2025,#50071,Outdoor,2,$11.30,$22.60,sam.okafor336@example.com
+ C00454 ,15/01/2025,#50072,Home,1,$20.85,20.85,liam.young454@example.com
+C00454,15/01/2025,#50072,Home,3,6.95,20.85,liam.young454@example.com
+C00454,15/01/2025,#50072,Beauty,3,6.95,20.85,liam.young454@example.com
+C00531,16/01/2025,#50073,Stationery,1,"€6,04",$6.04,jonah.khan531@example.com
+C00531,16/01/2025,#50073,Outdoor,1,6.03,$6.03,jonah.khan531@example.com
+C00127,17/01/2025,#50074,Outdoor,2,9.26,$18.52,ben.khan127@example.com
+C00127,17/01/2025,#50074,Home,1,$18.52,18.52,ben.khan127@example.com
+C00127,17/01/2025,#50074,Outdoor,3,6.17,$18.51,ben.khan127@example.com
+C00169,17/01/2025,#50075,Beauty,3,$18.26,$54.78,tara.evans169@example.com
+c00169,17/01/2025,#50075,Beauty,1,$54.77,54.77,tara.evans169@example.com
+C00429,18/01/2025,#50076,Toys,3,"€4,86",14.58,femi.martin429@example.com
+C00429,18/01/2025,#50076,Outdoor,3,"€4,85",$14.55,femi.martin429@example.com
+C00547,18/01/2025,#50077,Beauty,2,10.20,$20.40,priya.ito547@example.com
+C00547,18/01/2025,#50077,Toys,1,20.39,$20.39,priya.ito547@example.com
+C00547,18/01/2025,#50077,Outdoor,3,6.80,,priya.ito547@example.com
+C00006,19/01/2025,#50078,Stationery,2,$29.05,58.10,rosa.young6@example.com
+C00006,19/01/2025,#50078,Beauty,2,$29.04,58.08,rosa.young6@example.com
+C00265,20/01/2025,#50079,Beauty,2,$12.74,"€25,48",hiro.chen265@example.com
+C00298,"Jan 20, 2025",#50080,Stationery,1,8.79,,uma.fischer298@example.com
+C00298,"Jan 20, 2025",#50080,Home,2,$4.39,8.78,uma.fischer298@example.com
+C00257,21/01/2025,#50081,Beauty,3,16.22,$48.66,elena.walker257@example.com
+ C00318 ,2025-01-22,#50082,Home,2,$32.42,$64.84,isla.ito318@example.com
+c00318,2025-01-22,#50082,Kitchen,3,21.61,64.83,isla.ito318@example.com
+ C00256 ,2025-01-23,#50083,Home,1,$12.90,$12.90,elena.silva256@example.com
+c00256,2025-01-23,#50083,Kitchen,2,6.45,"€12,90",elena.silva256@example.com
+C00256,2025-01-23,#50083,Stationery,1,"€12,90",12.90,elena.silva256@example.com
+C00075,2025-01-25,#50084,Stationery,1,$43.00,$43.00,jonah.khan75@example.com
+c00075,2025-01-25,#50084,Outdoor,2,21.50,$43.00,jonah.khan75@example.com
+ C00075 ,2025-01-25,#50084,Stationery,2,21.51,$43.02,jonah.khan75@example.com
+C00332,25/01/2025,#50085,Toys,2,$14.21,$28.42,sam.fischer332@example.com
+C00332,25/01/2025,#50085,Beauty,1,28.41,28.41,sam.fischer332@example.com
+C00487,"Jan 26, 2025",#50086,Toys,3,$5.00,$15.00,uma.zhang487@example.com
+C00487,"Jan 26, 2025",#50086,Home,3,5.00,15.00,uma.zhang487@example.com
+C00487,"Jan 26, 2025",#50086,Home,3,5.00,15.00,uma.zhang487@example.com
+C00404,28/01/2025,#50087,Outdoor,2,$27.53,,femi.adams404@example.com
+c00181,31/01/2025,#50088,Beauty,2,"€8,31",16.62,noor.ito181@example.com
+C00181,31/01/2025,#50088,Stationery,2,$8.31,16.62,noor.ito181@example.com
+C00415,31/01/2025,#50089,Kitchen,3,$20.17,60.51,dan.zhang415@example.com
+C00188,01/02/2025,#50090,Home,3,$13.24,$39.72,priya.diaz188@example.com
+C00460,2025-02-01,#50091,Outdoor,1,"€110,61",110.61,xavi.zhang460@example.com
+C00151,03/02/2025,#50092,Home,1,"€24,68",$24.68,maya.young151@example.com
+c00151,03/02/2025,#50092,Beauty,2,$12.34,,maya.young151@example.com
+C00376,03/02/2025,#50093,Beauty,3,"€3,36","€10,08",sam.silva376@example.com
+C00376,03/02/2025,#50093,Beauty,2,$5.04,$10.08,sam.silva376@example.com
+c00569,"Feb 3, 2025",#50094,Stationery,2,20.24,$40.48,omar.rossi569@example.com
+C00569,"Feb 3, 2025",#50094,Home,3,13.49,40.47,omar.rossi569@example.com
+C00569,"Feb 3, 2025",#50094,Stationery,1,$40.48,"€40,48",omar.rossi569@example.com
+c00018,05/02/2025,#50095,Outdoor,2,10.49,20.98,wen.okafor18@example.com
+ C00018 ,05/02/2025,#50095,Toys,1,$20.97,,wen.okafor18@example.com
+C00036,2025-02-05,#50096,Stationery,1,"€16,43","€16,43",uma.rossi36@example.com
+C00036,2025-02-05,#50096,Toys,2,$8.22,$16.44,uma.rossi36@example.com
+C00036,2025-02-05,#50096,Outdoor,1,16.43,$16.43,uma.rossi36@example.com
+c00336,09/02/2025,#50097,Beauty,1,19.45,$19.45,sam.okafor336@example.com
+C00336,09/02/2025,#50097,Home,3,6.48,"€19,44",sam.okafor336@example.com
+C00433,09/02/2025,#50098,Toys,1,$9.83,$9.83,jonah.silva433@example.com
+C00433,09/02/2025,#50098,Kitchen,3,3.28,$9.84,jonah.silva433@example.com
+C00443,10/02/2025,#50099,Toys,3,36.86,$110.58,kira.chen443@example.com
+C00308,2025-02-13,#50100,Stationery,3,$7.87,$23.61,chloe.fischer308@example.com
+C00308,2025-02-13,#50100,Outdoor,3,7.86,$23.58,chloe.fischer308@example.com
+C00177,2025-02-14,#50101,Toys,3,"€15,68","€47,04",femi.chen177@example.com
+C00245,14/02/2025,#50102,Home,2,$17.61,,hiro.hughes245@example.com
+C00255,14/02/2025,#50103,Outdoor,3,$16.39,,kira.hughes255@example.com
+ C00314 ,14/02/2025,#50104,Toys,3,9.38,$28.14,tara.fischer314@example.com
+C00314,14/02/2025,#50104,Beauty,3,$9.38,28.14,tara.fischer314@example.com
+C00314,14/02/2025,#50104,Kitchen,1,$28.15,$28.15,tara.fischer314@example.com
+C00532,14/02/2025,#50105,Kitchen,3,15.57,$46.71,priya.silva532@example.com
+ C00006 ,"Feb 15, 2025",#50106,Kitchen,1,72.72,72.72,rosa.young6@example.com
+C00006,"Feb 15, 2025",#50106,Home,2,36.36,$72.72,rosa.young6@example.com
+C00006,"Feb 15, 2025",#50106,Outdoor,1,$72.72,"€72,72",rosa.young6@example.com
+ C00454 ,"Feb 15, 2025",#50107,Kitchen,2,$17.02,$34.04,liam.young454@example.com
+C00417,2025-02-17,#50108,Outdoor,2,25.86,51.72,isla.walker417@example.com
+C00303,18/02/2025,#50109,Home,1,"€41,38",41.38,zoe.nguyen303@example.com
+C00089,"Feb 19, 2025",#50110,Home,3,$8.66,"€25,98",uma.patel89@example.com
+C00089,"Feb 19, 2025",#50110,Kitchen,2,12.99,"€25,98",uma.patel89@example.com
+C00393,19/02/2025,#50111,Beauty,1,9.96,$9.96,dan.nguyen393@example.com
+C00393,19/02/2025,#50111,Toys,1,9.95,$9.95,dan.nguyen393@example.com
+C00552,19/02/2025,#50112,Home,1,47.11,47.11,tara.lopez552@example.com
+C00315,21/02/2025,#50113,Outdoor,2,$11.38,,chloe.evans315@example.com
+C00315,21/02/2025,#50113,Beauty,2,11.38,,chloe.evans315@example.com
+C00315,21/02/2025,#50113,Home,2,"€11,38",22.76,chloe.evans315@example.com
+C00315,28/02/2025,#R50113,Refund,1,,(34.14),chloe.evans315@example.com
+,2025-02-21,#50114,Home,3,14.98,44.94,jonah.evans463@example.com
+C00592,2025-02-21,#50115,Toys,3,$12.66,37.98,noor.okafor592@example.com
+C00592,2025-02-21,#50115,Toys,3,$12.66,37.98,noor.okafor592@example.com
+C00162,"Feb 22, 2025",#50116,Stationery,1,9.58,9.58,liam.zhang162@example.com
+C00162,"Feb 22, 2025",#50116,Stationery,2,4.79,9.58,liam.zhang162@example.com
+c00162,"Feb 22, 2025",#50116,Stationery,3,3.19,,liam.zhang162@example.com
+C00185,22/02/2025,#50117,Beauty,1,$48.35,$48.35,ava.young185@example.com
+C00185,22/02/2025,#50117,Home,1,48.35,$48.35,ava.young185@example.com
+c00185,22/02/2025,#50117,Toys,3,"€16,11",48.33,ava.young185@example.com
+C00264,22/02/2025,#50118,Beauty,1,"€13,04","€13,04",quinn.fischer264@example.com
+C00264,22/02/2025,#50118,Stationery,1,$13.04,13.04,quinn.fischer264@example.com
+C00264,22/02/2025,#50118,Outdoor,1,$13.04,$13.04,quinn.fischer264@example.com
+ C00188 ,23/02/2025,#50119,Beauty,2,10.76,21.52,priya.diaz188@example.com
+C00188,23/02/2025,#50119,Outdoor,1,21.51,"€21,51",priya.diaz188@example.com
+C00587,25/02/2025,#50120,Kitchen,3,"€7,04",,yara.zhang587@example.com
+C00587,25/02/2025,#50120,Toys,2,$10.56,$21.12,yara.zhang587@example.com
+C00587,25/02/2025,#50120,Outdoor,2,"€10,56",$21.12,yara.zhang587@example.com
+C00260,26/02/2025,#50121,Kitchen,2,7.60,,wen.walker260@example.com
+c00260,26/02/2025,#50121,Kitchen,3,$5.07,$15.21,wen.walker260@example.com
+C00260,26/02/2025,#50121,Toys,2,"€7,61","€15,22",wen.walker260@example.com
+C00255,28/02/2025,#50122,Home,1,$45.16,,kira.hughes255@example.com
+C00036,"Mar 1, 2025",#50123,Outdoor,1,$24.56,,uma.rossi36@example.com
+C00036,"Mar 1, 2025",#50123,Outdoor,3,8.18,24.54,uma.rossi36@example.com
+C00059,01/03/2025,#50124,Beauty,2,$14.31,$28.62,uma.zhang59@example.com
+C00059,01/03/2025,#50124,Home,1,"€28,61",,uma.zhang59@example.com
+c00059,01/03/2025,#50124,Kitchen,1,"€28,60",,uma.zhang59@example.com
+C00127,01/03/2025,#50125,Outdoor,2,$21.38,"€42,76",ben.khan127@example.com
+C00127,01/03/2025,#50125,Home,2,$21.37,,ben.khan127@example.com
+C00278,2025-03-01,#50126,Outdoor,1,7.03,7.03,elena.lopez278@example.com
+C00278,2025-03-01,#50126,Home,2,3.52,,elena.lopez278@example.com
+C00278,2025-03-01,#50126,Home,2,3.52,$7.04,elena.lopez278@example.com
+c00460,01/03/2025,#50127,Stationery,2,"€15,08",30.16,xavi.zhang460@example.com
+ C00460 ,01/03/2025,#50127,Home,3,$10.05,30.15,xavi.zhang460@example.com
+C00460,01/03/2025,#50127,Outdoor,2,15.08,$30.16,xavi.zhang460@example.com
+C00419,03/03/2025,#50128,Stationery,3,"€18,00",$54.00,rosa.fischer419@example.com
+C00419,03/03/2025,#50128,Kitchen,1,"€53,99",$53.99,rosa.fischer419@example.com
+C00476,03/03/2025,#50129,Beauty,2,"€19,27",$38.54,yara.fischer476@example.com
+C00476,03/03/2025,#50129,Stationery,3,$12.85,38.55,yara.fischer476@example.com
+C00477,03/03/2025,#50130,Stationery,2,"€46,96",93.92,isla.jones477@example.com
+C00477,03/03/2025,#50130,Stationery,1,$93.91,93.91,isla.jones477@example.com
+C00477,03/03/2025,#50130,Toys,1,$93.90,$93.90,isla.jones477@example.com
+C00047,04/03/2025,#50131,Kitchen,1,21.03,21.03,maya.young47@example.com
+C00047,04/03/2025,#50131,Outdoor,2,10.51,$21.02,maya.young47@example.com
+C00164,05/03/2025,#50132,Stationery,3,5.39,16.17,tara.martin164@example.com
+ C00164 ,05/03/2025,#50132,Outdoor,2,8.09,$16.18,tara.martin164@example.com
+C00586,2025-03-05,#50133,Toys,2,14.61,,xavi.martin586@example.com
+ C00266 ,06/03/2025,#50134,Outdoor,2,"€5,01",$10.02,chloe.jones266@example.com
+C00266,06/03/2025,#50134,Outdoor,1,10.01,$10.01,chloe.jones266@example.com
+C00376,07/03/2025,#50135,Kitchen,1,$11.56,11.56,sam.silva376@example.com
+C00376,07/03/2025,#50135,Kitchen,1,$11.56,,sam.silva376@example.com
+c00122,08/03/2025,#50136,Home,1,49.33,49.33,noor.fischer122@example.com
+C00230,08/03/2025,#50137,Beauty,1,$33.44,,priya.khan230@example.com
+C00230,08/03/2025,#50137,Beauty,2,$16.72,,priya.khan230@example.com
+C00230,08/03/2025,#50137,Stationery,1,$33.44,$33.44,priya.khan230@example.com
+ C00377 ,08/03/2025,#50138,Stationery,1,$17.22,$17.22,noor.patel377@example.com
+C00377,08/03/2025,#50138,Toys,3,$5.74,,noor.patel377@example.com
+C00511,08/03/2025,#50139,Kitchen,1,$11.65,,priya.evans511@example.com
+C00511,08/03/2025,#50139,Toys,3,"€3,88",11.64,priya.evans511@example.com
+C00511,08/03/2025,#50139,Outdoor,1,$11.66,$11.66,priya.evans511@example.com
+,10/03/2025,#50140,Home,3,$8.41,$25.23,liam.patel340@example.com
+C00340,10/03/2025,#50140,Beauty,2,12.62,"€25,24",liam.patel340@example.com
+ C00416 ,10/03/2025,#50141,Outdoor,2,$32.61,,ava.taylor416@example.com
+c00416,10/03/2025,#50141,Kitchen,2,"€32,61",65.22,ava.taylor416@example.com
+c00416,10/03/2025,#50141,Toys,1,65.21,,ava.taylor416@example.com
+C00415,11/03/2025,#50142,Kitchen,2,20.48,$40.96,dan.zhang415@example.com
+ C00584 ,12/03/2025,#50143,Outdoor,1,"€19,84",$19.84,wen.jones584@example.com
+c00584,12/03/2025,#50143,Stationery,1,19.84,19.84,wen.jones584@example.com
+c00584,12/03/2025,#50143,Beauty,2,9.93,19.86,wen.jones584@example.com
+C00149,2025-03-13,#50144,Toys,1,11.90,"€11,90",elena.martin149@example.com
+c00149,2025-03-13,#50144,Beauty,3,"€3,97","€11,91",elena.martin149@example.com
+C00149,2025-03-13,#50144,Toys,3,$3.97,$11.91,elena.martin149@example.com
+C00281,15/03/2025,#50145,Kitchen,1,18.02,18.02,chloe.adams281@example.com
+C00281,15/03/2025,#50145,Beauty,1,$18.02,$18.02,chloe.adams281@example.com
+C00056,18/03/2025,#50146,Toys,2,$6.79,"€13,58",tara.khan56@example.com
+C00056,18/03/2025,#50146,Stationery,1,$13.58,$13.58,tara.khan56@example.com
+C00056,18/03/2025,#50146,Outdoor,2,$6.80,$13.60,tara.khan56@example.com
+C00460,19/03/2025,#50147,Outdoor,1,33.61,33.61,xavi.zhang460@example.com
+C00460,19/03/2025,#50147,Toys,3,$11.20,,xavi.zhang460@example.com
+C00460,19/03/2025,#50147,Kitchen,2,$16.81,$33.62,xavi.zhang460@example.com
+C00506,20/03/2025,#50148,Home,1,$45.33,"€45,33",quinn.adams506@example.com
+C00506,20/03/2025,#50148,Home,2,$22.67,45.34,quinn.adams506@example.com
+C00122,22/03/2025,#50149,Toys,3,5.51,"€16,53",noor.fischer122@example.com
+C00122,22/03/2025,#50149,Home,2,8.27,,noor.fischer122@example.com
+C00122,22/03/2025,#50149,Kitchen,2,8.27,16.54,noor.fischer122@example.com
+C00574,2025-03-25,#50150,Toys,3,$12.47,37.41,noor.silva574@example.com
+C00574,2025-03-25,#50150,Beauty,3,$12.47,"€37,41",noor.silva574@example.com
+C00567,26/03/2025,#50151,Home,1,123.65,$123.65,isla.rossi567@example.com
+C00567,2025-04-12,#R50151,Refund,1,,(61.83),isla.rossi567@example.com
+C00224,27/03/2025,#50152,Beauty,2,$7.68,,hiro.nguyen224@example.com
+C00224,27/03/2025,#50152,Stationery,3,$5.12,"€15,36",hiro.nguyen224@example.com
+C00224,27/03/2025,#50152,Kitchen,3,5.12,15.36,hiro.nguyen224@example.com
+C00136,2025-03-28,#50153,Beauty,2,$21.19,,isla.garcia136@example.com
+C00263,28/03/2025,#50154,Stationery,3,60.83,$182.49,tara.fischer263@example.com
+C00416,28/03/2025,#50155,Outdoor,1,"€94,38",94.38,ava.taylor416@example.com
+C00597,2025-03-30,#50156,Toys,3,$18.49,$55.47,maya.taylor597@example.com
+C00597,2025-03-30,#50156,Beauty,3,$18.49,$55.47,maya.taylor597@example.com
+C00597,2025-03-30,#50156,Home,2,27.73,$55.46,maya.taylor597@example.com
+C00088,2025-03-31,#50157,Stationery,2,$30.16,"€60,32",isla.diaz88@example.com
+C00088,2025-03-31,#50157,Beauty,1,60.32,$60.32,isla.diaz88@example.com
+C00157,01/04/2025,#50158,Outdoor,2,10.36,$20.72,victor.adams157@example.com
+C00157,01/04/2025,#50158,Outdoor,3,$6.90,$20.70,victor.adams157@example.com
+c00157,01/04/2025,#50158,Home,3,6.90,$20.70,victor.adams157@example.com
+C00453,2025-04-01,#50159,Outdoor,3,$2.93,8.79,isla.taylor453@example.com
+C00453,2025-04-01,#50159,Home,1,$8.79,$8.79,isla.taylor453@example.com
+c00453,2025-04-01,#50159,Toys,2,$4.39,$8.78,isla.taylor453@example.com
+C00569,01/04/2025,#50160,Toys,2,18.99,"€37,98",omar.rossi569@example.com
+C00569,01/04/2025,#50160,Beauty,3,"€12,66",$37.98,omar.rossi569@example.com
+C00026,02/04/2025,#50161,Stationery,2,16.09,"€32,18",grace.khan26@example.com
+c00026,02/04/2025,#50161,Home,1,$32.18,32.18,grace.khan26@example.com
+C00226,02/04/2025,#50162,Stationery,1,$15.22,15.22,rosa.zhang226@example.com
+C00226,02/04/2025,#50162,Beauty,2,"€7,61",$15.22,rosa.zhang226@example.com
+C00226,02/04/2025,#50162,Stationery,3,$5.07,15.21,rosa.zhang226@example.com
+C00127,04/04/2025,#50163,Outdoor,1,$47.27,47.27,ben.khan127@example.com
+C00464,2025-04-04,#50164,Outdoor,1,$26.05,$26.05,femi.fischer464@example.com
+C00464,2025-04-04,#50164,Toys,3,$8.68,$26.04,femi.fischer464@example.com
+C00188,"Apr 5, 2025",#50165,Toys,3,$10.06,$30.18,priya.diaz188@example.com
+C00376,05/04/2025,#50166,Stationery,1,$6.84,6.84,sam.silva376@example.com
+C00376,05/04/2025,#50166,Home,3,2.28,"€6,84",sam.silva376@example.com
+C00376,05/04/2025,#50166,Toys,2,"€3,43",$6.86,sam.silva376@example.com
+C00454,2025-04-05,#50167,Toys,2,33.07,66.14,liam.young454@example.com
+C00122,06/04/2025,#50168,Beauty,2,"€15,39",$30.78,noor.fischer122@example.com
+C00122,06/04/2025,#50168,Toys,1,"€30,77",30.77,noor.fischer122@example.com
+C00122,20/04/2025,#R50168,Refund,1,,(30.77),noor.fischer122@example.com
+C00151,07/04/2025,#50169,Beauty,3,12.55,$37.65,maya.young151@example.com
+c00131,08/04/2025,#50170,Home,2,"€14,81","€29,62",tara.martin131@example.com
+C00352,08/04/2025,#50171,Stationery,1,$39.27,39.27,kira.fischer352@example.com
+C00352,08/04/2025,#50171,Toys,1,39.27,$39.27,kira.fischer352@example.com
+C00352,08/04/2025,#50171,Home,2,$19.64,39.28,kira.fischer352@example.com
+C00266,2025-04-09,#50172,Home,1,19.17,19.17,chloe.jones266@example.com
+C00476,11/04/2025,#50173,Outdoor,2,$17.94,$35.88,yara.fischer476@example.com
+C00476,11/04/2025,#50173,Kitchen,3,$11.96,$35.88,yara.fischer476@example.com
+C00150,13/04/2025,#50174,Toys,3,$37.89,113.67,hiro.taylor150@example.com
+ C00315 ,2025-04-13,#50175,Stationery,3,5.20,15.60,chloe.evans315@example.com
+C00315,2025-04-13,#50175,Outdoor,1,15.58,$15.58,chloe.evans315@example.com
+ C00217 ,2025-04-15,#50176,Outdoor,1,"€55,83",$55.83,omar.diaz217@example.com
+C00164,16/04/2025,#50177,Kitchen,1,15.73,15.73,tara.martin164@example.com
+C00164,16/04/2025,#50177,Kitchen,1,$15.73,$15.73,tara.martin164@example.com
+C00157,18/04/2025,#50178,Kitchen,1,24.64,$24.64,victor.adams157@example.com
+C00157,18/04/2025,#50178,Toys,2,$12.32,24.64,victor.adams157@example.com
+C00396,2025-04-18,#50179,Beauty,1,$11.96,$11.96,sam.taylor396@example.com
+C00396,2025-04-18,#50179,Home,2,5.98,11.96,sam.taylor396@example.com
+C00396,2025-04-18,#50179,Toys,1,$11.95,,sam.taylor396@example.com
+,18/04/2025,#50180,Outdoor,3,25.38,76.14,wen.walker495@example.com
+C00507,18/04/2025,#50181,Outdoor,2,6.96,$13.92,ben.chen507@example.com
+c00507,18/04/2025,#50181,Stationery,1,$13.91,$13.91,ben.chen507@example.com
+c00507,18/04/2025,#50181,Outdoor,2,$6.96,13.92,ben.chen507@example.com
+C00474,19/04/2025,#50182,Outdoor,3,11.34,$34.02,isla.brown474@example.com
+C00501,19/04/2025,#50183,Beauty,2,17.19,"€34,38",quinn.khan501@example.com
+C00501,19/04/2025,#50183,Beauty,2,$17.19,$34.38,quinn.khan501@example.com
+C00501,19/04/2025,#50183,Stationery,2,$17.20,,quinn.khan501@example.com
+C00529,19/04/2025,#50184,Toys,1,"€45,24","€45,24",ava.evans529@example.com
+C00569,"Apr 19, 2025",#50185,Outdoor,1,$19.49,"€19,49",omar.rossi569@example.com
+C00569,"Apr 19, 2025",#50185,Home,1,$19.49,19.49,omar.rossi569@example.com
+C00569,"Apr 19, 2025",#50185,Outdoor,1,"€19,48",,omar.rossi569@example.com
+C00416,20/04/2025,#50186,Kitchen,1,$37.98,37.98,ava.taylor416@example.com
+C00416,20/04/2025,#50186,Toys,1,"€37,98",,ava.taylor416@example.com
+C00416,20/04/2025,#50186,Beauty,2,$18.99,,ava.taylor416@example.com
+C00160,2025-04-21,#50187,Stationery,3,"€8,07",$24.21,isla.taylor160@example.com
+C00160,2025-04-21,#50187,Toys,1,$24.20,$24.20,isla.taylor160@example.com
+C00160,2025-04-21,#50187,Outdoor,2,12.10,24.20,isla.taylor160@example.com
+C00350,"Apr 21, 2025",#50188,Kitchen,1,$47.71,47.71,chloe.nguyen350@example.com
+C00350,"Apr 21, 2025",#50188,Home,2,"€23,85",,chloe.nguyen350@example.com
+C00350,03/05/2025,#R50188,Refund,1,,(47.71),chloe.nguyen350@example.com
+ C00136 ,22/04/2025,#50189,Outdoor,3,$6.41,19.23,isla.garcia136@example.com
+C00136,22/04/2025,#50189,Beauty,1,19.24,19.24,isla.garcia136@example.com
+C00136,22/04/2025,#50189,Toys,3,$6.42,19.26,isla.garcia136@example.com
+c00437,2025-04-22,#50190,Home,2,$5.53,,isla.patel437@example.com
+C00437,2025-04-22,#50190,Beauty,1,$11.06,"€11,06",isla.patel437@example.com
+C00437,2025-04-22,#50190,Stationery,1,11.05,11.05,isla.patel437@example.com
+C00497,22/04/2025,#50191,Stationery,3,$3.73,11.19,maya.khan497@example.com
+C00497,22/04/2025,#50191,Kitchen,1,$11.19,$11.19,maya.khan497@example.com
+C00059,23/04/2025,#50192,Home,2,49.85,"€99,70",uma.zhang59@example.com
+C00579,2025-04-23,#50193,Stationery,3,$23.78,71.34,jonah.nguyen579@example.com
+C00579,2025-04-23,#50193,Beauty,1,$71.34,,jonah.nguyen579@example.com
+C00248,"Apr 24, 2025",#50194,Outdoor,3,$4.41,13.23,omar.brown248@example.com
+ C00248 ,"Apr 24, 2025",#50194,Outdoor,2,"€6,61",,omar.brown248@example.com
+c00248,"Apr 24, 2025",#50194,Toys,1,13.22,13.22,omar.brown248@example.com
+ C00282 ,24/04/2025,#50195,Outdoor,2,23.32,46.64,quinn.okafor282@example.com
+c00282,24/04/2025,#50195,Kitchen,2,"€23,31",46.62,quinn.okafor282@example.com
+C00098,25/04/2025,#50196,Home,3,$9.89,$29.67,victor.taylor98@example.com
+C00098,25/04/2025,#50196,Kitchen,1,29.66,,victor.taylor98@example.com
+ C00064 ,26/04/2025,#50197,Stationery,3,$8.11,$24.33,elena.silva64@example.com
+C00064,26/04/2025,#50197,Toys,1,$24.34,"€24,34",elena.silva64@example.com
+C00064,26/04/2025,#50197,Beauty,3,"€8,12",$24.36,elena.silva64@example.com
+C00228,2025-04-26,#50198,Outdoor,1,$16.63,16.63,ava.adams228@example.com
+C00228,2025-04-26,#50198,Home,1,$16.62,,ava.adams228@example.com
+C00415,28/04/2025,#50199,Toys,3,4.73,$14.19,dan.zhang415@example.com
+C00415,28/04/2025,#50199,Beauty,3,$4.73,,dan.zhang415@example.com
+C00415,28/04/2025,#50199,Stationery,1,14.21,"€14,21",dan.zhang415@example.com
+C00415,2025-05-07,#R50199,Refund,1,,(21.31),dan.zhang415@example.com
+C00231,29/04/2025,#50200,Kitchen,2,$20.36,40.72,elena.silva231@example.com
+ C00352 ,29/04/2025,#50201,Kitchen,1,22.71,22.71,kira.fischer352@example.com
+C00352,29/04/2025,#50201,Beauty,2,$11.36,22.72,kira.fischer352@example.com
+C00352,29/04/2025,#50201,Outdoor,1,22.70,,kira.fischer352@example.com
+c00169,2025-05-01,#50202,Toys,3,"€38,60",,tara.evans169@example.com
+ C00184 ,01/05/2025,#50203,Home,1,18.15,$18.15,femi.brown184@example.com
+ C00184 ,01/05/2025,#50203,Outdoor,3,$6.05,,femi.brown184@example.com
+C00393,01/05/2025,#50204,Outdoor,3,"€2,68","€8,04",dan.nguyen393@example.com
+C00393,01/05/2025,#50204,Home,1,8.02,8.02,dan.nguyen393@example.com
+C00457,2025-05-02,#50205,Toys,1,136.81,136.81,jonah.adams457@example.com
+ C00526 ,02/05/2025,#50206,Toys,1,$22.85,$22.85,ben.evans526@example.com
+C00526,02/05/2025,#50206,Toys,1,$22.85,22.85,ben.evans526@example.com
+C00526,02/05/2025,#50206,Stationery,1,22.84,$22.84,ben.evans526@example.com
+C00122,03/05/2025,#50207,Outdoor,3,3.64,10.92,noor.fischer122@example.com
+C00122,03/05/2025,#50207,Outdoor,2,5.47,10.94,noor.fischer122@example.com
+C00122,03/05/2025,#50207,Home,2,5.47,$10.94,noor.fischer122@example.com
+ C00141 ,03/05/2025,#50208,Outdoor,2,4.53,$9.06,omar.khan141@example.com
+C00141,03/05/2025,#50208,Stationery,2,$4.53,9.06,omar.khan141@example.com
+C00141,03/05/2025,#50208,Home,1,9.06,,omar.khan141@example.com
+C00040,2025-05-04,#50209,Stationery,3,"€11,85",$35.55,rosa.chen40@example.com
+C00047,04/05/2025,#50210,Outdoor,2,$8.55,$17.10,maya.young47@example.com
+,04/05/2025,#50210,Kitchen,1,$17.09,,maya.young47@example.com
+C00476,04/05/2025,#50211,Kitchen,2,"€32,35","€64,70",yara.fischer476@example.com
+C00476,04/05/2025,#50211,Kitchen,3,$21.57,$64.71,yara.fischer476@example.com
+C00463,07/05/2025,#50212,Home,1,$16.41,$16.41,jonah.evans463@example.com
+C00463,07/05/2025,#50212,Outdoor,2,$8.20,16.40,jonah.evans463@example.com
+C00529,07/05/2025,#50213,Toys,2,7.92,15.84,ava.evans529@example.com
+C00529,07/05/2025,#50213,Kitchen,3,5.28,$15.84,ava.evans529@example.com
+C00529,07/05/2025,#50213,Beauty,3,5.28,,ava.evans529@example.com
+C00576,07/05/2025,#50214,Outdoor,2,$16.72,,zoe.diaz576@example.com
+C00576,07/05/2025,#50214,Home,3,$11.15,33.45,zoe.diaz576@example.com
+C00576,07/05/2025,#50214,Toys,3,"€11,15",$33.45,zoe.diaz576@example.com
+C00189,2025-05-10,#50215,Toys,2,6.60,,quinn.rossi189@example.com
+C00189,2025-05-10,#50215,Outdoor,3,$4.39,13.17,quinn.rossi189@example.com
+c00483,"May 10, 2025",#50216,Beauty,2,$14.28,$28.56,chloe.hughes483@example.com
+C00483,"May 10, 2025",#50216,Beauty,1,$28.55,$28.55,chloe.hughes483@example.com
+C00483,"May 10, 2025",#50216,Stationery,2,14.28,,chloe.hughes483@example.com
+C00569,"May 13, 2025",#50217,Home,3,"€37,13","€111,39",omar.rossi569@example.com
+C00376,14/05/2025,#50218,Beauty,3,"€1,70",5.10,sam.silva376@example.com
+C00376,14/05/2025,#50218,Kitchen,2,$2.55,,sam.silva376@example.com
+C00376,14/05/2025,#50218,Outdoor,2,$2.55,5.10,sam.silva376@example.com
+c00454,14/05/2025,#50219,Home,3,15.27,$45.81,liam.young454@example.com
+C00538,"May 14, 2025",#50220,Toys,1,5.70,5.70,liam.patel538@example.com
+c00538,"May 14, 2025",#50220,Toys,3,1.90,$5.70,liam.patel538@example.com
+C00538,"May 14, 2025",#50220,Toys,1,$5.71,$5.71,liam.patel538@example.com
+,,,,,,,
+C00416,15/05/2025,#50221,Toys,1,"€28,54",28.54,ava.taylor416@example.com
+C00416,15/05/2025,#50221,Stationery,3,9.51,$28.53,ava.taylor416@example.com
+C00416,15/05/2025,#50221,Kitchen,2,"€14,28",$28.56,ava.taylor416@example.com
+C00205,16/05/2025,#50222,Stationery,1,"€16,26",16.26,priya.jones205@example.com
+C00205,16/05/2025,#50222,Beauty,1,"€16,25",16.25,priya.jones205@example.com
+C00216,2025-05-16,#50223,Outdoor,1,$74.22,$74.22,noor.martin216@example.com
+C00384,16/05/2025,#50224,Outdoor,2,$4.17,$8.34,xavi.garcia384@example.com
+c00384,16/05/2025,#50224,Outdoor,2,$4.17,,xavi.garcia384@example.com
+C00384,16/05/2025,#50224,Kitchen,2,$4.17,$8.34,xavi.garcia384@example.com
+C00064,17/05/2025,#50225,Outdoor,3,$32.49,97.47,elena.silva64@example.com
+c00122,"May 17, 2025",#50226,Outdoor,1,26.65,26.65,noor.fischer122@example.com
+C00122,"May 17, 2025",#50226,Beauty,2,$13.32,,noor.fischer122@example.com
+C00351,17/05/2025,#50227,Stationery,3,4.85,14.55,priya.martin351@example.com
+ C00351 ,17/05/2025,#50227,Kitchen,3,4.85,$14.55,priya.martin351@example.com
+C00351,17/05/2025,#50227,Beauty,3,$4.85,14.55,priya.martin351@example.com
+ C00060 ,18/05/2025,#50228,Stationery,3,13.03,$39.09,elena.zhang60@example.com
+C00060,18/05/2025,#50228,Toys,2,19.56,$39.12,elena.zhang60@example.com
+C00398,18/05/2025,#50229,Outdoor,3,$7.50,$22.50,ava.khan398@example.com
+C00398,18/05/2025,#50229,Beauty,3,$7.50,,ava.khan398@example.com
+C00029,20/05/2025,#50230,Toys,3,"€24,69",74.07,yara.diaz29@example.com
+C00127,20/05/2025,#50231,Kitchen,3,25.04,75.12,ben.khan127@example.com
+,,,,,,,
+C00526,20/05/2025,#50232,Stationery,1,"€24,21",$24.21,ben.evans526@example.com
+C00526,20/05/2025,#50232,Kitchen,3,8.07,$24.21,ben.evans526@example.com
+C00529,20/05/2025,#50233,Stationery,1,$22.57,22.57,ava.evans529@example.com
+C00529,20/05/2025,#50233,Outdoor,2,$11.29,22.58,ava.evans529@example.com
+C00529,20/05/2025,#50233,Toys,3,7.53,$22.59,ava.evans529@example.com
+c00198,"May 22, 2025",#50234,Stationery,3,"€15,40",46.20,zoe.ito198@example.com
+C00198,"May 22, 2025",#50234,Stationery,2,23.10,$46.20,zoe.ito198@example.com
+C00198,"May 22, 2025",#50234,Outdoor,2,23.09,$46.18,zoe.ito198@example.com
+C00293,22/05/2025,#50235,Kitchen,1,5.43,5.43,noor.adams293@example.com
+ C00293 ,22/05/2025,#50235,Home,2,2.72,5.44,noor.adams293@example.com
+C00293,22/05/2025,#50235,Home,2,2.72,,noor.adams293@example.com
+C00259,"May 24, 2025",#50236,Beauty,3,8.35,"€25,05",dan.young259@example.com
+C00348,27/05/2025,#50237,Toys,1,17.04,"€17,04",jonah.khan348@example.com
+c00348,27/05/2025,#50237,Stationery,2,$8.52,17.04,jonah.khan348@example.com
+c00352,2025-05-27,#50238,Kitchen,1,31.57,31.57,kira.fischer352@example.com
+C00352,2025-05-27,#50238,Home,1,$31.57,,kira.fischer352@example.com
+C00352,2025-05-27,#50238,Toys,3,$10.52,31.56,kira.fischer352@example.com
+C00576,28/05/2025,#50239,Toys,3,50.18,150.54,zoe.diaz576@example.com
+C00130,29/05/2025,#50240,Kitchen,3,$12.67,38.01,xavi.silva130@example.com
+C00130,29/05/2025,#50240,Outdoor,2,19.01,$38.02,xavi.silva130@example.com
+C00306,31/05/2025,#50241,Toys,3,18.44,$55.32,jonah.chen306@example.com
+ C00306 ,31/05/2025,#50241,Kitchen,1,$55.31,55.31,jonah.chen306@example.com
+C00306,31/05/2025,#50241,Stationery,1,$55.32,55.32,jonah.chen306@example.com
+C00520,2025-06-01,#50242,Home,1,98.58,$98.58,jonah.patel520@example.com
+C00054,02/06/2025,#50243,Stationery,3,11.65,34.95,jonah.lopez54@example.com
+C00054,02/06/2025,#50243,Beauty,1,"€34,94",$34.94,jonah.lopez54@example.com
+C00054,02/06/2025,#50243,Kitchen,3,"€11,65",$34.95,jonah.lopez54@example.com
+C00047,03/06/2025,#50244,Beauty,1,"€13,93",$13.93,maya.young47@example.com
+c00047,03/06/2025,#50244,Kitchen,2,$6.96,"€13,92",maya.young47@example.com
+C00340,"Jun 3, 2025",#50245,Home,1,24.34,"€24,34",liam.patel340@example.com
+C00340,"Jun 3, 2025",#50245,Home,2,$12.17,$24.34,liam.patel340@example.com
+C00340,"Jun 3, 2025",#50245,Outdoor,3,$8.11,24.33,liam.patel340@example.com
+,,,,,,,
+C00416,03/06/2025,#50246,Outdoor,2,56.57,113.14,ava.taylor416@example.com
+C00333,04/06/2025,#50247,Beauty,1,"€25,84",,uma.adams333@example.com
+C00333,04/06/2025,#50247,Beauty,1,25.84,$25.84,uma.adams333@example.com
+C00333,04/06/2025,#50247,Toys,2,"€12,92",$25.84,uma.adams333@example.com
+C00460,2025-06-04,#50248,Kitchen,1,$101.50,101.50,xavi.zhang460@example.com
+,04/06/2025,#50249,Stationery,3,$25.06,$75.18,omar.rossi569@example.com
+C00569,04/06/2025,#50249,Kitchen,2,37.60,$75.20,omar.rossi569@example.com
+C00012,2025-06-05,#50250,Home,1,$17.37,17.37,sam.lopez12@example.com
+C00012,2025-06-05,#50250,Beauty,3,5.79,$17.37,sam.lopez12@example.com
+C00345,2025-06-05,#50251,Beauty,3,"€7,53",22.59,wen.khan345@example.com
+C00345,2025-06-05,#50251,Outdoor,1,$22.60,$22.60,wen.khan345@example.com
+C00345,2025-06-05,#50251,Beauty,2,$11.30,22.60,wen.khan345@example.com
+C00376,05/06/2025,#50252,Stationery,2,5.33,$10.66,sam.silva376@example.com
+C00376,05/06/2025,#50252,Beauty,3,$3.55,10.65,sam.silva376@example.com
+C00425,2025-06-05,#50253,Beauty,3,14.77,,grace.fischer425@example.com
+C00425,2025-06-05,#50253,Kitchen,3,14.77,44.31,grace.fischer425@example.com
+C00425,2025-06-05,#50253,Home,2,$22.15,$44.30,grace.fischer425@example.com
+ C00529 ,"Jun 5, 2025",#50254,Home,2,7.99,$15.98,ava.evans529@example.com
+C00529,"Jun 5, 2025",#50254,Stationery,3,$5.32,15.96,ava.evans529@example.com
+C00529,"Jun 5, 2025",#50254,Beauty,2,7.98,$15.96,ava.evans529@example.com
+C00122,06/06/2025,#50255,Stationery,3,"€6,82",20.46,noor.fischer122@example.com
+C00122,06/06/2025,#50255,Stationery,2,10.23,$20.46,noor.fischer122@example.com
+C00170,"Jun 6, 2025",#50256,Kitchen,1,$20.19,20.19,femi.ito170@example.com
+C00170,"Jun 6, 2025",#50256,Home,2,"€10,10",20.20,femi.ito170@example.com
+C00064,2025-06-07,#50257,Home,3,$7.20,$21.60,elena.silva64@example.com
+c00064,2025-06-07,#50257,Stationery,3,$7.20,,elena.silva64@example.com
+ C00064 ,2025-06-07,#50257,Home,1,21.59,21.59,elena.silva64@example.com
+C00583,09/06/2025,#50258,Kitchen,2,$5.23,10.46,dan.khan583@example.com
+C00583,09/06/2025,#50258,Kitchen,3,"€3,49",10.47,dan.khan583@example.com
+C00583,09/06/2025,#50258,Stationery,3,$3.49,,dan.khan583@example.com
+C00188,2025-06-10,#50259,Home,3,5.81,,priya.diaz188@example.com
+C00188,2025-06-10,#50259,Beauty,2,$8.72,,priya.diaz188@example.com
+C00443,10/06/2025,#50260,Outdoor,1,$103.88,$103.88,kira.chen443@example.com
+C00164,11/06/2025,#50261,Toys,2,$11.10,22.20,tara.martin164@example.com
+C00164,11/06/2025,#50261,Toys,1,$22.19,$22.19,tara.martin164@example.com
+C00133,12/06/2025,#50262,Beauty,3,$12.59,$37.77,tara.adams133@example.com
+C00216,2025-06-13,#50263,Toys,2,15.86,$31.72,noor.martin216@example.com
+C00216,2025-06-13,#50263,Stationery,2,15.86,,noor.martin216@example.com
+C00216,2025-06-13,#50263,Outdoor,2,$15.87,31.74,noor.martin216@example.com
+C00165,14/06/2025,#50264,Beauty,1,39.48,$39.48,uma.hughes165@example.com
+C00529,14/06/2025,#50265,Toys,1,$48.41,48.41,ava.evans529@example.com
+C00043,15/06/2025,#50266,Kitchen,2,$10.98,21.96,isla.jones43@example.com
+C00043,15/06/2025,#50266,Stationery,1,$21.96,,isla.jones43@example.com
+C00528,15/06/2025,#50267,Toys,2,$22.35,44.70,rosa.lopez528@example.com
+C00528,15/06/2025,#50267,Outdoor,1,44.70,$44.70,rosa.lopez528@example.com
+C00127,16/06/2025,#50268,Outdoor,3,$7.83,,ben.khan127@example.com
+C00127,16/06/2025,#50268,Beauty,1,"€23,50",$23.50,ben.khan127@example.com
+C00127,16/06/2025,#50268,Outdoor,1,"€23,49",$23.49,ben.khan127@example.com
+C00217,17/06/2025,#50269,Home,3,$11.37,34.11,omar.diaz217@example.com
+C00217,17/06/2025,#50269,Kitchen,2,$17.05,$34.10,omar.diaz217@example.com
+C00217,17/06/2025,#50269,Kitchen,3,"€11,37","€34,11",omar.diaz217@example.com
+C00495,17/06/2025,#50270,Toys,1,$59.89,"€59,89",wen.walker495@example.com
+C00495,17/06/2025,#50270,Outdoor,1,$59.89,"€59,89",wen.walker495@example.com
+C00506,17/06/2025,#50271,Kitchen,1,$33.49,$33.49,quinn.adams506@example.com
+ C00506 ,17/06/2025,#50271,Home,1,$33.48,33.48,quinn.adams506@example.com
+C00430,"Jun 18, 2025",#50272,Stationery,3,$10.63,$31.89,yara.patel430@example.com
+C00138,2025-06-20,#50273,Home,3,16.22,$48.66,hiro.hughes138@example.com
+c00145,20/06/2025,#50274,Beauty,2,$10.38,$20.76,chloe.adams145@example.com
+c00145,20/06/2025,#50274,Outdoor,2,"€10,38",20.76,chloe.adams145@example.com
+ C00145 ,20/06/2025,#50274,Home,2,"€10,38",$20.76,chloe.adams145@example.com
+C00416,20/06/2025,#50275,Outdoor,3,11.17,"€33,51",ava.taylor416@example.com
+C00416,20/06/2025,#50275,Toys,2,$16.76,$33.52,ava.taylor416@example.com
+C00416,20/06/2025,#50275,Outdoor,2,16.77,"€33,54",ava.taylor416@example.com
+ C00529 ,20/06/2025,#50276,Beauty,1,$15.99,$15.99,ava.evans529@example.com
+C00529,20/06/2025,#50276,Outdoor,3,$5.33,15.99,ava.evans529@example.com
+C00529,20/06/2025,#50276,Beauty,1,15.98,15.98,ava.evans529@example.com
+C00349,2025-06-21,#50277,Beauty,1,$91.98,91.98,rosa.okafor349@example.com
+c00356,21/06/2025,#50278,Kitchen,1,$34.43,$34.43,liam.chen356@example.com
+C00356,21/06/2025,#50278,Kitchen,3,11.48,$34.44,liam.chen356@example.com
+C00545,22/06/2025,#50279,Home,1,"€39,46",,victor.adams545@example.com
+C00545,22/06/2025,#50279,Toys,3,13.15,39.45,victor.adams545@example.com
+C00255,23/06/2025,#50280,Outdoor,2,$14.70,,kira.hughes255@example.com
+C00255,23/06/2025,#50280,Beauty,1,$29.40,29.40,kira.hughes255@example.com
+C00255,23/06/2025,#50280,Outdoor,1,$29.39,"€29,39",kira.hughes255@example.com
+C00376,23/06/2025,#50281,Beauty,3,$4.67,$14.01,sam.silva376@example.com
+C00426,"Jun 23, 2025",#50282,Toys,1,$105.93,"€105,93",elena.garcia426@example.com
+C00140,24/06/2025,#50283,Beauty,2,"€58,45",116.90,elena.garcia140@example.com
+C00305,"Jun 24, 2025",#50284,Toys,3,11.36,34.08,yara.zhang305@example.com
+C00306,24/06/2025,#50285,Toys,3,38.31,114.93,jonah.chen306@example.com
+C00306,24/06/2025,#50285,Home,3,$38.31,$114.93,jonah.chen306@example.com
+C00088,27/06/2025,#50286,Kitchen,1,$34.00,,isla.diaz88@example.com
+C00088,27/06/2025,#50286,Toys,1,34.00,34.00,isla.diaz88@example.com
+C00088,27/06/2025,#50286,Beauty,2,17.00,$34.00,isla.diaz88@example.com
+C00169,29/06/2025,#50287,Stationery,1,26.93,,tara.evans169@example.com
+C00169,29/06/2025,#50287,Stationery,3,"€8,98",,tara.evans169@example.com
+c00169,29/06/2025,#50287,Kitchen,2,$13.46,26.92,tara.evans169@example.com
+C00204,29/06/2025,#50288,Toys,2,$2.78,$5.56,xavi.taylor204@example.com
+C00204,29/06/2025,#50288,Home,3,$1.85,5.55,xavi.taylor204@example.com
+c00223,29/06/2025,#50289,Kitchen,1,8.28,8.28,noor.brown223@example.com
+C00223,29/06/2025,#50289,Home,3,$2.76,"€8,28",noor.brown223@example.com
+ C00223 ,29/06/2025,#50289,Kitchen,3,$2.76,8.28,noor.brown223@example.com
+C00313,29/06/2025,#50290,Home,3,"€4,74",14.22,chloe.brown313@example.com
+C00313,29/06/2025,#50290,Beauty,2,7.12,$14.24,chloe.brown313@example.com
+c00122,30/06/2025,#50291,Kitchen,3,6.36,$19.08,noor.fischer122@example.com
+C00122,30/06/2025,#50291,Beauty,1,19.09,19.09,noor.fischer122@example.com
+C00122,30/06/2025,#50291,Kitchen,3,$6.36,"€19,08",noor.fischer122@example.com
+C00505,2025-07-01,#50292,Kitchen,1,29.11,29.11,maya.brown505@example.com
+C00529,01/07/2025,#50293,Toys,2,"€15,85",31.70,ava.evans529@example.com
+C00529,01/07/2025,#50293,Beauty,3,10.57,,ava.evans529@example.com
+C00529,01/07/2025,#50293,Kitchen,2,15.85,$31.70,ava.evans529@example.com
+C00093,02/07/2025,#50294,Outdoor,2,8.91,17.82,chloe.walker93@example.com
+ C00093 ,02/07/2025,#50294,Stationery,3,$5.94,$17.82,chloe.walker93@example.com
+C00267,03/07/2025,#50295,Outdoor,1,$60.03,60.03,yara.walker267@example.com
+ C00267 ,03/07/2025,#50295,Home,1,60.02,$60.02,yara.walker267@example.com
+C00568,03/07/2025,#50296,Stationery,2,$8.49,,rosa.rossi568@example.com
+c00568,03/07/2025,#50296,Stationery,2,8.49,$16.98,rosa.rossi568@example.com
+C00029,05/07/2025,#50297,Home,2,14.75,$29.50,yara.diaz29@example.com
+ C00029 ,05/07/2025,#50297,Outdoor,2,"€14,75",$29.50,yara.diaz29@example.com
+C00029,05/07/2025,#50297,Toys,2,$14.75,29.50,yara.diaz29@example.com
+c00471,05/07/2025,#50298,Toys,2,$39.24,,ava.nguyen471@example.com
+C00064,2025-07-07,#50299,Outdoor,2,$18.64,$37.28,elena.silva64@example.com
+C00064,2025-07-07,#50299,Outdoor,1,37.28,"€37,28",elena.silva64@example.com
+,2025-07-07,#50300,Kitchen,3,16.05,48.15,rosa.diaz97@example.com
+C00097,2025-07-07,#50300,Home,2,$24.08,48.16,rosa.diaz97@example.com
+C00097,2025-07-07,#50300,Kitchen,2,24.07,48.14,rosa.diaz97@example.com
+C00100,07/07/2025,#50301,Home,1,$194.55,194.55,rosa.jones100@example.com
+C00203,08/07/2025,#50302,Kitchen,1,13.15,13.15,elena.adams203@example.com
+C00203,08/07/2025,#50302,Home,2,$6.58,$13.16,elena.adams203@example.com
+C00203,08/07/2025,#50302,Kitchen,2,$6.58,13.16,elena.adams203@example.com
+c00569,08/07/2025,#50303,Home,1,"€47,87",$47.87,omar.rossi569@example.com
+C00569,08/07/2025,#50303,Toys,1,47.87,$47.87,omar.rossi569@example.com
+C00350,10/07/2025,#50304,Outdoor,3,7.45,$22.35,chloe.nguyen350@example.com
+C00350,10/07/2025,#50304,Beauty,3,$7.45,$22.35,chloe.nguyen350@example.com
+C00350,10/07/2025,#50304,Outdoor,2,"€11,18",22.36,chloe.nguyen350@example.com
+C00125,"Jul 11, 2025",#50305,Beauty,1,16.63,$16.63,wen.khan125@example.com
+C00125,"Jul 11, 2025",#50305,Toys,1,$16.63,"€16,63",wen.khan125@example.com
+C00125,"Jul 11, 2025",#50305,Kitchen,3,$5.54,$16.62,wen.khan125@example.com
+C00138,11/07/2025,#50306,Outdoor,1,43.51,"€43,51",hiro.hughes138@example.com
+C00138,21/07/2025,#R50306,Refund,1,,(21.76),hiro.hughes138@example.com
+C00416,11/07/2025,#50307,Home,1,41.20,,ava.taylor416@example.com
+ C00416 ,11/07/2025,#50307,Home,1,$41.20,$41.20,ava.taylor416@example.com
+C00416,11/07/2025,#50307,Kitchen,1,41.20,41.20,ava.taylor416@example.com
+ C00417 ,"Jul 11, 2025",#50308,Toys,2,12.93,$25.86,isla.walker417@example.com
+C00417,"Jul 11, 2025",#50308,Outdoor,2,"€12,93",$25.86,isla.walker417@example.com
+C00211,12/07/2025,#50309,Outdoor,1,12.56,12.56,xavi.young211@example.com
+C00211,12/07/2025,#50309,Stationery,3,$4.19,12.57,xavi.young211@example.com
+ C00211 ,12/07/2025,#50309,Kitchen,1,12.55,12.55,xavi.young211@example.com
+C00368,12/07/2025,#50310,Home,3,$17.89,,xavi.nguyen368@example.com
+C00495,13/07/2025,#50311,Beauty,1,34.83,"€34,83",wen.walker495@example.com
+C00495,13/07/2025,#50311,Kitchen,3,11.61,"€34,83",wen.walker495@example.com
+C00529,"Jul 13, 2025",#50312,Home,2,$6.18,12.36,ava.evans529@example.com
+ C00529 ,"Jul 13, 2025",#50312,Stationery,3,$4.12,$12.36,ava.evans529@example.com
+C00529,"Jul 13, 2025",#50312,Stationery,3,4.12,12.36,ava.evans529@example.com
+C00173,15/07/2025,#50313,Home,3,$11.08,$33.24,jonah.evans173@example.com
+,15/07/2025,#50313,Home,2,"€16,62",33.24,jonah.evans173@example.com
+C00173,15/07/2025,#50313,Outdoor,1,33.23,,jonah.evans173@example.com
+ C00134 ,2025-07-16,#50314,Beauty,1,101.96,,yara.lopez134@example.com
+C00311,16/07/2025,#50315,Stationery,1,"€30,40",,kira.walker311@example.com
+,16/07/2025,#50315,Kitchen,2,15.20,30.40,kira.walker311@example.com
+C00526,16/07/2025,#50316,Toys,3,$22.46,$67.38,ben.evans526@example.com
+C00528,17/07/2025,#50317,Home,3,$22.31,"€66,93",rosa.lopez528@example.com
+C00528,17/07/2025,#50317,Outdoor,3,$22.31,66.93,rosa.lopez528@example.com
+c00550,18/07/2025,#50318,Outdoor,1,$29.70,$29.70,wen.jones550@example.com
+C00550,18/07/2025,#50318,Stationery,2,$14.85,"€29,70",wen.jones550@example.com
+C00115,"Jul 19, 2025",#50319,Beauty,1,32.83,$32.83,omar.silva115@example.com
+C00115,"Jul 19, 2025",#50319,Home,1,$32.83,32.83,omar.silva115@example.com
+C00087,21/07/2025,#50320,Toys,1,$21.61,$21.61,femi.nguyen87@example.com
+c00087,21/07/2025,#50320,Stationery,2,$10.81,21.62,femi.nguyen87@example.com
+C00285,2025-07-21,#50321,Beauty,1,"€61,36",,xavi.khan285@example.com
+,,,,,,,
+C00294,2025-07-21,#50322,Toys,2,$28.51,$57.02,elena.evans294@example.com
+C00294,2025-07-21,#50322,Kitchen,2,$28.50,$57.00,elena.evans294@example.com
+C00333,2025-07-21,#50323,Stationery,1,$30.17,$30.17,uma.adams333@example.com
+C00333,2025-07-21,#50323,Kitchen,2,$15.08,30.16,uma.adams333@example.com
+C00568,22/07/2025,#50324,Outdoor,1,18.81,18.81,rosa.rossi568@example.com
+C00047,"Jul 23, 2025",#50325,Beauty,1,$30.16,$30.16,maya.young47@example.com
+C00047,"Jul 23, 2025",#50325,Kitchen,2,"€15,08",30.16,maya.young47@example.com
+C00348,2025-07-23,#50326,Home,1,8.08,$8.08,jonah.khan348@example.com
+C00348,2025-07-23,#50326,Beauty,1,8.08,8.08,jonah.khan348@example.com
+C00348,2025-07-23,#50326,Stationery,3,$2.69,8.07,jonah.khan348@example.com
+C00454,23/07/2025,#50327,Toys,2,32.85,65.70,liam.young454@example.com
+C00454,02/08/2025,#R50327,Refund,1,,(32.85),liam.young454@example.com
+ C00551 ,24/07/2025,#50328,Toys,3,10.04,30.12,omar.evans551@example.com
+C00551,24/07/2025,#50328,Beauty,3,$10.04,,omar.evans551@example.com
+C00468,26/07/2025,#50329,Beauty,1,"€47,87",47.87,victor.jones468@example.com
+C00527,"Jul 26, 2025",#50330,Toys,2,58.59,117.18,dan.walker527@example.com
+c00483,2025-07-27,#50331,Outdoor,3,$28.81,86.43,chloe.hughes483@example.com
+C00557,27/07/2025,#50332,Toys,3,$10.78,$32.34,sam.fischer557@example.com
+c00164,"Jul 28, 2025",#50333,Home,2,17.15,$34.30,tara.martin164@example.com
+C00416,28/07/2025,#50334,Toys,1,$52.95,$52.95,ava.taylor416@example.com
+c00416,28/07/2025,#50334,Stationery,3,$17.65,$52.95,ava.taylor416@example.com
+C00460,28/07/2025,#50335,Beauty,3,"€13,61",$40.83,xavi.zhang460@example.com
+C00460,28/07/2025,#50335,Home,1,40.83,,xavi.zhang460@example.com
+C00460,28/07/2025,#50335,Outdoor,2,"€20,41",$40.82,xavi.zhang460@example.com
+c00529,28/07/2025,#50336,Beauty,2,$17.96,35.92,ava.evans529@example.com
+c00529,28/07/2025,#50336,Toys,1,35.92,35.92,ava.evans529@example.com
+c00216,2025-07-29,#50337,Kitchen,3,"€5,82","€17,46",noor.martin216@example.com
+C00216,2025-07-29,#50337,Home,1,17.46,$17.46,noor.martin216@example.com
+c00216,2025-07-29,#50337,Kitchen,1,17.47,$17.47,noor.martin216@example.com
+C00306,2025-07-29,#50338,Outdoor,1,"€61,88",,jonah.chen306@example.com
+C00306,2025-07-29,#50338,Outdoor,1,$61.88,61.88,jonah.chen306@example.com
+ C00306 ,2025-07-29,#50338,Home,2,30.94,$61.88,jonah.chen306@example.com
+C00598,30/07/2025,#50339,Toys,3,$23.32,69.96,grace.khan598@example.com
+C00598,30/07/2025,#50339,Kitchen,2,34.98,69.96,grace.khan598@example.com
+C00598,30/07/2025,#50339,Kitchen,3,23.31,,grace.khan598@example.com
+C00600,30/07/2025,#50340,Beauty,2,26.87,53.74,tara.evans600@example.com
+C00600,30/07/2025,#50340,Home,2,$26.87,$53.74,tara.evans600@example.com
+C00600,30/07/2025,#50340,Outdoor,1,53.75,,tara.evans600@example.com
+c00270,31/07/2025,#50341,Kitchen,1,50.53,"€50,53",noor.jones270@example.com
+C00305,31/07/2025,#50342,Stationery,3,$11.14,33.42,yara.zhang305@example.com
+ C00138 ,2025-08-01,#50343,Home,2,$29.91,59.82,hiro.hughes138@example.com
+C00248,2025-08-01,#50344,Kitchen,1,$77.49,,omar.brown248@example.com
+C00566,01/08/2025,#50345,Home,3,$10.22,30.66,xavi.patel566@example.com
+C00566,01/08/2025,#50345,Kitchen,1,$30.67,30.67,xavi.patel566@example.com
+C00566,01/08/2025,#50345,Stationery,2,15.34,$30.68,xavi.patel566@example.com
+C00425,03/08/2025,#50346,Outdoor,3,26.84,80.52,grace.fischer425@example.com
+C00588,03/08/2025,#50347,Stationery,3,"€3,95",11.85,rosa.patel588@example.com
+C00588,03/08/2025,#50347,Home,1,11.84,11.84,rosa.patel588@example.com
+C00588,03/08/2025,#50347,Kitchen,1,11.83,11.83,rosa.patel588@example.com
+C00320,05/08/2025,#50348,Home,3,$15.98,"€47,94",priya.brown320@example.com
+C00320,05/08/2025,#50348,Home,1,"€47,93",,priya.brown320@example.com
+C00426,05/08/2025,#50349,Outdoor,1,$92.71,$92.71,elena.garcia426@example.com
+C00466,05/08/2025,#50350,Home,2,$3.88,7.76,liam.brown466@example.com
+C00466,05/08/2025,#50350,Home,2,$3.88,"€7,76",liam.brown466@example.com
+C00466,05/08/2025,#50350,Toys,3,2.58,,liam.brown466@example.com
+C00401,06/08/2025,#50351,Outdoor,1,$80.14,$80.14,wen.nguyen401@example.com
+C00529,06/08/2025,#50352,Kitchen,3,9.19,$27.57,ava.evans529@example.com
+C00529,06/08/2025,#50352,Kitchen,3,"€9,19",27.57,ava.evans529@example.com
+C00124,07/08/2025,#50353,Stationery,3,$54.31,162.93,noor.chen124@example.com
+c00416,10/08/2025,#50354,Stationery,3,13.09,39.27,ava.taylor416@example.com
+C00416,10/08/2025,#50354,Toys,2,19.64,39.28,ava.taylor416@example.com
+ C00416 ,10/08/2025,#50354,Kitchen,2,19.65,$39.30,ava.taylor416@example.com
+C00594,10/08/2025,#50355,Home,2,$31.87,63.74,grace.young594@example.com
+C00329,12/08/2025,#50356,Kitchen,1,$34.41,$34.41,femi.lopez329@example.com
+C00329,12/08/2025,#50356,Toys,2,$17.20,34.40,femi.lopez329@example.com
+C00329,12/08/2025,#50356,Stationery,3,11.47,$34.41,femi.lopez329@example.com
+ C00451 ,12/08/2025,#50357,Outdoor,1,46.49,$46.49,rosa.walker451@example.com
+C00451,12/08/2025,#50357,Kitchen,3,$15.49,$46.47,rosa.walker451@example.com
+C00042,14/08/2025,#50358,Beauty,2,$8.93,"€17,86",jonah.adams42@example.com
+C00042,14/08/2025,#50358,Beauty,2,$8.92,$17.84,jonah.adams42@example.com
+C00042,2025-08-28,#R50358,Refund,1,,(17.85),jonah.adams42@example.com
+c00030,"Aug 15, 2025",#50359,Stationery,3,"€20,82",62.46,quinn.nguyen30@example.com
+C00434,2025-08-15,#50360,Beauty,2,$5.55,11.10,grace.jones434@example.com
+C00434,2025-08-15,#50360,Toys,1,$11.10,11.10,grace.jones434@example.com
+C00434,2025-08-15,#50360,Stationery,2,5.55,$11.10,grace.jones434@example.com
+ C00600 ,15/08/2025,#50361,Stationery,1,"€249,64",,tara.evans600@example.com
+C00346,16/08/2025,#50362,Home,3,$7.23,,kira.brown346@example.com
+C00346,16/08/2025,#50362,Stationery,1,21.70,$21.70,kira.brown346@example.com
+C00346,16/08/2025,#50362,Home,3,7.23,$21.69,kira.brown346@example.com
+C00473,2025-08-16,#50363,Home,3,"€3,62",10.86,chloe.fischer473@example.com
+C00473,2025-08-16,#50363,Outdoor,3,3.62,$10.86,chloe.fischer473@example.com
+C00473,2025-08-16,#50363,Beauty,3,$3.63,10.89,chloe.fischer473@example.com
+C00502,2025-08-16,#50364,Stationery,2,$4.51,"€9,02",liam.walker502@example.com
+C00502,2025-08-16,#50364,Beauty,2,$4.51,$9.02,liam.walker502@example.com
+c00502,2025-08-16,#50364,Toys,1,9.03,$9.03,liam.walker502@example.com
+ C00113 ,"Aug 17, 2025",#50365,Kitchen,3,$7.36,"€22,08",elena.rossi113@example.com
+C00423,2025-08-17,#50366,Toys,3,$22.86,68.58,tara.fischer423@example.com
+,,,,,,,
+ C00470 ,"Aug 18, 2025",#50367,Home,1,133.08,$133.08,dan.nguyen470@example.com
+C00214,19/08/2025,#50368,Outdoor,1,19.27,,quinn.okafor214@example.com
+C00214,19/08/2025,#50368,Toys,3,6.42,$19.26,quinn.okafor214@example.com
+c00535,2025-08-19,#50369,Home,3,3.65,"€10,95",ava.diaz535@example.com
+C00535,2025-08-19,#50369,Kitchen,3,$3.65,"€10,95",ava.diaz535@example.com
+C00535,2025-08-19,#50369,Home,2,$5.48,10.96,ava.diaz535@example.com
+C00529,2025-08-20,#50370,Stationery,2,55.73,$111.46,ava.evans529@example.com
+c00296,22/08/2025,#50371,Stationery,3,3.63,10.89,isla.ito296@example.com
+C00296,22/08/2025,#50371,Home,2,$5.45,"€10,90",isla.ito296@example.com
+C00296,22/08/2025,#50371,Toys,2,5.44,10.88,isla.ito296@example.com
+C00045,2025-08-23,#50372,Toys,1,71.26,$71.26,victor.patel45@example.com
+C00045,2025-08-23,#50372,Kitchen,2,$35.63,71.26,victor.patel45@example.com
+C00306,23/08/2025,#50373,Home,3,$77.94,$233.82,jonah.chen306@example.com
+C00192,"Aug 24, 2025",#50374,Home,3,5.14,$15.42,rosa.walker192@example.com
+C00376,24/08/2025,#50375,Kitchen,2,5.59,11.18,sam.silva376@example.com
+c00376,24/08/2025,#50375,Toys,1,11.17,11.17,sam.silva376@example.com
+C00416,24/08/2025,#50376,Home,1,"€114,16",$114.16,ava.taylor416@example.com
+C00188,25/08/2025,#50377,Kitchen,2,13.82,,priya.diaz188@example.com
+C00463,"Aug 25, 2025",#50378,Stationery,3,$11.43,$34.29,jonah.evans463@example.com
+C00489,2025-08-26,#50379,Kitchen,3,$9.56,28.68,uma.okafor489@example.com
+C00302,"Aug 28, 2025",#50380,Outdoor,1,25.28,,xavi.ito302@example.com
+C00302,"Aug 28, 2025",#50380,Home,2,$12.64,"€25,28",xavi.ito302@example.com
+C00568,28/08/2025,#50381,Stationery,1,41.80,"€41,80",rosa.rossi568@example.com
+C00329,29/08/2025,#50382,Home,1,37.32,$37.32,femi.lopez329@example.com
+C00329,29/08/2025,#50382,Home,1,$37.31,"€37,31",femi.lopez329@example.com
+ C00164 ,30/08/2025,#50383,Toys,2,16.76,,tara.martin164@example.com
+C00053,31/08/2025,#50384,Beauty,1,12.09,$12.09,maya.zhang53@example.com
+C00053,31/08/2025,#50384,Beauty,1,$12.09,,maya.zhang53@example.com
+C00053,31/08/2025,#50384,Beauty,1,"€12,10",$12.10,maya.zhang53@example.com
+C00138,31/08/2025,#50385,Toys,1,$31.58,$31.58,hiro.hughes138@example.com
+C00169,2025-08-31,#50386,Stationery,1,46.03,$46.03,tara.evans169@example.com
+C00169,2025-08-31,#50386,Beauty,3,$15.34,46.02,tara.evans169@example.com
+C00196,2025-08-31,#50387,Outdoor,1,"€38,23",$38.23,liam.okafor196@example.com
+C00438,31/08/2025,#50388,Toys,3,21.15,,uma.patel438@example.com
+C00438,31/08/2025,#50388,Kitchen,1,63.46,63.46,uma.patel438@example.com
+c00456,2025-08-31,#50389,Stationery,3,$41.61,124.83,liam.nguyen456@example.com
+ C00495 ,31/08/2025,#50390,Kitchen,3,"€42,29",$126.87,wen.walker495@example.com
+C00171,03/09/2025,#50391,Beauty,2,$17.34,$34.68,quinn.adams171@example.com
+ C00171 ,03/09/2025,#50391,Kitchen,3,11.55,34.65,quinn.adams171@example.com
+C00239,2025-09-03,#50392,Stationery,2,4.89,9.78,kira.adams239@example.com
+C00239,2025-09-03,#50392,Beauty,2,4.89,,kira.adams239@example.com
+c00239,2025-09-03,#50392,Home,1,9.78,9.78,kira.adams239@example.com
+,,,,,,,
+C00503,"Sep 4, 2025",#50393,Outdoor,1,25.82,,omar.hughes503@example.com
+C00503,"Sep 4, 2025",#50393,Stationery,2,$12.91,,omar.hughes503@example.com
+ C00503 ,"Sep 4, 2025",#50393,Stationery,2,$12.91,25.82,omar.hughes503@example.com
+ C00150 ,2025-09-05,#50394,Toys,1,"€77,24",$77.24,hiro.taylor150@example.com
+ C00150 ,2025-09-05,#50394,Outdoor,1,77.23,,hiro.taylor150@example.com
+ C00150 ,23/09/2025,#R50394,Refund,1,,(77.24),hiro.taylor150@example.com
+,,,,,,,
+C00167,2025-09-05,#50395,Beauty,3,34.78,104.34,ava.jones167@example.com
+C00285,2025-09-05,#50396,Outdoor,3,$10.46,31.38,xavi.khan285@example.com
+C00285,2025-09-05,#50396,Kitchen,3,10.46,$31.38,xavi.khan285@example.com
+C00285,2025-09-05,#50396,Outdoor,1,31.38,31.38,xavi.khan285@example.com
+C00285,11/09/2025,#R50396,Refund,1,,(47.07),xavi.khan285@example.com
+C00310,05/09/2025,#50397,Stationery,2,$43.71,87.42,noor.zhang310@example.com
+ C00470 ,05/09/2025,#50398,Home,1,$101.13,$101.13,dan.nguyen470@example.com
+ C00594 ,06/09/2025,#50399,Kitchen,1,"€26,99",26.99,grace.young594@example.com
+c00594,06/09/2025,#50399,Toys,2,13.50,$27.00,grace.young594@example.com
+c00200,07/09/2025,#50400,Outdoor,1,"€179,70",$179.70,liam.fischer200@example.com
+C00045,2025-09-08,#50401,Home,3,16.40,$49.20,victor.patel45@example.com
+C00045,2025-09-08,#50401,Outdoor,1,49.19,$49.19,victor.patel45@example.com
+C00045,2025-09-08,#50401,Stationery,1,$49.19,$49.19,victor.patel45@example.com
+ C00048 ,09/09/2025,#50402,Home,2,"€9,32",18.64,elena.jones48@example.com
+C00048,09/09/2025,#50402,Home,2,$9.32,$18.64,elena.jones48@example.com
+ C00526 ,2025-09-09,#50403,Home,2,$25.75,$51.50,ben.evans526@example.com
+C00088,10/09/2025,#50404,Beauty,3,12.99,$38.97,isla.diaz88@example.com
+C00088,10/09/2025,#50404,Home,1,$38.96,$38.96,isla.diaz88@example.com
+C00088,10/09/2025,#50404,Kitchen,1,$38.97,"€38,97",isla.diaz88@example.com
+C00088,2025-09-18,#R50404,Refund,1,,(58.45),isla.diaz88@example.com
+C00466,10/09/2025,#50405,Stationery,2,3.53,$7.06,liam.brown466@example.com
+C00466,10/09/2025,#50405,Outdoor,2,"€3,53",$7.06,liam.brown466@example.com
+ C00466 ,10/09/2025,#50405,Home,3,"€2,36",$7.08,liam.brown466@example.com
+C00515,11/09/2025,#50406,Toys,2,$35.55,"€71,10",omar.jones515@example.com
+C00124,12/09/2025,#50407,Toys,2,$11.60,$23.20,noor.chen124@example.com
+ C00124 ,12/09/2025,#50407,Beauty,3,7.73,$23.19,noor.chen124@example.com
+C00124,12/09/2025,#50407,Toys,3,7.73,23.19,noor.chen124@example.com
+C00267,2025-09-12,#50408,Home,3,22.18,$66.54,yara.walker267@example.com
+C00267,2025-09-12,#50408,Kitchen,2,33.28,,yara.walker267@example.com
+C00267,2025-09-12,#50408,Beauty,1,$66.56,66.56,yara.walker267@example.com
+C00306,12/09/2025,#50409,Home,2,128.25,256.50,jonah.chen306@example.com
+C00383,14/09/2025,#50410,Beauty,3,5.54,16.62,noor.okafor383@example.com
+C00383,14/09/2025,#50410,Outdoor,2,"€8,32",16.64,noor.okafor383@example.com
+C00383,14/09/2025,#50410,Outdoor,1,"€16,63",$16.63,noor.okafor383@example.com
+C00049,16/09/2025,#50411,Stationery,1,35.76,$35.76,rosa.okafor49@example.com
+C00049,16/09/2025,#50411,Stationery,3,11.92,35.76,rosa.okafor49@example.com
+C00049,16/09/2025,#50411,Kitchen,2,17.88,"€35,76",rosa.okafor49@example.com
+ C00376 ,17/09/2025,#50412,Beauty,3,$1.51,"€4,53",sam.silva376@example.com
+C00376,17/09/2025,#50412,Toys,1,"€4,53",$4.53,sam.silva376@example.com
+ C00376 ,17/09/2025,#50412,Home,2,$2.27,4.54,sam.silva376@example.com
+C00426,17/09/2025,#50413,Kitchen,3,"€24,97",$74.91,elena.garcia426@example.com
+,,,,,,,
+C00108,19/09/2025,#50414,Stationery,2,15.02,30.04,jonah.garcia108@example.com
+C00108,19/09/2025,#50414,Stationery,3,10.01,30.03,jonah.garcia108@example.com
+C00108,19/09/2025,#50414,Home,1,"€30,03",30.03,jonah.garcia108@example.com
+C00168,19/09/2025,#50415,Stationery,3,$15.40,,hiro.hughes168@example.com
+C00422,19/09/2025,#50416,Outdoor,3,11.74,35.22,liam.jones422@example.com
+C00588,2025-09-19,#50417,Stationery,1,$14.93,"€14,93",rosa.patel588@example.com
+C00588,2025-09-19,#50417,Stationery,2,$7.47,,rosa.patel588@example.com
+C00588,2025-09-19,#50417,Home,3,$4.97,,rosa.patel588@example.com
+C00456,21/09/2025,#50418,Kitchen,3,$38.85,$116.55,liam.nguyen456@example.com
+C00600,21/09/2025,#50419,Stationery,3,29.98,"€89,94",tara.evans600@example.com
+C00600,21/09/2025,#50419,Kitchen,2,44.97,$89.94,tara.evans600@example.com
+C00045,"Sep 22, 2025",#50420,Beauty,3,"€19,31",57.93,victor.patel45@example.com
+C00045,"Sep 22, 2025",#50420,Outdoor,1,$57.94,,victor.patel45@example.com
+C00045,"Sep 22, 2025",#50420,Beauty,2,$28.97,57.94,victor.patel45@example.com
+C00216,2025-09-22,#50421,Outdoor,3,$7.31,21.93,noor.martin216@example.com
+C00216,2025-09-22,#50421,Outdoor,2,10.97,,noor.martin216@example.com
+ C00216 ,2025-09-22,#50421,Outdoor,3,$7.31,"€21,93",noor.martin216@example.com
+C00255,22/09/2025,#50422,Outdoor,1,"€25,95",25.95,kira.hughes255@example.com
+C00255,22/09/2025,#50422,Outdoor,3,$8.65,25.95,kira.hughes255@example.com
+C00255,22/09/2025,#50422,Outdoor,3,8.65,$25.95,kira.hughes255@example.com
+C00410,22/09/2025,#50423,Stationery,1,$147.11,$147.11,quinn.okafor410@example.com
+C00535,2025-09-23,#50424,Beauty,1,$14.61,14.61,ava.diaz535@example.com
+C00535,2025-09-23,#50424,Outdoor,1,$14.61,14.61,ava.diaz535@example.com
+C00535,2025-09-23,#50424,Kitchen,1,"€14,61",$14.61,ava.diaz535@example.com
+ C00101 ,24/09/2025,#50425,Toys,3,18.80,$56.40,dan.patel101@example.com
+C00101,24/09/2025,#50425,Kitchen,1,"€56,39",$56.39,dan.patel101@example.com
+C00470,2025-09-24,#50426,Toys,3,"€62,03","€186,09",dan.nguyen470@example.com
+C00508,24/09/2025,#50427,Home,2,$18.11,$36.22,omar.brown508@example.com
+C00508,10/10/2025,#R50427,Refund,1,,(18.11),omar.brown508@example.com
+C00514,26/09/2025,#50428,Home,2,$31.70,"€63,40",priya.silva514@example.com
+ C00091 ,27/09/2025,#50429,Outdoor,2,$4.97,$9.94,uma.hughes91@example.com
+C00091,27/09/2025,#50429,Outdoor,1,"€9,95","€9,95",uma.hughes91@example.com
+C00091,27/09/2025,#50429,Outdoor,2,$4.97,$9.94,uma.hughes91@example.com
+C00217,27/09/2025,#50430,Toys,1,22.36,"€22,36",omar.diaz217@example.com
+ C00217 ,27/09/2025,#50430,Toys,3,"€7,45",,omar.diaz217@example.com
+C00217,27/09/2025,#50430,Kitchen,3,$7.46,$22.38,omar.diaz217@example.com
+C00461,27/09/2025,#50431,Kitchen,1,$25.21,25.21,maya.silva461@example.com
+C00461,27/09/2025,#50431,Stationery,2,12.60,$25.20,maya.silva461@example.com
+C00594,27/09/2025,#50432,Stationery,1,$17.88,"€17,88",grace.young594@example.com
+C00594,27/09/2025,#50432,Kitchen,3,$5.96,"€17,88",grace.young594@example.com
+c00594,27/09/2025,#50432,Toys,2,8.94,17.88,grace.young594@example.com
+C00138,28/09/2025,#50433,Beauty,2,26.79,53.58,hiro.hughes138@example.com
+c00156,28/09/2025,#50434,Home,3,4.57,13.71,hiro.patel156@example.com
+C00156,28/09/2025,#50434,Home,1,$13.72,13.72,hiro.patel156@example.com
+C00156,28/09/2025,#50434,Toys,3,$4.58,$13.74,hiro.patel156@example.com
+C00331,2025-09-28,#50435,Home,3,$9.27,$27.81,wen.hughes331@example.com
+C00331,2025-09-28,#50435,Toys,1,$27.82,$27.82,wen.hughes331@example.com
+C00481,28/09/2025,#50436,Kitchen,2,$12.67,$25.34,hiro.okafor481@example.com
+C00481,28/09/2025,#50436,Stationery,3,$8.45,25.35,hiro.okafor481@example.com
+C00481,28/09/2025,#50436,Kitchen,2,12.67,25.34,hiro.okafor481@example.com
+C00048,29/09/2025,#50437,Kitchen,1,10.75,"€10,75",elena.jones48@example.com
+c00048,29/09/2025,#50437,Outdoor,2,5.37,10.74,elena.jones48@example.com
+C00445,2025-09-30,#50438,Beauty,3,$23.94,71.82,rosa.ito445@example.com
+C00167,"Oct 1, 2025",#50439,Beauty,2,21.42,42.84,ava.jones167@example.com
+C00167,"Oct 1, 2025",#50439,Beauty,1,42.83,$42.83,ava.jones167@example.com
+C00553,01/10/2025,#50440,Toys,1,33.52,$33.52,maya.evans553@example.com
+C00553,01/10/2025,#50440,Stationery,1,33.52,$33.52,maya.evans553@example.com
+C00581,2025-10-01,#50441,Outdoor,1,32.56,"€32,56",isla.okafor581@example.com
+c00581,2025-10-01,#50441,Outdoor,3,$10.85,"€32,55",isla.okafor581@example.com
+C00081,03/10/2025,#50442,Stationery,2,18.57,$37.14,femi.evans81@example.com
+C00081,03/10/2025,#50442,Toys,3,"€12,37",37.11,femi.evans81@example.com
+ C00196 ,04/10/2025,#50443,Home,1,28.37,"€28,37",liam.okafor196@example.com
+C00196,04/10/2025,#50443,Stationery,1,28.37,"€28,37",liam.okafor196@example.com
+ C00248 ,06/10/2025,#50444,Kitchen,3,17.31,51.93,omar.brown248@example.com
+C00269,06/10/2025,#50445,Beauty,2,"€21,20",42.40,jonah.garcia269@example.com
+c00538,06/10/2025,#50446,Home,3,3.17,9.51,liam.patel538@example.com
+C00538,06/10/2025,#50446,Outdoor,2,"€4,76","€9,52",liam.patel538@example.com
+C00288,07/10/2025,#50447,Kitchen,3,5.83,,wen.adams288@example.com
+C00288,07/10/2025,#50447,Toys,2,"€8,74",17.48,wen.adams288@example.com
+C00288,07/10/2025,#50447,Kitchen,1,$17.48,17.48,wen.adams288@example.com
+C00597,07/10/2025,#50448,Stationery,3,$16.94,"€50,82",maya.taylor597@example.com
+ C00456 ,08/10/2025,#50449,Beauty,2,15.58,31.16,liam.nguyen456@example.com
+C00456,08/10/2025,#50449,Stationery,2,$15.58,31.16,liam.nguyen456@example.com
+C00456,08/10/2025,#50449,Outdoor,2,15.58,31.16,liam.nguyen456@example.com
+C00045,09/10/2025,#50450,Toys,1,$37.80,,victor.patel45@example.com
+C00045,09/10/2025,#50450,Outdoor,2,18.90,37.80,victor.patel45@example.com
+C00045,09/10/2025,#50450,Stationery,3,$12.60,,victor.patel45@example.com
+C00163,09/10/2025,#50451,Home,2,5.45,10.90,ava.chen163@example.com
+C00163,09/10/2025,#50451,Stationery,2,5.45,,ava.chen163@example.com
+C00163,09/10/2025,#50451,Outdoor,2,$5.45,10.90,ava.chen163@example.com
+C00270,10/10/2025,#50452,Outdoor,2,"€9,60",19.20,noor.jones270@example.com
+C00270,10/10/2025,#50452,Home,2,9.61,,noor.jones270@example.com
+C00270,2025-10-22,#R50452,Refund,1,,(19.20),noor.jones270@example.com
+C00588,10/10/2025,#50453,Home,3,$8.42,$25.26,rosa.patel588@example.com
+C00588,10/10/2025,#50453,Stationery,3,$8.42,25.26,rosa.patel588@example.com
+ C00331 ,12/10/2025,#50454,Outdoor,1,"€29,58",,wen.hughes331@example.com
+C00331,12/10/2025,#50454,Home,3,$9.86,$29.58,wen.hughes331@example.com
+C00144,13/10/2025,#50455,Kitchen,2,$42.85,85.70,hiro.brown144@example.com
+C00376,13/10/2025,#50456,Stationery,3,$4.99,$14.97,sam.silva376@example.com
+C00315,"Oct 14, 2025",#50457,Toys,1,25.65,$25.65,chloe.evans315@example.com
+C00315,"Oct 14, 2025",#50457,Beauty,1,25.64,,chloe.evans315@example.com
+c00514,14/10/2025,#50458,Home,2,13.63,27.26,priya.silva514@example.com
+C00514,14/10/2025,#50458,Outdoor,3,9.08,$27.24,priya.silva514@example.com
+C00227,16/10/2025,#50459,Stationery,3,13.78,"€41,34",rosa.young227@example.com
+C00249,16/10/2025,#50460,Toys,1,$19.57,$19.57,omar.jones249@example.com
+c00249,16/10/2025,#50460,Kitchen,3,$6.52,,omar.jones249@example.com
+C00335,16/10/2025,#50461,Kitchen,1,$69.49,69.49,yara.patel335@example.com
+C00253,2025-10-19,#50462,Outdoor,2,$5.67,$11.34,isla.evans253@example.com
+C00253,2025-10-19,#50462,Beauty,3,$3.78,$11.34,isla.evans253@example.com
+C00253,2025-10-19,#50462,Toys,3,$3.78,11.34,isla.evans253@example.com
+C00409,19/10/2025,#50463,Outdoor,2,$8.62,17.24,femi.brown409@example.com
+C00409,19/10/2025,#50463,Toys,2,$8.62,,femi.brown409@example.com
+C00463,19/10/2025,#50464,Toys,2,$13.22,26.44,jonah.evans463@example.com
+C00463,19/10/2025,#50464,Beauty,2,"€13,22",26.44,jonah.evans463@example.com
+C00575,2025-10-19,#50465,Kitchen,1,"€17,11",,ava.chen575@example.com
+c00575,2025-10-19,#50465,Home,1,$17.11,,ava.chen575@example.com
+ C00575 ,2025-10-19,#50465,Home,3,$5.71,17.13,ava.chen575@example.com
+C00594,19/10/2025,#50466,Outdoor,3,15.50,$46.50,grace.young594@example.com
+C00304,20/10/2025,#50467,Toys,1,15.05,$15.05,hiro.lopez304@example.com
+ C00304 ,20/10/2025,#50467,Beauty,2,$7.53,15.06,hiro.lopez304@example.com
+c00558,20/10/2025,#50468,Beauty,3,$11.39,"€34,17",elena.okafor558@example.com
+C00276,22/10/2025,#50469,Outdoor,2,$30.99,61.98,maya.evans276@example.com
+C00380,23/10/2025,#50470,Kitchen,2,$14.07,,sam.hughes380@example.com
+c00380,23/10/2025,#50470,Home,3,$9.38,$28.14,sam.hughes380@example.com
+C00380,23/10/2025,#50470,Toys,3,9.38,28.14,sam.hughes380@example.com
+C00503,23/10/2025,#50471,Stationery,3,$30.73,92.19,omar.hughes503@example.com
+C00546,2025-10-23,#50472,Home,2,$12.28,$24.56,wen.young546@example.com
+C00546,2025-10-23,#50472,Outdoor,1,$24.56,$24.56,wen.young546@example.com
+C00088,24/10/2025,#50473,Beauty,3,12.45,37.35,isla.diaz88@example.com
+C00088,24/10/2025,#50473,Toys,3,$12.45,37.35,isla.diaz88@example.com
+C00088,24/10/2025,#50473,Outdoor,1,37.34,"€37,34",isla.diaz88@example.com
+,,,,,,,
+C00192,"Oct 24, 2025",#50474,Stationery,2,2.11,$4.22,rosa.walker192@example.com
+C00192,"Oct 24, 2025",#50474,Beauty,2,$2.11,4.22,rosa.walker192@example.com
+C00192,"Oct 24, 2025",#50474,Beauty,2,2.11,$4.22,rosa.walker192@example.com
+ C00561 ,24/10/2025,#50475,Beauty,3,$29.76,,maya.chen561@example.com
+C00561,24/10/2025,#50475,Stationery,3,29.76,$89.28,maya.chen561@example.com
+ C00306 ,25/10/2025,#50476,Outdoor,3,63.94,191.82,jonah.chen306@example.com
+c00397,2025-10-25,#50477,Home,2,$10.89,21.78,priya.jones397@example.com
+C00397,2025-10-25,#50477,Stationery,3,7.26,"€21,78",priya.jones397@example.com
+C00407,25/10/2025,#50478,Home,1,$36.90,"€36,90",xavi.hughes407@example.com
+C00407,25/10/2025,#50478,Home,2,"€18,45",$36.90,xavi.hughes407@example.com
+C00565,25/10/2025,#50479,Kitchen,1,45.85,"€45,85",isla.ito565@example.com
+C00565,25/10/2025,#50479,Toys,2,$22.92,45.84,isla.ito565@example.com
+C00138,26/10/2025,#50480,Outdoor,2,9.10,18.20,hiro.hughes138@example.com
+ C00138 ,26/10/2025,#50480,Outdoor,3,$6.07,18.21,hiro.hughes138@example.com
+c00138,26/10/2025,#50480,Beauty,3,6.07,$18.21,hiro.hughes138@example.com
+C00383,"Oct 26, 2025",#50481,Stationery,3,5.73,"€17,19",noor.okafor383@example.com
+c00383,"Oct 26, 2025",#50481,Outdoor,2,8.60,$17.20,noor.okafor383@example.com
+C00383,"Oct 26, 2025",#50481,Toys,1,$17.20,,noor.okafor383@example.com
+C00074,2025-10-27,#50482,Outdoor,1,30.32,$30.32,jonah.zhang74@example.com
+C00074,2025-10-27,#50482,Home,2,$15.16,30.32,jonah.zhang74@example.com
+C00285,"Oct 27, 2025",#50483,Toys,3,10.25,30.75,xavi.khan285@example.com
+C00285,"Oct 27, 2025",#50483,Stationery,2,15.37,30.74,xavi.khan285@example.com
+C00164,28/10/2025,#50484,Home,2,6.45,$12.90,tara.martin164@example.com
+ C00164 ,28/10/2025,#50484,Outdoor,1,$12.89,$12.89,tara.martin164@example.com
+C00164,28/10/2025,#50484,Kitchen,3,$4.30,,tara.martin164@example.com
+ C00267 ,"Oct 28, 2025",#50485,Kitchen,2,$44.88,89.76,yara.walker267@example.com
+C00539,28/10/2025,#50486,Outdoor,2,"€27,51",55.02,xavi.hughes539@example.com
+C00424,29/10/2025,#50487,Beauty,2,$38.34,$76.68,tara.evans424@example.com
+C00081,30/10/2025,#50488,Outdoor,3,$6.57,$19.71,femi.evans81@example.com
+C00081,30/10/2025,#50488,Beauty,2,9.86,19.72,femi.evans81@example.com
+C00216,30/10/2025,#50489,Kitchen,3,5.50,$16.50,noor.martin216@example.com
+C00216,30/10/2025,#50489,Home,2,$8.26,$16.52,noor.martin216@example.com
+C00216,30/10/2025,#50489,Kitchen,2,"€8,26","€16,52",noor.martin216@example.com
+C00547,31/10/2025,#50490,Toys,2,$12.32,24.64,priya.ito547@example.com
+c00547,31/10/2025,#50490,Outdoor,2,$12.32,$24.64,priya.ito547@example.com
+C00547,31/10/2025,#50490,Home,2,$12.32,$24.64,priya.ito547@example.com
+C00359,"Nov 2, 2025",#50491,Toys,2,9.40,,liam.adams359@example.com
+C00359,"Nov 2, 2025",#50491,Toys,3,$6.27,$18.81,liam.adams359@example.com
+C00359,"Nov 2, 2025",#50491,Beauty,1,"€18,81",$18.81,liam.adams359@example.com
+C00095,04/11/2025,#50492,Stationery,3,19.21,"€57,63",elena.chen95@example.com
+C00594,04/11/2025,#50493,Outdoor,3,16.40,$49.20,grace.young594@example.com
+C00035,2025-11-05,#50494,Beauty,3,$16.02,$48.06,xavi.walker35@example.com
+C00167,06/11/2025,#50495,Outdoor,1,$46.53,,ava.jones167@example.com
+C00167,06/11/2025,#50495,Toys,1,$46.53,,ava.jones167@example.com
+c00253,06/11/2025,#50496,Home,2,3.83,$7.66,isla.evans253@example.com
+C00253,06/11/2025,#50496,Beauty,1,$7.65,,isla.evans253@example.com
+C00253,06/11/2025,#50496,Outdoor,2,$3.82,7.64,isla.evans253@example.com
+C00468,06/11/2025,#50497,Stationery,3,$11.15,,victor.jones468@example.com
+C00468,06/11/2025,#50497,Home,3,$11.15,"€33,45",victor.jones468@example.com
+C00546,07/11/2025,#50498,Stationery,3,$2.49,7.47,wen.young546@example.com
+C00546,07/11/2025,#50498,Toys,1,"€7,46",,wen.young546@example.com
+C00546,07/11/2025,#50498,Stationery,2,3.74,7.48,wen.young546@example.com
+C00597,07/11/2025,#50499,Home,2,27.77,,maya.taylor597@example.com
+C00597,07/11/2025,#50499,Beauty,2,27.77,,maya.taylor597@example.com
+C00048,08/11/2025,#50500,Beauty,1,$11.01,,elena.jones48@example.com
+C00048,08/11/2025,#50500,Outdoor,1,"€11,01",11.01,elena.jones48@example.com
+C00073,08/11/2025,#50501,Kitchen,2,$13.50,27.00,dan.jones73@example.com
+c00073,08/11/2025,#50501,Kitchen,1,26.98,,dan.jones73@example.com
+c00091,08/11/2025,#50502,Stationery,2,$6.06,12.12,uma.hughes91@example.com
+C00091,08/11/2025,#50502,Home,3,4.04,$12.12,uma.hughes91@example.com
+c00091,08/11/2025,#50502,Toys,2,$6.05,$12.10,uma.hughes91@example.com
+C00331,2025-11-08,#50503,Outdoor,2,$7.07,"€14,14",wen.hughes331@example.com
+C00331,2025-11-08,#50503,Kitchen,2,$7.07,$14.14,wen.hughes331@example.com
+C00331,2025-11-08,#50503,Beauty,3,$4.71,14.13,wen.hughes331@example.com
+C00052,10/11/2025,#50504,Beauty,2,49.47,,grace.taylor52@example.com
+C00306,2025-11-11,#50505,Outdoor,1,"€269,52",,jonah.chen306@example.com
+C00529,11/11/2025,#50506,Stationery,3,"€10,39",31.17,ava.evans529@example.com
+C00529,11/11/2025,#50506,Home,3,10.39,$31.17,ava.evans529@example.com
+C00529,11/11/2025,#50506,Stationery,3,10.39,"€31,17",ava.evans529@example.com
+c00269,"Nov 12, 2025",#50507,Stationery,3,$4.43,$13.29,jonah.garcia269@example.com
+C00269,"Nov 12, 2025",#50507,Home,2,$6.65,$13.30,jonah.garcia269@example.com
+C00506,12/11/2025,#50508,Beauty,3,"€32,80",98.40,quinn.adams506@example.com
+C00280,14/11/2025,#50509,Kitchen,3,15.54,$46.62,jonah.nguyen280@example.com
+C00280,14/11/2025,#50509,Home,2,23.31,"€46,62",jonah.nguyen280@example.com
+c00280,14/11/2025,#50509,Kitchen,1,$46.61,$46.61,jonah.nguyen280@example.com
+C00286,2025-11-14,#50510,Stationery,3,5.84,17.52,liam.young286@example.com
+C00286,2025-11-14,#50510,Beauty,3,5.83,17.49,liam.young286@example.com
+C00537,15/11/2025,#50511,Beauty,2,"€78,89",,ava.taylor537@example.com
+ C00547 ,15/11/2025,#50512,Stationery,3,4.92,,priya.ito547@example.com
+C00547,15/11/2025,#50512,Home,3,"€4,92",,priya.ito547@example.com
+c00547,15/11/2025,#50512,Stationery,2,$7.38,,priya.ito547@example.com
+C00425,16/11/2025,#50513,Beauty,3,$60.06,$180.18,grace.fischer425@example.com
+c00516,2025-11-16,#50514,Home,1,$19.70,"€19,70",kira.hughes516@example.com
+C00516,2025-11-16,#50514,Toys,1,$19.71,19.71,kira.hughes516@example.com
+C00147,17/11/2025,#50515,Kitchen,3,"€14,85",$44.55,tara.patel147@example.com
+C00147,17/11/2025,#50515,Toys,3,$14.85,44.55,tara.patel147@example.com
+C00550,17/11/2025,#50516,Home,1,$20.57,,wen.jones550@example.com
+C00550,17/11/2025,#50516,Stationery,1,$20.57,20.57,wen.jones550@example.com
+C00550,17/11/2025,#50516,Beauty,3,6.85,"€20,55",wen.jones550@example.com
+C00009,"Nov 18, 2025",#50517,Outdoor,1,129.36,129.36,quinn.ito9@example.com
+C00138,18/11/2025,#50518,Stationery,1,29.34,$29.34,hiro.hughes138@example.com
+C00138,18/11/2025,#50518,Kitchen,3,$9.78,29.34,hiro.hughes138@example.com
+C00388,18/11/2025,#50519,Beauty,1,29.42,,maya.nguyen388@example.com
+C00388,18/11/2025,#50519,Toys,3,$9.80,29.40,maya.nguyen388@example.com
+C00051,"Nov 19, 2025",#50520,Beauty,3,"€27,54",$82.62,uma.okafor51@example.com
+C00051,"Nov 19, 2025",#50520,Beauty,2,41.31,82.62,uma.okafor51@example.com
+C00051,"Nov 19, 2025",#50520,Beauty,2,$41.31,$82.62,uma.okafor51@example.com
+C00081,19/11/2025,#50521,Outdoor,2,"€13,31",,femi.evans81@example.com
+C00081,19/11/2025,#50521,Stationery,2,13.31,26.62,femi.evans81@example.com
+C00118,19/11/2025,#50522,Outdoor,2,$6.96,13.92,uma.patel118@example.com
+C00118,19/11/2025,#50522,Outdoor,3,$4.64,$13.92,uma.patel118@example.com
+C00118,19/11/2025,#50522,Toys,3,4.64,$13.92,uma.patel118@example.com
+C00508,2025-11-19,#50523,Home,2,"€6,23",$12.46,omar.brown508@example.com
+c00508,2025-11-19,#50523,Stationery,3,4.15,$12.45,omar.brown508@example.com
+C00508,2025-11-19,#50523,Stationery,1,12.46,$12.46,omar.brown508@example.com
+C00597,19/11/2025,#50524,Outdoor,1,90.89,$90.89,maya.taylor597@example.com
+C00200,20/11/2025,#50525,Toys,2,$33.08,"€66,16",liam.fischer200@example.com
+C00200,20/11/2025,#50525,Stationery,2,33.08,66.16,liam.fischer200@example.com
+C00034,2025-11-21,#50526,Stationery,1,14.80,14.80,sam.zhang34@example.com
+C00034,2025-11-21,#50526,Kitchen,1,"€14,80",14.80,sam.zhang34@example.com
+C00152,22/11/2025,#50527,Outdoor,1,26.38,"€26,38",kira.taylor152@example.com
+C00152,22/11/2025,#50527,Beauty,1,$26.38,$26.38,kira.taylor152@example.com
+C00159,22/11/2025,#50528,Toys,3,$8.39,$25.17,wen.adams159@example.com
+C00159,22/11/2025,#50528,Kitchen,1,$25.17,,wen.adams159@example.com
+C00159,22/11/2025,#50528,Home,2,12.58,$25.16,wen.adams159@example.com
+C00209,22/11/2025,#50529,Kitchen,2,23.03,"€46,06",ben.zhang209@example.com
+C00331,23/11/2025,#50530,Stationery,3,19.28,,wen.hughes331@example.com
+ C00529 ,23/11/2025,#50531,Toys,1,$10.95,10.95,ava.evans529@example.com
+c00529,23/11/2025,#50531,Beauty,2,$5.48,$10.96,ava.evans529@example.com
+C00529,23/11/2025,#50531,Home,1,10.96,10.96,ava.evans529@example.com
+C00066,24/11/2025,#50532,Beauty,3,$4.37,13.11,priya.chen66@example.com
+C00066,24/11/2025,#50532,Home,1,$13.10,,priya.chen66@example.com
+C00066,24/11/2025,#50532,Outdoor,3,4.37,"€13,11",priya.chen66@example.com
+C00066,30/11/2025,#R50532,Refund,1,,(19.66),priya.chen66@example.com
+c00164,24/11/2025,#50533,Beauty,1,$9.89,$9.89,tara.martin164@example.com
+C00164,24/11/2025,#50533,Home,2,"€4,95",,tara.martin164@example.com
+c00164,24/11/2025,#50533,Outdoor,3,"€3,29",$9.87,tara.martin164@example.com
+ C00538 ,24/11/2025,#50534,Kitchen,2,"€3,82",$7.64,liam.patel538@example.com
+C00538,24/11/2025,#50534,Stationery,1,$7.63,7.63,liam.patel538@example.com
+C00538,24/11/2025,#50534,Home,3,$2.54,$7.62,liam.patel538@example.com
+C00038,25/11/2025,#50535,Stationery,3,$6.56,$19.68,kira.ito38@example.com
+C00038,25/11/2025,#50535,Beauty,3,6.56,,kira.ito38@example.com
+C00246,26/11/2025,#50536,Beauty,1,"€31,83",$31.83,zoe.jones246@example.com
+C00246,26/11/2025,#50536,Outdoor,1,"€31,83",31.83,zoe.jones246@example.com
+C00306,27/11/2025,#50537,Home,3,33.21,"€99,63",jonah.chen306@example.com
+C00306,27/11/2025,#50537,Stationery,2,49.82,99.64,jonah.chen306@example.com
+C00306,27/11/2025,#50537,Home,2,49.82,$99.64,jonah.chen306@example.com
+C00353,27/11/2025,#50538,Kitchen,1,8.99,$8.99,omar.zhang353@example.com
+ C00353 ,27/11/2025,#50538,Stationery,1,$8.99,8.99,omar.zhang353@example.com
+C00353,27/11/2025,#50538,Outdoor,2,$4.50,,omar.zhang353@example.com
+c00529,2025-11-27,#50539,Toys,1,"€48,92",48.92,ava.evans529@example.com
+C00047,28/11/2025,#50540,Home,2,$11.29,"€22,58",maya.young47@example.com
+C00047,28/11/2025,#50540,Home,3,7.53,"€22,59",maya.young47@example.com
+C00544,28/11/2025,#50541,Beauty,2,10.61,$21.22,zoe.martin544@example.com
+C00544,28/11/2025,#50541,Beauty,1,"€21,21",$21.21,zoe.martin544@example.com
+ C00267 ,30/11/2025,#50542,Stationery,1,$76.76,,yara.walker267@example.com
+c00267,30/11/2025,#50542,Stationery,1,76.75,76.75,yara.walker267@example.com
+C00383,30/11/2025,#50543,Outdoor,2,8.30,"€16,60",noor.okafor383@example.com
+C00383,30/11/2025,#50543,Outdoor,1,$16.60,16.60,noor.okafor383@example.com
+C00383,30/11/2025,#50543,Beauty,2,"€8,30",$16.60,noor.okafor383@example.com
+C00465,01/12/2025,#50544,Toys,1,31.43,$31.43,tara.taylor465@example.com
+C00191,2025-12-02,#50545,Stationery,3,$11.28,$33.84,chloe.silva191@example.com
+c00191,2025-12-02,#50545,Kitchen,3,$11.28,$33.84,chloe.silva191@example.com
+C00537,02/12/2025,#50546,Beauty,1,$36.55,$36.55,ava.taylor537@example.com
+C00537,02/12/2025,#50546,Beauty,1,36.55,$36.55,ava.taylor537@example.com
+C00537,02/12/2025,#50546,Outdoor,1,36.56,$36.56,ava.taylor537@example.com
+C00209,03/12/2025,#50547,Stationery,2,"€28,75",57.50,ben.zhang209@example.com
+C00129,04/12/2025,#50548,Home,2,$11.12,$22.24,omar.lopez129@example.com
+C00269,05/12/2025,#50549,Outdoor,3,$3.82,"€11,46",jonah.garcia269@example.com
+ C00269 ,05/12/2025,#50549,Home,3,$3.82,$11.46,jonah.garcia269@example.com
+C00137,2025-12-06,#50550,Outdoor,2,66.21,"€132,42",omar.evans137@example.com
+c00138,06/12/2025,#50551,Home,2,$7.36,,hiro.hughes138@example.com
+C00138,06/12/2025,#50551,Toys,1,$14.71,14.71,hiro.hughes138@example.com
+C00138,06/12/2025,#50551,Home,1,$14.70,$14.70,hiro.hughes138@example.com
+C00306,06/12/2025,#50552,Home,1,201.11,201.11,jonah.chen306@example.com
+C00161,07/12/2025,#50553,Kitchen,1,25.29,25.29,tara.evans161@example.com
+C00183,07/12/2025,#50554,Kitchen,1,$16.57,,kira.taylor183@example.com
+C00183,07/12/2025,#50554,Kitchen,3,5.52,16.56,kira.taylor183@example.com
+C00091,09/12/2025,#50555,Toys,1,11.25,"€11,25",uma.hughes91@example.com
+C00091,09/12/2025,#50555,Stationery,2,$5.63,11.26,uma.hughes91@example.com
+c00147,09/12/2025,#50556,Kitchen,3,10.72,32.16,tara.patel147@example.com
+C00147,09/12/2025,#50556,Stationery,2,16.08,$32.16,tara.patel147@example.com
+C00147,09/12/2025,#50556,Stationery,2,16.08,"€32,16",tara.patel147@example.com
+C00385,09/12/2025,#50557,Kitchen,2,9.57,,ben.okafor385@example.com
+C00385,09/12/2025,#50557,Home,3,6.38,$19.14,ben.okafor385@example.com
+C00048,10/12/2025,#50558,Outdoor,2,5.85,$11.70,elena.jones48@example.com
+C00048,10/12/2025,#50558,Home,3,3.90,,elena.jones48@example.com
+C00286,10/12/2025,#50559,Toys,2,"€6,72",13.44,liam.young286@example.com
+C00286,10/12/2025,#50559,Home,2,6.71,13.42,liam.young286@example.com
+C00600,10/12/2025,#50560,Kitchen,2,$101.53,203.06,tara.evans600@example.com
+C00536,11/12/2025,#50561,Home,2,"€31,34","€62,68",chloe.walker536@example.com
+ C00536 ,11/12/2025,#50561,Beauty,1,$62.67,62.67,chloe.walker536@example.com
+c00504,2025-12-12,#50562,Home,3,5.12,$15.36,maya.jones504@example.com
+C00504,2025-12-12,#50562,Kitchen,1,$15.35,15.35,maya.jones504@example.com
+c00504,2025-12-12,#50562,Kitchen,3,5.11,$15.33,maya.jones504@example.com
+C00178,"Dec 13, 2025",#50563,Home,2,$46.53,"€93,06",tara.taylor178@example.com
+C00455,13/12/2025,#50564,Toys,3,4.18,$12.54,wen.young455@example.com
+C00455,13/12/2025,#50564,Stationery,2,"€6,27",12.54,wen.young455@example.com
+C00508,13/12/2025,#50565,Toys,3,18.86,$56.58,omar.brown508@example.com
+C00255,14/12/2025,#50566,Home,2,"€13,66","€27,32",kira.hughes255@example.com
+C00255,14/12/2025,#50566,Outdoor,1,$27.31,$27.31,kira.hughes255@example.com
+C00283,"Dec 14, 2025",#50567,Stationery,3,"€4,38",13.14,yara.garcia283@example.com
+C00547,2025-12-14,#50568,Toys,3,"€18,96",56.88,priya.ito547@example.com
+C00526,16/12/2025,#50569,Toys,2,6.85,$13.70,ben.evans526@example.com
+C00526,16/12/2025,#50569,Kitchen,3,4.57,$13.71,ben.evans526@example.com
+C00526,16/12/2025,#50569,Outdoor,3,4.57,13.71,ben.evans526@example.com
+C00561,"Dec 17, 2025",#50570,Stationery,3,"€20,20",$60.60,maya.chen561@example.com
+C00561,"Dec 17, 2025",#50570,Kitchen,1,60.59,$60.59,maya.chen561@example.com
+C00561,"Dec 17, 2025",#50570,Toys,1,$60.58,$60.58,maya.chen561@example.com
+C00188,2025-12-18,#50571,Toys,3,$6.86,"€20,58",priya.diaz188@example.com
+ C00188 ,2025-12-18,#50571,Stationery,3,6.86,20.58,priya.diaz188@example.com
+ C00188 ,2025-12-18,#50571,Beauty,2,$10.28,$20.56,priya.diaz188@example.com
+C00185,19/12/2025,#50572,Stationery,2,17.58,$35.16,ava.young185@example.com
+C00185,19/12/2025,#50572,Beauty,2,"€17,58",,ava.young185@example.com
+C00185,19/12/2025,#50572,Kitchen,3,11.72,35.16,ava.young185@example.com
+C00192,19/12/2025,#50573,Toys,1,"€8,24",$8.24,rosa.walker192@example.com
+c00192,19/12/2025,#50573,Home,3,$2.75,$8.25,rosa.walker192@example.com
+C00138,21/12/2025,#50574,Home,2,27.13,54.26,hiro.hughes138@example.com
+C00274,2025-12-23,#50575,Stationery,1,73.53,73.53,omar.walker274@example.com
+C00274,2025-12-23,#50575,Kitchen,1,73.52,$73.52,omar.walker274@example.com
+C00209,24/12/2025,#50576,Toys,1,49.09,"€49,09",ben.zhang209@example.com
+C00488,"Dec 24, 2025",#50577,Outdoor,1,28.41,$28.41,priya.walker488@example.com
+c00488,"Dec 24, 2025",#50577,Outdoor,3,$9.47,$28.41,priya.walker488@example.com
+ C00066 ,"Dec 25, 2025",#50578,Beauty,3,$6.21,$18.63,priya.chen66@example.com
+C00066,"Dec 25, 2025",#50578,Outdoor,3,6.21,$18.63,priya.chen66@example.com
+C00378,2025-12-25,#50579,Beauty,3,$4.24,$12.72,liam.ito378@example.com
+C00378,2025-12-25,#50579,Stationery,3,"€4,24",,liam.ito378@example.com
+C00378,2025-12-25,#50579,Toys,3,4.24,12.72,liam.ito378@example.com
+C00394,25/12/2025,#50580,Beauty,3,$34.03,$102.09,xavi.diaz394@example.com
+ C00394 ,25/12/2025,#50580,Home,1,102.07,$102.07,xavi.diaz394@example.com
+C00523,26/12/2025,#50581,Home,2,"€3,46",,uma.walker523@example.com
+ C00523 ,26/12/2025,#50581,Beauty,1,6.91,,uma.walker523@example.com
+C00523,26/12/2025,#50581,Stationery,1,"€6,90",$6.90,uma.walker523@example.com
+c00341,27/12/2025,#50582,Kitchen,1,$30.35,$30.35,kira.garcia341@example.com
+C00341,27/12/2025,#50582,Stationery,1,30.35,"€30,35",kira.garcia341@example.com
+C00543,27/12/2025,#50583,Toys,1,18.27,,maya.adams543@example.com
+ C00543 ,27/12/2025,#50583,Kitchen,2,$9.13,18.26,maya.adams543@example.com
+C00082,28/12/2025,#50584,Stationery,2,$11.01,$22.02,elena.zhang82@example.com
+C00082,28/12/2025,#50584,Beauty,3,$7.34,$22.02,elena.zhang82@example.com
+C00082,28/12/2025,#50584,Toys,2,11.01,$22.02,elena.zhang82@example.com
+C00463,2025-12-28,#50585,Toys,3,$5.03,"€15,09",jonah.evans463@example.com
+ C00463 ,2025-12-28,#50585,Toys,2,$7.54,$15.08,jonah.evans463@example.com
+C00503,30/12/2025,#50586,Beauty,3,$14.79,$44.37,omar.hughes503@example.com
+C00503,30/12/2025,#50586,Toys,2,$22.18,$44.36,omar.hughes503@example.com
+C00269,31/12/2025,#50587,Outdoor,1,$7.54,,jonah.garcia269@example.com
+C00269,31/12/2025,#50587,Beauty,2,$3.77,,jonah.garcia269@example.com
+,2026-01-01,#50588,Stationery,1,"€21,19",$21.19,wen.nguyen400@example.com
+ C00400 ,2026-01-01,#50588,Home,1,21.19,$21.19,wen.nguyen400@example.com
+c00547,01/01/2026,#50589,Kitchen,2,"€18,58",37.16,priya.ito547@example.com
+C00267,"Jan 2, 2026",#50590,Beauty,1,$42.58,"€42,58",yara.walker267@example.com
+C00267,"Jan 2, 2026",#50590,Beauty,2,$21.29,$42.58,yara.walker267@example.com
+C00267,"Jan 2, 2026",#50590,Home,2,21.29,$42.58,yara.walker267@example.com
+C00464,02/01/2026,#50591,Beauty,1,36.91,$36.91,femi.fischer464@example.com
+C00464,02/01/2026,#50591,Home,2,$18.45,$36.90,femi.fischer464@example.com
+C00186,05/01/2026,#50592,Home,1,$34.11,,rosa.nguyen186@example.com
+C00524,05/01/2026,#50593,Outdoor,3,6.96,$20.88,wen.nguyen524@example.com
+C00200,2026-01-06,#50594,Kitchen,1,$48.55,$48.55,liam.fischer200@example.com
+C00200,2026-01-06,#50594,Beauty,1,$48.55,$48.55,liam.fischer200@example.com
+C00200,2026-01-06,#50594,Stationery,1,"€48,56",48.56,liam.fischer200@example.com
+C00114,2026-01-07,#50595,Home,3,$9.01,$27.03,priya.young114@example.com
+C00114,2026-01-07,#50595,Kitchen,1,$27.01,$27.01,priya.young114@example.com
+C00148,07/01/2026,#50596,Beauty,2,$12.21,$24.42,quinn.hughes148@example.com
+c00148,07/01/2026,#50596,Toys,3,$8.13,$24.39,quinn.hughes148@example.com
+C00202,07/01/2026,#50597,Kitchen,2,41.21,,grace.evans202@example.com
+C00202,07/01/2026,#50597,Outdoor,1,82.41,,grace.evans202@example.com
+C00091,08/01/2026,#50598,Stationery,1,8.74,$8.74,uma.hughes91@example.com
+C00091,08/01/2026,#50598,Outdoor,2,$4.37,$8.74,uma.hughes91@example.com
+C00091,08/01/2026,#50598,Home,3,"€2,91",8.73,uma.hughes91@example.com
+,2026-01-08,#50599,Stationery,1,58.86,"€58,86",yara.walker271@example.com
+C00146,09/01/2026,#50600,Outdoor,3,$10.30,$30.90,uma.rossi146@example.com
+C00014,10/01/2026,#50601,Kitchen,3,$28.38,"€85,14",isla.patel14@example.com
+ C00014 ,10/01/2026,#50601,Home,3,"€28,38",85.14,isla.patel14@example.com
+C00138,10/01/2026,#50602,Kitchen,3,$8.33,24.99,hiro.hughes138@example.com
+c00138,10/01/2026,#50602,Toys,3,$8.33,$24.99,hiro.hughes138@example.com
+c00065,"Jan 11, 2026",#50603,Home,1,$69.21,69.21,femi.okafor65@example.com
+c00559,11/01/2026,#50604,Home,1,$12.31,$12.31,kira.diaz559@example.com
+C00559,11/01/2026,#50604,Beauty,1,12.31,12.31,kira.diaz559@example.com
+C00559,11/01/2026,#50604,Stationery,3,$4.11,,kira.diaz559@example.com
+C00547,12/01/2026,#50605,Stationery,2,"€5,74",$11.48,priya.ito547@example.com
+C00547,12/01/2026,#50605,Kitchen,1,11.48,11.48,priya.ito547@example.com
+C00547,12/01/2026,#50605,Home,2,$5.75,$11.50,priya.ito547@example.com
+C00286,"Jan 13, 2026",#50606,Home,3,"€4,45",13.35,liam.young286@example.com
+c00286,"Jan 13, 2026",#50606,Stationery,1,$13.35,13.35,liam.young286@example.com
+C00286,"Jan 13, 2026",#50606,Stationery,3,4.45,"€13,35",liam.young286@example.com
+C00149,14/01/2026,#50607,Toys,2,23.30,,elena.martin149@example.com
+C00047,2026-01-17,#50608,Outdoor,2,$23.06,,maya.young47@example.com
+C00194,"Jan 17, 2026",#50609,Stationery,3,$40.53,"€121,59",femi.evans194@example.com
+C00019,20/01/2026,#50610,Kitchen,2,$31.68,"€63,36",ava.nguyen19@example.com
+C00019,20/01/2026,#50610,Stationery,1,63.35,,ava.nguyen19@example.com
+c00019,20/01/2026,#50610,Toys,2,$31.68,$63.36,ava.nguyen19@example.com
+C00115,20/01/2026,#50611,Outdoor,3,"€4,59",,omar.silva115@example.com
+C00115,20/01/2026,#50611,Stationery,2,$6.88,$13.76,omar.silva115@example.com
+ C00115 ,20/01/2026,#50611,Toys,2,$6.89,13.78,omar.silva115@example.com
+C00284,20/01/2026,#50612,Stationery,1,"€33,36",$33.36,ava.diaz284@example.com
+C00284,20/01/2026,#50612,Beauty,1,$33.36,33.36,ava.diaz284@example.com
+C00284,20/01/2026,#50612,Outdoor,3,11.12,33.36,ava.diaz284@example.com
+C00092,"Jan 21, 2026",#50613,Stationery,1,58.29,$58.29,grace.zhang92@example.com
+C00358,2026-01-21,#50614,Kitchen,3,$29.62,$88.86,uma.chen358@example.com
+C00500,21/01/2026,#50615,Kitchen,1,"€34,33","€34,33",priya.fischer500@example.com
+C00500,21/01/2026,#50615,Beauty,2,$17.17,"€34,34",priya.fischer500@example.com
+C00580,2026-01-21,#50616,Home,2,5.95,11.90,kira.adams580@example.com
+C00580,2026-01-21,#50616,Beauty,3,"€3,96",11.88,kira.adams580@example.com
+C00580,2026-01-21,#50616,Toys,1,$11.90,$11.90,kira.adams580@example.com
+C00600,21/01/2026,#50617,Kitchen,1,64.47,64.47,tara.evans600@example.com
+C00600,21/01/2026,#50617,Outdoor,2,"€32,23",$64.46,tara.evans600@example.com
+C00201,2026-01-22,#50618,Stationery,1,68.83,$68.83,chloe.diaz201@example.com
+C00201,2026-01-22,#50618,Home,2,"€34,42",$68.84,chloe.diaz201@example.com
+C00269,2026-01-22,#50619,Home,1,$13.63,$13.63,jonah.garcia269@example.com
+C00269,2026-01-22,#50619,Stationery,1,$13.63,,jonah.garcia269@example.com
+C00570,22/01/2026,#50620,Toys,2,64.77,$129.54,yara.fischer570@example.com
+C00209,2026-01-23,#50621,Stationery,2,$33.56,$67.12,ben.zhang209@example.com
+c00331,23/01/2026,#50622,Beauty,3,$6.92,20.76,wen.hughes331@example.com
+C00331,23/01/2026,#50622,Home,2,$10.38,20.76,wen.hughes331@example.com
+C00391,24/01/2026,#50623,Kitchen,2,"€13,94",,uma.martin391@example.com
+C00391,24/01/2026,#50623,Beauty,1,27.88,,uma.martin391@example.com
+C00391,24/01/2026,#50623,Beauty,1,"€27,89",$27.89,uma.martin391@example.com
+C00309,"Jan 25, 2026",#50624,Beauty,1,$37.16,,liam.patel309@example.com
+C00309,"Jan 25, 2026",#50624,Outdoor,2,$18.58,$37.16,liam.patel309@example.com
+C00316,25/01/2026,#50625,Kitchen,1,$39.16,"€39,16",uma.fischer316@example.com
+C00464,25/01/2026,#50626,Toys,3,7.61,22.83,femi.fischer464@example.com
+C00464,25/01/2026,#50626,Stationery,3,7.61,22.83,femi.fischer464@example.com
+ C00203 ,26/01/2026,#50627,Beauty,3,$6.94,20.82,elena.adams203@example.com
+C00203,26/01/2026,#50627,Kitchen,1,$20.81,20.81,elena.adams203@example.com
+C00176,30/01/2026,#50628,Toys,3,"€17,52","€52,56",hiro.okafor176@example.com
+C00176,30/01/2026,#50628,Beauty,2,"€26,27",,hiro.okafor176@example.com
+C00356,30/01/2026,#50629,Toys,3,3.16,,liam.chen356@example.com
+ C00356 ,30/01/2026,#50629,Toys,3,$3.16,$9.48,liam.chen356@example.com
+C00356,30/01/2026,#50629,Beauty,2,$4.75,9.50,liam.chen356@example.com
+c00285,31/01/2026,#50630,Toys,2,$42.65,85.30,xavi.khan285@example.com
+C00541,31/01/2026,#50631,Toys,3,$13.31,,xavi.ito541@example.com
+C00541,31/01/2026,#50631,Kitchen,1,"€39,93",$39.93,xavi.ito541@example.com
+C00541,31/01/2026,#50631,Kitchen,1,"€39,93",,xavi.ito541@example.com
+ C00556 ,31/01/2026,#50632,Kitchen,3,2.58,"€7,74",zoe.chen556@example.com
+C00556,31/01/2026,#50632,Stationery,2,3.87,$7.74,zoe.chen556@example.com
+C00556,31/01/2026,#50632,Toys,3,2.58,$7.74,zoe.chen556@example.com
+C00197,2026-02-01,#50633,Toys,3,$11.72,$35.16,grace.fischer197@example.com
+C00197,2026-02-01,#50633,Home,3,11.72,$35.16,grace.fischer197@example.com
+C00387,02/02/2026,#50634,Kitchen,3,13.84,$41.52,uma.hughes387@example.com
+c00387,02/02/2026,#50634,Home,2,$20.77,$41.54,uma.hughes387@example.com
+C00387,02/02/2026,#50634,Kitchen,2,20.76,$41.52,uma.hughes387@example.com
+C00508,02/02/2026,#50635,Home,3,8.45,$25.35,omar.brown508@example.com
+C00508,02/02/2026,#50635,Kitchen,1,$25.34,"€25,34",omar.brown508@example.com
+ C00070 ,03/02/2026,#50636,Toys,3,9.79,,wen.khan70@example.com
+C00274,03/02/2026,#50637,Beauty,1,"€79,05",79.05,omar.walker274@example.com
+C00274,03/02/2026,#50637,Toys,3,"€26,35",$79.05,omar.walker274@example.com
+C00300,2026-02-03,#50638,Outdoor,2,$11.88,23.76,chloe.khan300@example.com
+C00300,2026-02-03,#50638,Outdoor,1,23.76,$23.76,chloe.khan300@example.com
+C00300,2026-02-03,#50638,Stationery,1,$23.75,$23.75,chloe.khan300@example.com
+C00465,03/02/2026,#50639,Home,2,$7.53,,tara.taylor465@example.com
+C00465,03/02/2026,#50639,Toys,3,"€5,01",$15.03,tara.taylor465@example.com
+C00091,"Feb 4, 2026",#50640,Kitchen,2,$10.22,$20.44,uma.hughes91@example.com
+C00221,"Feb 5, 2026",#50641,Beauty,3,$11.40,34.20,kira.adams221@example.com
+C00464,06/02/2026,#50642,Outdoor,3,3.86,11.58,femi.fischer464@example.com
+ C00464 ,06/02/2026,#50642,Stationery,3,3.86,,femi.fischer464@example.com
+ C00464 ,06/02/2026,#50642,Outdoor,3,3.86,$11.58,femi.fischer464@example.com
+C00499,"Feb 6, 2026",#50643,Beauty,3,$17.13,51.39,ben.nguyen499@example.com
+C00499,"Feb 6, 2026",#50643,Outdoor,3,17.13,"€51,39",ben.nguyen499@example.com
+ C00338 ,"Feb 8, 2026",#50644,Home,3,"€4,58",$13.74,yara.patel338@example.com
+C00338,"Feb 8, 2026",#50644,Kitchen,1,13.74,13.74,yara.patel338@example.com
+C00338,19/02/2026,#R50644,Refund,1,,(13.74),yara.patel338@example.com
+C00088,09/02/2026,#50645,Home,3,13.95,$41.85,isla.diaz88@example.com
+C00088,09/02/2026,#50645,Home,1,"€41,84",$41.84,isla.diaz88@example.com
+C00088,09/02/2026,#50645,Home,3,"€13,95",,isla.diaz88@example.com
+ C00094 ,09/02/2026,#50646,Home,1,28.07,$28.07,yara.young94@example.com
+c00094,09/02/2026,#50646,Beauty,1,$28.06,$28.06,yara.young94@example.com
+C00182,2026-02-09,#50647,Kitchen,3,$1.17,"€3,51",wen.zhang182@example.com
+C00182,2026-02-09,#50647,Outdoor,3,$1.17,"€3,51",wen.zhang182@example.com
+c00182,2026-02-09,#50647,Beauty,1,$3.51,$3.51,wen.zhang182@example.com
+C00267,09/02/2026,#50648,Beauty,2,30.57,$61.14,yara.walker267@example.com
+C00267,09/02/2026,#50648,Toys,2,$30.57,$61.14,yara.walker267@example.com
+C00293,09/02/2026,#50649,Home,2,$3.87,,noor.adams293@example.com
+C00420,10/02/2026,#50650,Beauty,3,$52.10,156.30,hiro.lopez420@example.com
+C00593,11/02/2026,#50651,Outdoor,3,$2.79,"€8,37",xavi.adams593@example.com
+C00593,11/02/2026,#50651,Home,2,4.18,,xavi.adams593@example.com
+C00593,11/02/2026,#50651,Home,3,"€2,79","€8,37",xavi.adams593@example.com
+C00057,12/02/2026,#50652,Outdoor,3,$8.62,"€25,86",tara.brown57@example.com
+C00057,12/02/2026,#50652,Beauty,2,$12.93,25.86,tara.brown57@example.com
+C00472,12/02/2026,#50653,Outdoor,3,17.16,$51.48,zoe.brown472@example.com
+C00472,12/02/2026,#50653,Kitchen,1,"€51,49",,zoe.brown472@example.com
+c00561,12/02/2026,#50654,Beauty,1,90.12,$90.12,maya.chen561@example.com
+C00561,12/02/2026,#50654,Home,3,30.04,,maya.chen561@example.com
+c00191,2026-02-13,#50655,Stationery,1,53.74,53.74,chloe.silva191@example.com
+C00191,2026-02-13,#50655,Beauty,1,$53.73,$53.73,chloe.silva191@example.com
+ C00309 ,2026-02-13,#50656,Beauty,1,$58.66,$58.66,liam.patel309@example.com
+C00309,2026-02-13,#50656,Beauty,1,$58.66,"€58,66",liam.patel309@example.com
+ C00312 ,2026-02-13,#50657,Kitchen,2,$22.11,"€44,22",rosa.brown312@example.com
+,13/02/2026,#50658,Stationery,1,53.44,,tara.lopez552@example.com
+C00241,14/02/2026,#50659,Outdoor,3,$18.77,$56.31,grace.hughes241@example.com
+C00330,2026-02-14,#50660,Stationery,3,$60.26,180.78,elena.fischer330@example.com
+ C00578 ,2026-02-14,#50661,Outdoor,3,19.95,"€59,85",omar.diaz578@example.com
+C00047,2026-02-15,#50662,Home,3,5.59,16.77,maya.young47@example.com
+C00047,2026-02-15,#50662,Outdoor,1,$16.78,$16.78,maya.young47@example.com
+C00047,2026-02-15,#50662,Outdoor,2,$8.40,16.80,maya.young47@example.com
+C00114,15/02/2026,#50663,Outdoor,2,42.46,$84.92,priya.young114@example.com
+C00138,15/02/2026,#50664,Kitchen,3,18.80,,hiro.hughes138@example.com
+c00587,15/02/2026,#50665,Kitchen,2,37.35,$74.70,yara.zhang587@example.com
+ C00595 ,2026-02-15,#50666,Beauty,2,17.59,,chloe.lopez595@example.com
+C00111,16/02/2026,#50667,Toys,2,11.72,$23.44,grace.hughes111@example.com
+c00111,16/02/2026,#50667,Kitchen,3,"€7,81",23.43,grace.hughes111@example.com
+C00111,16/02/2026,#50667,Outdoor,2,$11.72,23.44,grace.hughes111@example.com
+C00201,16/02/2026,#50668,Beauty,1,"€35,59",$35.59,chloe.diaz201@example.com
+C00201,16/02/2026,#50668,Stationery,2,17.80,35.60,chloe.diaz201@example.com
+C00201,16/02/2026,#50668,Beauty,1,35.60,$35.60,chloe.diaz201@example.com
+c00391,16/02/2026,#50669,Home,2,$11.26,,uma.martin391@example.com
+C00391,16/02/2026,#50669,Toys,3,7.50,$22.50,uma.martin391@example.com
+c00547,2026-02-18,#50670,Outdoor,2,"€11,56",$23.12,priya.ito547@example.com
+C00547,2026-02-18,#50670,Beauty,3,$7.71,"€23,13",priya.ito547@example.com
+C00547,2026-02-22,#R50670,Refund,1,,(23.12),priya.ito547@example.com
+ C00022 ,"Feb 20, 2026",#50671,Beauty,1,26.26,26.26,chloe.chen22@example.com
+C00190,20/02/2026,#50672,Toys,2,$14.78,$29.56,chloe.walker190@example.com
+C00190,20/02/2026,#50672,Home,1,$29.56,$29.56,chloe.walker190@example.com
+C00464,20/02/2026,#50673,Beauty,1,24.11,$24.11,femi.fischer464@example.com
+C00464,20/02/2026,#50673,Beauty,2,$12.06,,femi.fischer464@example.com
+C00148,21/02/2026,#50674,Outdoor,1,$21.29,$21.29,quinn.hughes148@example.com
+C00148,26/02/2026,#R50674,Refund,1,,(10.65),quinn.hughes148@example.com
+ C00382 ,21/02/2026,#50675,Toys,1,36.07,,victor.young382@example.com
+C00392,21/02/2026,#50676,Beauty,3,$17.02,$51.06,zoe.garcia392@example.com
+C00003,2026-02-24,#50677,Beauty,1,$101.02,$101.02,quinn.garcia3@example.com
+C00003,2026-02-24,#50677,Stationery,2,50.51,101.02,quinn.garcia3@example.com
+ C00250 ,24/02/2026,#50678,Kitchen,2,$37.99,"€75,98",omar.lopez250@example.com
+C00356,24/02/2026,#50679,Stationery,3,$18.66,$55.98,liam.chen356@example.com
+C00033,25/02/2026,#50680,Outdoor,3,$3.30,$9.90,quinn.brown33@example.com
+C00033,25/02/2026,#50680,Stationery,2,"€4,95",$9.90,quinn.brown33@example.com
+C00326,2026-02-25,#50681,Home,2,"€34,32",$68.64,quinn.okafor326@example.com
+C00480,"Feb 25, 2026",#50682,Outdoor,1,42.78,"€42,78",zoe.garcia480@example.com
+C00071,26/02/2026,#50683,Toys,1,$6.29,$6.29,yara.diaz71@example.com
+C00071,26/02/2026,#50683,Home,1,6.29,,yara.diaz71@example.com
+C00071,26/02/2026,#50683,Toys,2,$3.15,6.30,yara.diaz71@example.com
+C00132,27/02/2026,#50684,Stationery,2,74.91,149.82,grace.diaz132@example.com
+C00299,"Feb 28, 2026",#50685,Outdoor,3,$32.44,97.32,jonah.jones299@example.com
+ C00185 ,02/03/2026,#50686,Stationery,1,"€51,46",51.46,ava.young185@example.com
+c00185,02/03/2026,#50686,Home,1,$51.46,$51.46,ava.young185@example.com
+C00185,02/03/2026,#50686,Outdoor,1,$51.47,$51.47,ava.young185@example.com
+C00005,04/03/2026,#50687,Beauty,1,32.79,"€32,79",elena.zhang5@example.com
+c00005,04/03/2026,#50687,Outdoor,2,$16.40,$32.80,elena.zhang5@example.com
+C00005,04/03/2026,#50687,Home,3,$10.93,$32.79,elena.zhang5@example.com
+c00351,04/03/2026,#50688,Toys,3,13.02,,priya.martin351@example.com
+c00475,2026-03-04,#50689,Toys,2,$57.32,$114.64,quinn.martin475@example.com
+ C00312 ,05/03/2026,#50690,Outdoor,2,"€16,54","€33,08",rosa.brown312@example.com
+c00312,05/03/2026,#50690,Beauty,1,"€33,07","€33,07",rosa.brown312@example.com
+ C00312 ,08/03/2026,#R50690,Refund,1,,(33.08),rosa.brown312@example.com
+C00552,05/03/2026,#50691,Beauty,2,$24.31,48.62,tara.lopez552@example.com
+C00570,2026-03-05,#50692,Home,1,87.87,,yara.fischer570@example.com
+C00554,06/03/2026,#50693,Outdoor,2,"€12,35",24.70,kira.silva554@example.com
+c00554,06/03/2026,#50693,Outdoor,1,24.69,24.69,kira.silva554@example.com
+C00554,06/03/2026,#50693,Toys,3,$8.23,24.69,kira.silva554@example.com
+c00209,2026-03-07,#50694,Toys,3,12.93,"€38,79",ben.zhang209@example.com
+C00066,09/03/2026,#50695,Beauty,1,$23.43,,priya.chen66@example.com
+C00066,09/03/2026,#50695,Outdoor,2,$11.72,"€23,44",priya.chen66@example.com
+C00561,2026-03-09,#50696,Outdoor,3,"€18,14",54.42,maya.chen561@example.com
+C00561,2026-03-09,#50696,Home,3,$18.14,54.42,maya.chen561@example.com
+C00561,2026-03-09,#50696,Stationery,2,"€27,22",$54.44,maya.chen561@example.com
+C00076,10/03/2026,#50697,Outdoor,1,"€69,54",$69.54,isla.taylor76@example.com
+C00200,10/03/2026,#50698,Home,1,48.17,48.17,liam.fischer200@example.com
+C00200,10/03/2026,#50698,Outdoor,3,$16.06,$48.18,liam.fischer200@example.com
+C00200,10/03/2026,#50698,Toys,1,"€48,18",,liam.fischer200@example.com
+C00413,"Mar 10, 2026",#50699,Kitchen,3,8.46,"€25,38",quinn.adams413@example.com
+C00413,"Mar 10, 2026",#50699,Outdoor,1,$25.37,25.37,quinn.adams413@example.com
+C00325,11/03/2026,#50700,Kitchen,2,15.03,30.06,noor.zhang325@example.com
+C00325,11/03/2026,#50700,Stationery,1,30.06,30.06,noor.zhang325@example.com
+C00233,12/03/2026,#50701,Toys,1,$67.41,"€67,41",maya.garcia233@example.com
+C00233,12/03/2026,#50701,Outdoor,3,$22.47,,maya.garcia233@example.com
+C00091,2026-03-13,#50702,Outdoor,1,3.99,$3.99,uma.hughes91@example.com
+C00091,2026-03-13,#50702,Beauty,3,"€1,33",$3.99,uma.hughes91@example.com
+C00091,2026-03-13,#50702,Kitchen,1,$4.00,4.00,uma.hughes91@example.com
+C00159,13/03/2026,#50703,Stationery,1,75.52,$75.52,wen.adams159@example.com
+C00213,14/03/2026,#50704,Kitchen,2,"€5,92","€11,84",ben.garcia213@example.com
+C00213,14/03/2026,#50704,Outdoor,1,$11.84,$11.84,ben.garcia213@example.com
+,14/03/2026,#50704,Home,1,11.85,11.85,ben.garcia213@example.com
+C00316,14/03/2026,#50705,Home,1,6.75,$6.75,uma.fischer316@example.com
+C00316,14/03/2026,#50705,Kitchen,3,2.25,$6.75,uma.fischer316@example.com
+C00316,14/03/2026,#50705,Outdoor,3,2.25,,uma.fischer316@example.com
+C00154,15/03/2026,#50706,Beauty,2,$5.57,"€11,14",dan.young154@example.com
+ C00154 ,15/03/2026,#50706,Beauty,2,$5.56,11.12,dan.young154@example.com
+C00203,15/03/2026,#50707,Outdoor,3,"€13,18",39.54,elena.adams203@example.com
+C00203,15/03/2026,#50707,Kitchen,1,"€39,54",$39.54,elena.adams203@example.com
+C00444,15/03/2026,#50708,Toys,1,19.52,19.52,victor.martin444@example.com
+ C00444 ,15/03/2026,#50708,Outdoor,1,$19.52,$19.52,victor.martin444@example.com
+C00444,15/03/2026,#50708,Kitchen,2,$9.76,,victor.martin444@example.com
+ C00354 ,16/03/2026,#50709,Beauty,2,$7.29,$14.58,grace.adams354@example.com
+C00354,16/03/2026,#50709,Beauty,3,$4.86,14.58,grace.adams354@example.com
+C00354,16/03/2026,#50709,Toys,1,14.56,$14.56,grace.adams354@example.com
+c00464,16/03/2026,#50710,Toys,1,$43.96,$43.96,femi.fischer464@example.com
+C00559,"Mar 16, 2026",#50711,Beauty,3,5.26,"€15,78",kira.diaz559@example.com
+C00559,"Mar 16, 2026",#50711,Outdoor,1,$15.77,,kira.diaz559@example.com
+C00559,"Mar 16, 2026",#50711,Beauty,2,"€7,89",$15.78,kira.diaz559@example.com
+C00571,16/03/2026,#50712,Kitchen,3,$16.50,$49.50,wen.garcia571@example.com
+C00571,26/03/2026,#R50712,Refund,1,,(24.75),wen.garcia571@example.com
+C00286,17/03/2026,#50713,Stationery,1,$13.27,$13.27,liam.young286@example.com
+C00286,17/03/2026,#50713,Toys,2,$6.64,"€13,28",liam.young286@example.com
+C00286,17/03/2026,#50713,Stationery,3,4.42,$13.26,liam.young286@example.com
+,17/03/2026,#50714,Outdoor,1,5.55,$5.55,wen.walker525@example.com
+C00525,17/03/2026,#50714,Outdoor,2,$2.78,,wen.walker525@example.com
+C00562,2026-03-17,#50715,Beauty,1,$14.77,14.77,wen.jones562@example.com
+C00562,2026-03-17,#50715,Toys,1,$14.77,$14.77,wen.jones562@example.com
+C00562,2026-03-17,#50715,Toys,2,7.39,14.78,wen.jones562@example.com
+c00139,18/03/2026,#50716,Beauty,3,36.09,108.27,victor.silva139@example.com
+C00269,"Mar 18, 2026",#50717,Beauty,3,13.40,$40.20,jonah.garcia269@example.com
+C00057,19/03/2026,#50718,Home,2,"€24,65",49.30,tara.brown57@example.com
+C00057,19/03/2026,#50718,Home,1,49.28,"€49,28",tara.brown57@example.com
+c00446,2026-03-19,#50719,Home,2,$9.28,18.56,yara.taylor446@example.com
+C00446,2026-03-19,#50719,Kitchen,2,$9.27,"€18,54",yara.taylor446@example.com
+C00541,"Mar 19, 2026",#50720,Toys,2,$54.44,$108.88,xavi.ito541@example.com
+C00595,19/03/2026,#50721,Kitchen,1,$22.46,,chloe.lopez595@example.com
+C00001,2026-03-20,#50722,Home,1,$25.79,$25.79,yara.hughes1@example.com
+C00001,2026-03-20,#50722,Outdoor,2,$12.90,25.80,yara.hughes1@example.com
+c00001,2026-03-20,#50722,Outdoor,3,$8.60,$25.80,yara.hughes1@example.com
+c00277,20/03/2026,#50723,Toys,3,4.28,"€12,84",quinn.khan277@example.com
+C00277,20/03/2026,#50723,Kitchen,2,$6.43,12.86,quinn.khan277@example.com
+C00277,20/03/2026,#50723,Outdoor,3,"€4,29",12.87,quinn.khan277@example.com
+C00084,21/03/2026,#50724,Beauty,1,44.82,"€44,82",wen.brown84@example.com
+C00084,21/03/2026,#50724,Kitchen,2,$22.41,44.82,wen.brown84@example.com
+C00047,22/03/2026,#50725,Toys,2,$22.49,44.98,maya.young47@example.com
+C00360,2026-03-23,#50726,Beauty,3,50.13,150.39,noor.martin360@example.com
+C00547,2026-03-23,#50727,Kitchen,3,$5.12,15.36,priya.ito547@example.com
+C00547,2026-03-23,#50727,Stationery,3,5.12,$15.36,priya.ito547@example.com
+C00547,2026-03-23,#50727,Beauty,3,$5.13,,priya.ito547@example.com
+C00417,25/03/2026,#50728,Outdoor,2,"€24,21",48.42,isla.walker417@example.com
+C00587,25/03/2026,#50729,Beauty,2,$9.90,19.80,yara.zhang587@example.com
+C00587,25/03/2026,#50729,Stationery,1,19.79,,yara.zhang587@example.com
+C00587,25/03/2026,#50729,Stationery,1,$19.78,$19.78,yara.zhang587@example.com
+ C00106 ,2026-03-26,#50730,Outdoor,3,9.24,27.72,isla.walker106@example.com
+C00106,2026-03-26,#50730,Toys,2,13.87,$27.74,isla.walker106@example.com
+c00106,2026-03-26,#50730,Home,1,$27.73,27.73,isla.walker106@example.com
+C00519,26/03/2026,#50731,Beauty,1,6.74,,sam.chen519@example.com
+C00519,26/03/2026,#50731,Outdoor,1,$6.74,$6.74,sam.chen519@example.com
+C00519,26/03/2026,#50731,Stationery,3,$2.24,$6.72,sam.chen519@example.com
+ C00561 ,27/03/2026,#50732,Toys,3,"€18,48","€55,44",maya.chen561@example.com
+C00561,27/03/2026,#50732,Outdoor,3,$18.48,55.44,maya.chen561@example.com
+C00287,28/03/2026,#50733,Beauty,1,46.36,"€46,36",victor.jones287@example.com
+ C00287 ,28/03/2026,#50733,Outdoor,3,$15.45,$46.35,victor.jones287@example.com
+C00279,2026-03-29,#50734,Kitchen,2,$32.82,65.64,ava.taylor279@example.com
+c00279,2026-03-29,#50734,Home,1,65.64,65.64,ava.taylor279@example.com
+C00279,03/04/2026,#R50734,Refund,1,,(65.64),ava.taylor279@example.com
+C00343,30/03/2026,#50735,Kitchen,3,$3.15,$9.45,femi.diaz343@example.com
+C00343,30/03/2026,#50735,Outdoor,1,$9.44,9.44,femi.diaz343@example.com
+C00343,30/03/2026,#50735,Kitchen,2,$4.72,"€9,44",femi.diaz343@example.com
+C00423,30/03/2026,#50736,Beauty,2,"€17,10",34.20,tara.fischer423@example.com
+C00423,30/03/2026,#50736,Home,1,34.20,$34.20,tara.fischer423@example.com
+C00453,30/03/2026,#50737,Stationery,2,$4.43,,isla.taylor453@example.com
+C00453,30/03/2026,#50737,Home,3,$2.95,,isla.taylor453@example.com
+C00453,30/03/2026,#50737,Kitchen,1,$8.85,$8.85,isla.taylor453@example.com
+C00492,31/03/2026,#50738,Outdoor,2,6.12,$12.24,sam.rossi492@example.com
+C00492,31/03/2026,#50738,Kitchen,1,$12.23,12.23,sam.rossi492@example.com
+C00492,31/03/2026,#50738,Home,2,"€6,12",$12.24,sam.rossi492@example.com
+C00508,01/04/2026,#50739,Kitchen,3,6.25,"€18,75",omar.brown508@example.com
+C00508,01/04/2026,#50739,Stationery,2,9.38,$18.76,omar.brown508@example.com
+C00508,01/04/2026,#50739,Beauty,1,"€18,77","€18,77",omar.brown508@example.com
+C00459,03/04/2026,#50740,Kitchen,2,"€22,08",$44.16,grace.fischer459@example.com
+C00020,2026-04-04,#50741,Stationery,2,5.94,,dan.patel20@example.com
+C00020,2026-04-04,#50741,Kitchen,1,11.88,,dan.patel20@example.com
+ C00020 ,2026-04-04,#50741,Kitchen,1,11.88,,dan.patel20@example.com
+C00236,05/04/2026,#50742,Kitchen,3,"€6,51","€19,53",noor.hughes236@example.com
+C00236,05/04/2026,#50742,Outdoor,2,$9.77,,noor.hughes236@example.com
+C00236,05/04/2026,#50742,Stationery,1,$19.53,"€19,53",noor.hughes236@example.com
+C00432,05/04/2026,#50743,Home,3,$8.45,"€25,35",victor.khan432@example.com
+C00432,05/04/2026,#50743,Home,3,$8.45,$25.35,victor.khan432@example.com
+C00351,06/04/2026,#50744,Stationery,2,16.34,,priya.martin351@example.com
+C00403,06/04/2026,#50745,Home,2,11.15,$22.30,quinn.ito403@example.com
+C00463,07/04/2026,#50746,Kitchen,3,$4.45,$13.35,jonah.evans463@example.com
+C00463,07/04/2026,#50746,Home,1,13.36,13.36,jonah.evans463@example.com
+c00463,07/04/2026,#50746,Beauty,1,13.36,$13.36,jonah.evans463@example.com
+C00547,07/04/2026,#50747,Beauty,1,$36.75,36.75,priya.ito547@example.com
+C00547,07/04/2026,#50747,Stationery,2,$18.38,36.76,priya.ito547@example.com
+C00552,2026-04-07,#50748,Beauty,2,"€7,78",15.56,tara.lopez552@example.com
+C00552,2026-04-07,#50748,Toys,3,$5.19,15.57,tara.lopez552@example.com
+C00552,2026-04-07,#50748,Toys,2,7.79,,tara.lopez552@example.com
+C00011,08/04/2026,#50749,Stationery,1,7.04,7.04,zoe.brown11@example.com
+C00011,08/04/2026,#50749,Kitchen,1,"€7,04",$7.04,zoe.brown11@example.com
+C00011,08/04/2026,#50749,Toys,2,$3.52,7.04,zoe.brown11@example.com
+C00209,08/04/2026,#50750,Home,3,$8.84,$26.52,ben.zhang209@example.com
+C00209,08/04/2026,#50750,Stationery,3,"€8,84",26.52,ben.zhang209@example.com
+C00366,2026-04-08,#50751,Toys,1,"€107,83",107.83,dan.chen366@example.com
+C00509,08/04/2026,#50752,Toys,2,"€9,37",18.74,liam.khan509@example.com
+C00509,08/04/2026,#50752,Kitchen,3,$6.24,18.72,liam.khan509@example.com
+C00589,08/04/2026,#50753,Stationery,1,$21.17,,noor.chen589@example.com
+C00589,08/04/2026,#50753,Kitchen,3,$7.06,$21.18,noor.chen589@example.com
+C00589,08/04/2026,#50753,Kitchen,2,10.59,21.18,noor.chen589@example.com
+C00261,2026-04-09,#50754,Outdoor,3,"€1,49","€4,47",rosa.evans261@example.com
+c00261,2026-04-09,#50754,Outdoor,1,$4.46,"€4,46",rosa.evans261@example.com
+C00261,2026-04-09,#50754,Home,2,$2.24,$4.48,rosa.evans261@example.com
+C00269,2026-04-09,#50755,Home,2,$3.63,,jonah.garcia269@example.com
+ C00269 ,2026-04-09,#50755,Stationery,1,7.26,"€7,26",jonah.garcia269@example.com
+C00269,2026-04-09,#50755,Outdoor,1,$7.25,,jonah.garcia269@example.com
+C00565,09/04/2026,#50756,Beauty,1,27.18,"€27,18",isla.ito565@example.com
+C00565,09/04/2026,#50756,Home,3,9.06,27.18,isla.ito565@example.com
+C00565,09/04/2026,#50756,Home,1,"€27,17",$27.17,isla.ito565@example.com
+C00191,2026-04-10,#50757,Toys,3,$20.14,60.42,chloe.silva191@example.com
+C00191,2026-04-10,#50757,Outdoor,1,60.41,60.41,chloe.silva191@example.com
+,11/04/2026,#50758,Home,1,$27.61,$27.61,jonah.hughes533@example.com
+C00533,11/04/2026,#50758,Home,2,13.80,"€27,60",jonah.hughes533@example.com
+C00533,14/04/2026,#R50758,Refund,1,,(27.61),jonah.hughes533@example.com
+C00301,13/04/2026,#50759,Home,1,"€83,84",83.84,tara.fischer301@example.com
+ C00301 ,13/04/2026,#50759,Outdoor,1,$83.83,"€83,83",tara.fischer301@example.com
+c00347,"Apr 13, 2026",#50760,Stationery,2,"€42,90",,jonah.garcia347@example.com
+C00600,13/04/2026,#50761,Stationery,1,$51.28,$51.28,tara.evans600@example.com
+C00600,13/04/2026,#50761,Stationery,2,25.64,"€51,28",tara.evans600@example.com
+C00600,13/04/2026,#50761,Toys,3,"€17,09","€51,27",tara.evans600@example.com
+C00139,"Apr 14, 2026",#50762,Toys,2,$10.12,20.24,victor.silva139@example.com
+C00139,"Apr 14, 2026",#50762,Kitchen,2,10.12,$20.24,victor.silva139@example.com
+C00139,"Apr 14, 2026",#50762,Outdoor,1,$20.23,$20.23,victor.silva139@example.com
+C00547,14/04/2026,#50763,Toys,2,12.36,24.72,priya.ito547@example.com
+C00547,14/04/2026,#50763,Stationery,2,$12.36,,priya.ito547@example.com
+C00458,15/04/2026,#50764,Toys,2,"€19,43",$38.86,jonah.young458@example.com
+ C00517 ,2026-04-15,#50765,Outdoor,1,33.99,$33.99,ava.khan517@example.com
+ C00517 ,2026-04-15,#50765,Beauty,3,$11.33,33.99,ava.khan517@example.com
+C00423,2026-04-16,#50766,Outdoor,3,10.12,30.36,tara.fischer423@example.com
+C00423,2026-04-16,#50766,Toys,1,30.36,$30.36,tara.fischer423@example.com
+C00423,2026-04-16,#50766,Beauty,3,10.12,30.36,tara.fischer423@example.com
+C00464,16/04/2026,#50767,Stationery,2,"€12,45",24.90,femi.fischer464@example.com
+C00464,16/04/2026,#50767,Home,2,$12.45,"€24,90",femi.fischer464@example.com
+C00526,16/04/2026,#50768,Kitchen,1,$58.68,$58.68,ben.evans526@example.com
+c00560,16/04/2026,#50769,Stationery,1,$38.45,"€38,45",quinn.okafor560@example.com
+C00560,16/04/2026,#50769,Toys,2,$19.23,$38.46,quinn.okafor560@example.com
+C00560,16/04/2026,#50769,Stationery,1,$38.45,38.45,quinn.okafor560@example.com
+C00024,17/04/2026,#50770,Beauty,3,$7.54,$22.62,tara.young24@example.com
+C00024,17/04/2026,#50770,Toys,1,22.63,22.63,tara.young24@example.com
+C00024,17/04/2026,#50770,Home,1,$22.62,$22.62,tara.young24@example.com
+C00507,2026-04-19,#50771,Kitchen,1,"€16,30","€16,30",ben.chen507@example.com
+ C00507 ,2026-04-19,#50771,Toys,1,"€16,30",$16.30,ben.chen507@example.com
+ C00507 ,2026-04-19,#50771,Beauty,3,5.43,"€16,29",ben.chen507@example.com
+C00599,20/04/2026,#50772,Outdoor,3,9.96,$29.88,kira.rossi599@example.com
+c00599,20/04/2026,#50772,Home,3,9.96,29.88,kira.rossi599@example.com
+C00599,20/04/2026,#50772,Outdoor,1,$29.87,29.87,kira.rossi599@example.com
+C00203,2026-04-21,#50773,Home,3,7.84,23.52,elena.adams203@example.com
+C00203,2026-04-21,#50773,Home,3,$7.84,$23.52,elena.adams203@example.com
+C00285,2026-04-21,#50774,Beauty,2,43.79,$87.58,xavi.khan285@example.com
+C00088,22/04/2026,#50775,Stationery,3,$13.48,$40.44,isla.diaz88@example.com
+C00088,22/04/2026,#50775,Home,3,$13.48,,isla.diaz88@example.com
+c00309,22/04/2026,#50776,Toys,2,"€20,90",$41.80,liam.patel309@example.com
+C00309,22/04/2026,#50776,Outdoor,3,$13.93,,liam.patel309@example.com
+C00078,24/04/2026,#50777,Stationery,3,16.45,49.35,omar.garcia78@example.com
+C00078,24/04/2026,#50777,Toys,2,"€24,68",$49.36,omar.garcia78@example.com
+ C00078 ,24/04/2026,#50777,Beauty,1,$49.34,49.34,omar.garcia78@example.com
+C00086,24/04/2026,#50778,Stationery,2,"€29,48","€58,96",hiro.patel86@example.com
+C00011,25/04/2026,#50779,Home,3,3.22,9.66,zoe.brown11@example.com
+C00011,25/04/2026,#50779,Toys,2,$4.83,9.66,zoe.brown11@example.com
+c00011,25/04/2026,#50779,Home,3,"€3,22",,zoe.brown11@example.com
+C00114,26/04/2026,#50780,Toys,2,17.28,34.56,priya.young114@example.com
+C00114,26/04/2026,#50780,Beauty,2,17.28,34.56,priya.young114@example.com
+ C00448 ,26/04/2026,#50781,Outdoor,1,12.43,12.43,liam.diaz448@example.com
+C00448,26/04/2026,#50781,Kitchen,2,$6.22,12.44,liam.diaz448@example.com
+,26/04/2026,#50781,Outdoor,2,6.22,$12.44,liam.diaz448@example.com
+C00450,26/04/2026,#50782,Kitchen,1,"€65,21",$65.21,liam.chen450@example.com
+c00450,26/04/2026,#50782,Outdoor,3,$21.73,$65.19,liam.chen450@example.com
+C00254,27/04/2026,#50783,Beauty,3,"€6,49",$19.47,maya.brown254@example.com
+C00200,"Apr 30, 2026",#50784,Beauty,1,$61.59,61.59,liam.fischer200@example.com
+C00200,"Apr 30, 2026",#50784,Kitchen,3,$20.53,$61.59,liam.fischer200@example.com
+C00008,01/05/2026,#50785,Outdoor,3,"€3,52",10.56,isla.khan8@example.com
+C00008,01/05/2026,#50785,Kitchen,3,$3.52,$10.56,isla.khan8@example.com
+C00008,01/05/2026,#50785,Kitchen,1,$10.56,10.56,isla.khan8@example.com
+C00390,2026-05-01,#50786,Toys,1,"€80,90",80.90,hiro.ito390@example.com
+C00390,2026-05-01,#50786,Outdoor,3,26.97,80.91,hiro.ito390@example.com
+ C00331 ,02/05/2026,#50787,Toys,3,$7.13,$21.39,wen.hughes331@example.com
+C00331,02/05/2026,#50787,Outdoor,2,$10.70,21.40,wen.hughes331@example.com
+C00406,03/05/2026,#50788,Home,2,$15.71,"€31,42",uma.chen406@example.com
+C00541,03/05/2026,#50789,Home,2,$25.40,"€50,80",xavi.ito541@example.com
+C00541,03/05/2026,#50789,Stationery,1,$50.80,$50.80,xavi.ito541@example.com
+C00002,04/05/2026,#50790,Beauty,2,5.24,10.48,kira.khan2@example.com
+ C00002 ,04/05/2026,#50790,Kitchen,1,$10.47,,kira.khan2@example.com
+C00002,04/05/2026,#50790,Beauty,3,3.49,$10.47,kira.khan2@example.com
+C00301,2026-05-04,#50791,Beauty,1,149.18,149.18,tara.fischer301@example.com
+C00554,04/05/2026,#50792,Kitchen,1,19.12,19.12,kira.silva554@example.com
+C00554,04/05/2026,#50792,Kitchen,2,9.56,19.12,kira.silva554@example.com
+C00554,04/05/2026,#50792,Home,1,$19.13,$19.13,kira.silva554@example.com
+C00570,"May 4, 2026",#50793,Home,1,$50.39,"€50,39",yara.fischer570@example.com
+c00570,"May 4, 2026",#50793,Kitchen,1,$50.39,,yara.fischer570@example.com
+C00076,05/05/2026,#50794,Outdoor,2,22.62,"€45,24",isla.taylor76@example.com
+C00364,06/05/2026,#50795,Kitchen,3,26.93,$80.79,yara.nguyen364@example.com
+C00490,06/05/2026,#50796,Outdoor,2,"€13,08",,victor.silva490@example.com
+C00490,06/05/2026,#50796,Kitchen,1,$26.16,$26.16,victor.silva490@example.com
+C00491,06/05/2026,#50797,Beauty,1,132.71,"€132,71",elena.walker491@example.com
+C00491,06/05/2026,#50797,Stationery,1,132.70,$132.70,elena.walker491@example.com
+,07/05/2026,#50798,Home,3,$7.47,22.41,dan.patel20@example.com
+ C00020 ,07/05/2026,#50798,Kitchen,1,"€22,40","€22,40",dan.patel20@example.com
+C00365,07/05/2026,#50799,Beauty,2,"€4,24",,quinn.walker365@example.com
+C00365,07/05/2026,#50799,Toys,3,2.82,8.46,quinn.walker365@example.com
+C00365,07/05/2026,#50799,Beauty,1,8.48,8.48,quinn.walker365@example.com
+C00376,07/05/2026,#50800,Kitchen,1,"€7,29",$7.29,sam.silva376@example.com
+C00376,07/05/2026,#50800,Kitchen,2,$3.65,7.30,sam.silva376@example.com
+C00376,07/05/2026,#50800,Kitchen,2,"€3,65","€7,30",sam.silva376@example.com
+,07/05/2026,#50801,Beauty,1,23.70,,hiro.diaz469@example.com
+ C00561 ,2026-05-07,#50802,Kitchen,1,98.13,$98.13,maya.chen561@example.com
+C00561,15/05/2026,#R50802,Refund,1,,(49.07),maya.chen561@example.com
+C00375,2026-05-08,#50803,Toys,3,$9.41,28.23,wen.hughes375@example.com
+C00375,2026-05-08,#50803,Toys,1,$28.24,$28.24,wen.hughes375@example.com
+ C00559 ,08/05/2026,#50804,Outdoor,3,4.25,12.75,kira.diaz559@example.com
+C00559,08/05/2026,#50804,Beauty,2,$6.38,"€12,76",kira.diaz559@example.com
+C00559,08/05/2026,#50804,Home,2,$6.38,$12.76,kira.diaz559@example.com
+ C00518 ,09/05/2026,#50805,Kitchen,3,10.44,,wen.nguyen518@example.com
+c00518,09/05/2026,#50805,Beauty,3,10.44,"€31,32",wen.nguyen518@example.com
+ C00518 ,09/05/2026,#50805,Outdoor,1,$31.33,$31.33,wen.nguyen518@example.com
+ C00013 ,10/05/2026,#50806,Outdoor,1,$22.63,22.63,grace.patel13@example.com
+ C00013 ,10/05/2026,#50806,Beauty,1,22.63,22.63,grace.patel13@example.com
+c00013,10/05/2026,#50806,Beauty,2,11.31,$22.62,grace.patel13@example.com
+C00186,10/05/2026,#50807,Stationery,3,"€2,54",$7.62,rosa.nguyen186@example.com
+C00186,10/05/2026,#50807,Toys,3,2.54,$7.62,rosa.nguyen186@example.com
+C00186,10/05/2026,#50807,Outdoor,1,"€7,62",,rosa.nguyen186@example.com
+C00279,2026-05-11,#50808,Toys,1,71.96,$71.96,ava.taylor279@example.com
+C00195,12/05/2026,#50809,Home,3,$6.78,$20.34,tara.young195@example.com
+c00195,12/05/2026,#50809,Toys,1,20.33,"€20,33",tara.young195@example.com
+C00464,2026-05-12,#50810,Stationery,3,4.88,$14.64,femi.fischer464@example.com
+c00464,2026-05-12,#50810,Kitchen,1,"€14,65",$14.65,femi.fischer464@example.com
+C00464,2026-05-12,#50810,Beauty,2,"€7,32",$14.64,femi.fischer464@example.com
+C00447,13/05/2026,#50811,Kitchen,3,15.19,$45.57,priya.zhang447@example.com
+C00003,14/05/2026,#50812,Toys,2,"€17,99",,quinn.garcia3@example.com
+c00003,14/05/2026,#50812,Toys,1,"€35,98",$35.98,quinn.garcia3@example.com
+C00003,14/05/2026,#50812,Home,1,35.99,,quinn.garcia3@example.com
+C00032,14/05/2026,#50813,Stationery,3,13.11,39.33,liam.hughes32@example.com
+C00032,14/05/2026,#50813,Home,3,13.11,$39.33,liam.hughes32@example.com
+C00179,14/05/2026,#50814,Outdoor,2,$6.55,$13.10,uma.walker179@example.com
+c00274,2026-05-14,#50815,Home,1,$114.48,114.48,omar.walker274@example.com
+C00274,2026-05-14,#50815,Beauty,3,$38.16,$114.48,omar.walker274@example.com
+ C00222 ,2026-05-15,#50816,Home,1,$39.60,$39.60,priya.lopez222@example.com
+C00222,2026-05-15,#50816,Kitchen,1,39.60,$39.60,priya.lopez222@example.com
+C00325,15/05/2026,#50817,Outdoor,1,$23.02,$23.02,noor.zhang325@example.com
+ C00325 ,15/05/2026,#50817,Beauty,2,11.51,23.02,noor.zhang325@example.com
+C00351,15/05/2026,#50818,Kitchen,1,$10.67,"€10,67",priya.martin351@example.com
+C00351,15/05/2026,#50818,Home,3,3.56,$10.68,priya.martin351@example.com
+C00467,"May 15, 2026",#50819,Beauty,1,69.47,$69.47,chloe.walker467@example.com
+C00011,16/05/2026,#50820,Stationery,3,$2.01,"€6,03",zoe.brown11@example.com
+c00011,16/05/2026,#50820,Outdoor,2,3.01,$6.02,zoe.brown11@example.com
+,16/05/2026,#50820,Toys,3,"€2,00",6.00,zoe.brown11@example.com
+C00286,16/05/2026,#50821,Kitchen,1,$37.22,"€37,22",liam.young286@example.com
+C00295,2026-05-16,#50822,Stationery,2,8.55,"€17,10",kira.evans295@example.com
+C00295,2026-05-16,#50822,Kitchen,3,5.70,$17.10,kira.evans295@example.com
+C00427,2026-05-16,#50823,Stationery,1,$20.27,$20.27,jonah.lopez427@example.com
+C00427,2026-05-16,#50823,Kitchen,1,$20.27,$20.27,jonah.lopez427@example.com
+C00191,17/05/2026,#50824,Beauty,1,21.89,$21.89,chloe.silva191@example.com
+C00191,17/05/2026,#50824,Stationery,1,21.89,$21.89,chloe.silva191@example.com
+C00191,17/05/2026,#50824,Outdoor,3,7.30,,chloe.silva191@example.com
+C00215,2026-05-17,#50825,Beauty,1,$16.54,"€16,54",priya.taylor215@example.com
+C00215,2026-05-17,#50825,Toys,3,"€5,51",$16.53,priya.taylor215@example.com
+C00317,2026-05-17,#50826,Toys,1,130.56,130.56,dan.hughes317@example.com
+ C00429 ,2026-05-17,#50827,Beauty,3,11.32,33.96,femi.martin429@example.com
+ C00442 ,17/05/2026,#50828,Beauty,3,14.09,"€42,27",yara.okafor442@example.com
+C00442,17/05/2026,#50828,Home,2,21.13,42.26,yara.okafor442@example.com
+C00525,17/05/2026,#50829,Outdoor,2,9.52,19.04,wen.walker525@example.com
+C00174,18/05/2026,#50830,Kitchen,3,$25.89,77.67,maya.evans174@example.com
+C00174,18/05/2026,#50830,Outdoor,1,$77.66,$77.66,maya.evans174@example.com
+C00428,18/05/2026,#50831,Home,2,$55.52,$111.04,jonah.diaz428@example.com
+C00166,20/05/2026,#50832,Home,1,34.86,$34.86,victor.evans166@example.com
+c00166,20/05/2026,#50832,Home,1,34.86,34.86,victor.evans166@example.com
+c00209,20/05/2026,#50833,Kitchen,3,$17.22,51.66,ben.zhang209@example.com
+C00552,20/05/2026,#50834,Outdoor,3,17.68,,tara.lopez552@example.com
+C00493,2026-05-22,#50835,Outdoor,2,87.78,$175.56,priya.taylor493@example.com
+C00577,2026-05-23,#50836,Kitchen,2,$23.26,$46.52,wen.diaz577@example.com
+c00007,24/05/2026,#50837,Outdoor,2,3.28,$6.56,xavi.lopez7@example.com
+C00007,24/05/2026,#50837,Toys,2,3.28,,xavi.lopez7@example.com
+C00007,24/05/2026,#50837,Toys,3,2.18,"€6,54",xavi.lopez7@example.com
+C00062,24/05/2026,#50838,Outdoor,2,$16.85,,wen.diaz62@example.com
+ C00062 ,24/05/2026,#50838,Toys,1,$33.69,,wen.diaz62@example.com
+C00062,24/05/2026,#50838,Beauty,3,$11.23,33.69,wen.diaz62@example.com
+C00463,24/05/2026,#50839,Outdoor,1,$10.27,,jonah.evans463@example.com
+c00463,24/05/2026,#50839,Home,3,$3.42,$10.26,jonah.evans463@example.com
+C00463,24/05/2026,#50839,Outdoor,1,10.26,,jonah.evans463@example.com
+C00517,24/05/2026,#50840,Outdoor,2,13.41,"€26,82",ava.khan517@example.com
+ C00517 ,24/05/2026,#50840,Home,1,26.81,,ava.khan517@example.com
+C00517,24/05/2026,#50840,Stationery,3,$8.94,26.82,ava.khan517@example.com
+C00547,24/05/2026,#50841,Kitchen,2,"€8,43","€16,86",priya.ito547@example.com
+C00547,24/05/2026,#50841,Kitchen,1,$16.86,"€16,86",priya.ito547@example.com
+c00547,24/05/2026,#50841,Outdoor,2,$8.44,16.88,priya.ito547@example.com
+C00058,"May 25, 2026",#50842,Toys,3,$8.63,25.89,dan.nguyen58@example.com
+C00058,"May 25, 2026",#50842,Home,3,$8.63,25.89,dan.nguyen58@example.com
+ C00025 ,2026-05-26,#50843,Outdoor,1,$55.26,"€55,26",hiro.nguyen25@example.com
+C00280,26/05/2026,#50844,Stationery,2,$34.34,68.68,jonah.nguyen280@example.com
+c00280,26/05/2026,#50844,Home,2,$34.34,,jonah.nguyen280@example.com
+C00280,26/05/2026,#50844,Outdoor,2,34.34,"€68,68",jonah.nguyen280@example.com
+C00008,2026-05-27,#50845,Outdoor,1,27.86,27.86,isla.khan8@example.com
+C00180,2026-05-27,#50846,Toys,2,"€19,31",38.62,zoe.fischer180@example.com
+C00180,2026-05-27,#50846,Stationery,3,12.87,"€38,61",zoe.fischer180@example.com
+C00549,28/05/2026,#50847,Kitchen,2,"€19,09",$38.18,ava.chen549@example.com
+ C00564 ,29/05/2026,#50848,Home,2,65.85,131.70,grace.jones564@example.com
+c00020,30/05/2026,#50849,Beauty,1,$40.47,40.47,dan.patel20@example.com
+c00249,2026-05-30,#50850,Home,1,69.60,,omar.jones249@example.com
+C00287,2026-05-30,#50851,Toys,2,$34.16,$68.32,victor.jones287@example.com
+C00287,2026-05-30,#50851,Home,1,68.32,,victor.jones287@example.com
+ C00464 ,30/05/2026,#50852,Stationery,1,23.25,$23.25,femi.fischer464@example.com
+C00464,30/05/2026,#50852,Home,1,$23.24,23.24,femi.fischer464@example.com
+C00208,01/06/2026,#50853,Outdoor,1,$26.69,26.69,victor.nguyen208@example.com
+C00208,01/06/2026,#50853,Stationery,1,"€26,69",26.69,victor.nguyen208@example.com
+ C00414 ,2026-06-01,#50854,Stationery,3,36.85,,hiro.taylor414@example.com
+C00116,"Jun 2, 2026",#50855,Beauty,1,"€143,37",$143.37,isla.fischer116@example.com
+C00107,03/06/2026,#50856,Stationery,3,27.05,81.15,femi.taylor107@example.com
+C00107,03/06/2026,#50856,Toys,2,$40.57,81.14,femi.taylor107@example.com
+ C00107 ,2026-06-21,#R50856,Refund,1,,(81.15),femi.taylor107@example.com
+C00596,04/06/2026,#50857,Stationery,1,$5.36,$5.36,ben.patel596@example.com
+C00596,04/06/2026,#50857,Home,2,2.68,,ben.patel596@example.com
+ C00596 ,04/06/2026,#50857,Kitchen,1,$5.37,5.37,ben.patel596@example.com
+C00220,2026-06-05,#50858,Stationery,2,10.39,$20.78,kira.patel220@example.com
+C00220,2026-06-05,#50858,Toys,2,"€10,39","€20,78",kira.patel220@example.com
+c00292,2026-06-05,#50859,Stationery,3,5.88,$17.64,wen.martin292@example.com
+C00292,2026-06-05,#50859,Beauty,3,$5.87,,wen.martin292@example.com
+C00600,07/06/2026,#50860,Home,2,$44.81,,tara.evans600@example.com
+C00600,07/06/2026,#50860,Home,2,$44.81,"€89,62",tara.evans600@example.com
+ C00021 ,08/06/2026,#50861,Kitchen,1,$86.28,"€86,28",sam.young21@example.com
+C00351,2026-06-08,#50862,Outdoor,3,6.66,$19.98,priya.martin351@example.com
+C00351,2026-06-08,#50862,Outdoor,3,"€6,66","€19,98",priya.martin351@example.com
+C00351,2026-06-19,#R50862,Refund,1,,(19.99),priya.martin351@example.com
+C00395,08/06/2026,#50863,Beauty,1,31.77,31.77,grace.brown395@example.com
+C00395,08/06/2026,#50863,Stationery,3,$10.59,$31.77,grace.brown395@example.com
+ C00395 ,08/06/2026,#50863,Home,3,10.59,31.77,grace.brown395@example.com
+C00549,08/06/2026,#50864,Home,3,$8.77,$26.31,ava.chen549@example.com
+C00209,09/06/2026,#50865,Kitchen,1,$68.58,$68.58,ben.zhang209@example.com
+C00254,09/06/2026,#50866,Home,2,2.89,5.78,maya.brown254@example.com
+C00254,09/06/2026,#50866,Home,2,$2.88,$5.76,maya.brown254@example.com
+c00237,10/06/2026,#50867,Stationery,2,$67.37,134.74,quinn.zhang237@example.com
+C00199,11/06/2026,#50868,Stationery,3,6.47,$19.41,kira.garcia199@example.com
+C00199,11/06/2026,#50868,Home,3,$6.46,$19.38,kira.garcia199@example.com
+C00319,11/06/2026,#50869,Beauty,1,16.56,"€16,56",elena.hughes319@example.com
+C00319,11/06/2026,#50869,Outdoor,3,5.52,$16.56,elena.hughes319@example.com
+C00319,11/06/2026,#50869,Toys,2,$8.29,$16.58,elena.hughes319@example.com
+C00377,11/06/2026,#50870,Kitchen,1,15.68,15.68,noor.patel377@example.com
+C00377,11/06/2026,#50870,Stationery,2,"€7,84",15.68,noor.patel377@example.com
+c00377,11/06/2026,#50870,Stationery,1,15.67,15.67,noor.patel377@example.com
+C00193,12/06/2026,#50871,Home,3,2.67,8.01,uma.zhang193@example.com
+C00193,12/06/2026,#50871,Stationery,2,$4.01,8.02,uma.zhang193@example.com
+C00439,2026-06-12,#50872,Beauty,2,$53.76,$107.52,victor.evans439@example.com
+,2026-06-12,#50872,Beauty,2,"€53,75",$107.50,victor.evans439@example.com
+ C00188 ,13/06/2026,#50873,Home,1,49.85,"€49,85",priya.diaz188@example.com
+C00343,2026-06-13,#50874,Home,1,27.41,27.41,femi.diaz343@example.com
+c00493,2026-06-13,#50875,Home,3,$14.55,$43.65,priya.taylor493@example.com
+C00493,2026-06-13,#50875,Stationery,3,"€14,55",$43.65,priya.taylor493@example.com
+C00530,"Jun 13, 2026",#50876,Outdoor,3,$13.64,,ava.brown530@example.com
+c00310,14/06/2026,#50877,Kitchen,2,$37.10,74.20,noor.zhang310@example.com
+C00436,2026-06-14,#50878,Outdoor,3,16.63,49.89,kira.okafor436@example.com
+c00436,2026-06-14,#50878,Kitchen,3,"€16,63",49.89,kira.okafor436@example.com
+C00200,"Jun 15, 2026",#50879,Beauty,2,25.76,"€51,52",liam.fischer200@example.com
+C00200,"Jun 15, 2026",#50879,Home,2,$25.76,"€51,52",liam.fischer200@example.com
+C00200,"Jun 15, 2026",#50879,Kitchen,1,$51.52,51.52,liam.fischer200@example.com
+C00067,16/06/2026,#50880,Beauty,2,$22.39,$44.78,ben.hughes67@example.com
+C00180,16/06/2026,#50881,Beauty,3,12.20,$36.60,zoe.fischer180@example.com
+C00180,16/06/2026,#50881,Beauty,1,$36.61,36.61,zoe.fischer180@example.com
+C00289,2026-06-16,#50882,Toys,3,8.29,24.87,tara.chen289@example.com
+C00104,17/06/2026,#50883,Outdoor,1,$23.27,,rosa.evans104@example.com
+C00104,17/06/2026,#50883,Kitchen,2,$11.64,"€23,28",rosa.evans104@example.com
+C00104,17/06/2026,#50883,Kitchen,2,11.63,"€23,26",rosa.evans104@example.com
+C00212,17/06/2026,#50884,Stationery,3,$22.43,67.29,dan.martin212@example.com
+C00344,17/06/2026,#50885,Home,1,$79.54,"€79,54",hiro.young344@example.com
+C00344,17/06/2026,#50885,Kitchen,1,$79.54,,hiro.young344@example.com
+ C00344 ,17/06/2026,#50885,Beauty,1,$79.55,"€79,55",hiro.young344@example.com
+C00344,22/06/2026,#R50885,Refund,1,,(119.32),hiro.young344@example.com
+C00375,17/06/2026,#50886,Stationery,2,13.51,$27.02,wen.hughes375@example.com
+,17/06/2026,#50886,Outdoor,1,27.00,,wen.hughes375@example.com
+C00440,17/06/2026,#50887,Home,2,"€9,66",$19.32,noor.chen440@example.com
+C00440,17/06/2026,#50887,Toys,1,19.32,19.32,noor.chen440@example.com
+C00440,17/06/2026,#50887,Toys,2,"€9,66","€19,32",noor.chen440@example.com
+C00552,17/06/2026,#50888,Stationery,1,31.23,$31.23,tara.lopez552@example.com
+C00552,17/06/2026,#50888,Stationery,1,$31.23,,tara.lopez552@example.com
+C00331,2026-06-18,#50889,Home,2,"€27,02",,wen.hughes331@example.com
+c00077,20/06/2026,#50890,Home,3,5.14,$15.42,yara.zhang77@example.com
+C00077,20/06/2026,#50890,Outdoor,1,$15.42,$15.42,yara.zhang77@example.com
+C00077,20/06/2026,#50890,Home,3,$5.14,$15.42,yara.zhang77@example.com
+C00423,20/06/2026,#50891,Toys,2,26.97,$53.94,tara.fischer423@example.com
+C00423,20/06/2026,#50891,Stationery,3,17.98,53.94,tara.fischer423@example.com
+C00521,20/06/2026,#50892,Home,2,7.41,$14.82,ben.walker521@example.com
+C00521,20/06/2026,#50892,Beauty,3,"€4,94","€14,82",ben.walker521@example.com
+C00442,21/06/2026,#50893,Home,1,19.17,,yara.okafor442@example.com
+C00442,21/06/2026,#50893,Stationery,3,6.39,$19.17,yara.okafor442@example.com
+C00442,21/06/2026,#50893,Kitchen,2,$9.59,19.18,yara.okafor442@example.com
+C00175,22/06/2026,#50894,Kitchen,1,49.02,49.02,xavi.zhang175@example.com
+C00522,23/06/2026,#50895,Kitchen,2,"€7,70",15.40,femi.rossi522@example.com
+C00522,23/06/2026,#50895,Outdoor,2,"€7,70",$15.40,femi.rossi522@example.com
+C00522,23/06/2026,#50895,Home,1,$15.39,15.39,femi.rossi522@example.com
+C00116,24/06/2026,#50896,Outdoor,2,69.05,138.10,isla.fischer116@example.com
+C00120,2026-06-24,#50897,Stationery,2,13.87,,dan.taylor120@example.com
+C00334,2026-06-24,#50898,Toys,3,30.16,90.48,maya.fischer334@example.com
+C00201,25/06/2026,#50899,Stationery,2,$30.32,,chloe.diaz201@example.com
+ C00201 ,25/06/2026,#50899,Home,2,$30.31,60.62,chloe.diaz201@example.com
+C00498,25/06/2026,#50900,Home,3,$30.82,"€92,46",isla.young498@example.com
+C00547,2026-06-26,#50901,Beauty,1,$9.53,9.53,priya.ito547@example.com
+c00547,2026-06-26,#50901,Outdoor,2,4.76,$9.52,priya.ito547@example.com
+c00547,2026-06-26,#50901,Toys,2,$4.77,$9.54,priya.ito547@example.com
+C00185,"Jun 28, 2026",#50902,Outdoor,3,22.33,66.99,ava.young185@example.com
+C00185,"Jun 28, 2026",#50902,Outdoor,2,"€33,49","€66,98",ava.young185@example.com
+ C00373 ,28/06/2026,#50903,Stationery,3,9.03,$27.09,isla.lopez373@example.com
+C00554,28/06/2026,#50904,Stationery,2,41.34,$82.68,kira.silva554@example.com
+C00549,29/06/2026,#50905,Beauty,2,6.58,$13.16,ava.chen549@example.com
+C00549,29/06/2026,#50905,Beauty,1,13.16,,ava.chen549@example.com
+C00186,2026-06-30,#50906,Home,3,"€4,95",14.85,rosa.nguyen186@example.com
+C00186,2026-06-30,#50906,Outdoor,3,4.95,,rosa.nguyen186@example.com
+C00186,2026-06-30,#50906,Home,1,14.86,14.86,rosa.nguyen186@example.com
+ C00212 ,30/06/2026,#50907,Toys,3,8.08,"€24,24",dan.martin212@example.com
+C00212,30/06/2026,#50907,Outdoor,2,"€12,12",$24.24,dan.martin212@example.com
+C00381,30/06/2026,#50908,Toys,2,$42.67,"€85,34",yara.zhang381@example.com
+C00381,30/06/2026,#50908,Stationery,1,$85.34,,yara.zhang381@example.com
+C00274,01/07/2026,#50909,Outdoor,1,113.74,$113.74,omar.walker274@example.com
+C00376,01/07/2026,#50910,Toys,2,$5.09,10.18,sam.silva376@example.com
+C00376,01/07/2026,#50910,Beauty,2,5.09,10.18,sam.silva376@example.com
+c00376,14/07/2026,#R50910,Refund,1,,(10.18),sam.silva376@example.com
+ C00215 ,02/07/2026,#50911,Stationery,1,22.38,"€22,38",priya.taylor215@example.com
+C00215,02/07/2026,#50911,Home,2,$11.19,22.38,priya.taylor215@example.com
+C00491,02/07/2026,#50912,Home,3,29.58,$88.74,elena.walker491@example.com
+C00491,02/07/2026,#50912,Home,2,44.37,,elena.walker491@example.com
+C00491,02/07/2026,#50912,Toys,1,$88.75,88.75,elena.walker491@example.com
+C00327,03/07/2026,#50913,Home,3,"€11,87",,hiro.rossi327@example.com
+C00327,03/07/2026,#50913,Toys,1,$35.61,,hiro.rossi327@example.com
+C00351,2026-07-03,#50914,Toys,3,11.14,$33.42,priya.martin351@example.com
+C00367,03/07/2026,#50915,Beauty,3,$9.21,$27.63,grace.khan367@example.com
+C00367,03/07/2026,#50915,Outdoor,2,$13.81,,grace.khan367@example.com
+C00367,03/07/2026,#50915,Home,1,27.63,$27.63,grace.khan367@example.com
+C00050,04/07/2026,#50916,Home,2,14.01,"€28,02",yara.khan50@example.com
+C00050,04/07/2026,#50916,Outdoor,1,$28.00,28.00,yara.khan50@example.com
+C00437,04/07/2026,#50917,Toys,3,13.17,39.51,isla.patel437@example.com
+ C00572 ,04/07/2026,#50918,Beauty,1,28.33,"€28,33",maya.patel572@example.com
+C00572,04/07/2026,#50918,Kitchen,3,$9.44,$28.32,maya.patel572@example.com
+c00572,04/07/2026,#50918,Toys,2,14.17,28.34,maya.patel572@example.com
+C00362,05/07/2026,#50919,Home,1,"€13,18",$13.18,victor.brown362@example.com
+C00362,05/07/2026,#50919,Beauty,1,"€13,17",$13.17,victor.brown362@example.com
+ C00174 ,06/07/2026,#50920,Outdoor,1,$55.40,$55.40,maya.evans174@example.com
+C00174,06/07/2026,#50920,Outdoor,2,27.70,"€55,40",maya.evans174@example.com
+C00310,2026-07-06,#50921,Beauty,1,$29.51,$29.51,noor.zhang310@example.com
+C00310,2026-07-06,#50921,Stationery,2,$14.76,29.52,noor.zhang310@example.com
+C00369,"Jul 6, 2026",#50922,Toys,2,$89.53,$179.06,priya.brown369@example.com
+C00452,2026-07-06,#50923,Outdoor,1,31.20,31.20,quinn.zhang452@example.com
+C00452,2026-07-06,#50923,Stationery,2,"€15,60","€31,20",quinn.zhang452@example.com
+C00452,2026-07-06,#50923,Beauty,3,10.40,31.20,quinn.zhang452@example.com
+c00452,10/07/2026,#R50923,Refund,1,,(46.81),quinn.zhang452@example.com
+C00463,2026-07-06,#50924,Outdoor,1,12.21,$12.21,jonah.evans463@example.com
+C00463,2026-07-06,#50924,Outdoor,1,"€12,21",12.21,jonah.evans463@example.com
+C00463,2026-07-06,#50924,Toys,2,$6.11,12.22,jonah.evans463@example.com
+C00002,2026-07-07,#50925,Beauty,3,"€8,80",26.40,kira.khan2@example.com
+C00002,2026-07-07,#50925,Beauty,1,$26.41,,kira.khan2@example.com
+c00541,07/07/2026,#50926,Home,3,$16.02,$48.06,xavi.ito541@example.com
+C00541,07/07/2026,#50926,Kitchen,3,$16.02,$48.06,xavi.ito541@example.com
+C00007,2026-07-08,#50927,Outdoor,1,$7.22,,xavi.lopez7@example.com
+C00007,2026-07-08,#50927,Kitchen,3,$2.41,7.23,xavi.lopez7@example.com
+C00007,2026-07-08,#50927,Beauty,1,$7.22,"€7,22",xavi.lopez7@example.com
+ C00548 ,09/07/2026,#50928,Beauty,3,$7.00,21.00,wen.evans548@example.com
+C00548,09/07/2026,#50928,Kitchen,2,10.50,21.00,wen.evans548@example.com
+C00191,2026-07-10,#50929,Stationery,2,$48.43,,chloe.silva191@example.com
+c00593,2026-07-10,#50930,Toys,1,16.51,16.51,xavi.adams593@example.com
+C00180,11/07/2026,#50931,Home,3,19.54,"€58,62",zoe.fischer180@example.com
+C00450,11/07/2026,#50932,Outdoor,2,43.86,"€87,72",liam.chen450@example.com
+C00450,11/07/2026,#50932,Outdoor,2,43.86,$87.72,liam.chen450@example.com
+C00209,12/07/2026,#50933,Home,3,$18.11,,ben.zhang209@example.com
+C00280,2026-07-12,#50934,Outdoor,3,51.24,153.72,jonah.nguyen280@example.com
+c00280,2026-07-12,#50934,Beauty,3,51.24,153.72,jonah.nguyen280@example.com
+C00309,2026-07-12,#50935,Toys,3,$15.28,$45.84,liam.patel309@example.com
+ C00309 ,2026-07-12,#50935,Stationery,2,$22.92,$45.84,liam.patel309@example.com
+ C00309 ,2026-07-12,#50935,Stationery,3,15.28,45.84,liam.patel309@example.com
+,,,,,,,
+C00363,12/07/2026,#50936,Kitchen,3,$3.87,,yara.martin363@example.com
+C00363,12/07/2026,#50936,Toys,2,$5.80,$11.60,yara.martin363@example.com
+C00415,2026-07-12,#50937,Kitchen,1,17.61,17.61,dan.zhang415@example.com
+ C00415 ,2026-07-12,#50937,Stationery,3,5.87,$17.61,dan.zhang415@example.com
+,2026-07-12,#50937,Outdoor,2,8.80,"€17,60",dan.zhang415@example.com
+C00364,14/07/2026,#50938,Home,2,$14.90,29.80,yara.nguyen364@example.com
+C00364,14/07/2026,#50938,Stationery,3,"€9,93",$29.79,yara.nguyen364@example.com
+C00435,14/07/2026,#50939,Toys,2,9.67,$19.34,wen.young435@example.com
+C00041,16/07/2026,#50940,Home,3,4.88,$14.64,ben.martin41@example.com
+C00041,16/07/2026,#50940,Outdoor,3,4.88,$14.64,ben.martin41@example.com
+C00088,2026-07-16,#50941,Home,1,42.54,,isla.diaz88@example.com
+c00088,2026-07-16,#50941,Home,1,42.54,$42.54,isla.diaz88@example.com
+C00088,2026-07-16,#50941,Toys,1,$42.55,42.55,isla.diaz88@example.com
+C00200,16/07/2026,#50942,Home,3,$47.08,141.24,liam.fischer200@example.com
+C00219,"Jul 16, 2026",#50943,Beauty,1,$23.82,23.82,victor.evans219@example.com
+C00219,"Jul 16, 2026",#50943,Stationery,2,11.91,23.82,victor.evans219@example.com
+C00286,2026-07-16,#50944,Toys,2,"€18,01",36.02,liam.young286@example.com
+ C00513 ,17/07/2026,#50945,Home,2,15.32,,rosa.evans513@example.com
+C00513,17/07/2026,#50945,Home,2,$15.32,"€30,64",rosa.evans513@example.com
+C00069,18/07/2026,#50946,Kitchen,1,57.53,$57.53,liam.ito69@example.com
+C00069,18/07/2026,#50946,Toys,1,$57.53,"€57,53",liam.ito69@example.com
+C00069,18/07/2026,#50946,Toys,1,$57.53,"€57,53",liam.ito69@example.com
+C00478,18/07/2026,#50947,Toys,1,$72.77,72.77,kira.adams478@example.com
+C00549,18/07/2026,#50948,Beauty,2,$6.13,"€12,26",ava.chen549@example.com
+C00549,18/07/2026,#50948,Toys,2,"€6,13",,ava.chen549@example.com
+C00549,18/07/2026,#50948,Toys,1,12.26,$12.26,ava.chen549@example.com
+C00117,19/07/2026,#50949,Stationery,2,$7.28,14.56,chloe.ito117@example.com
+,19/07/2026,#50949,Home,1,14.55,$14.55,chloe.ito117@example.com
+C00117,19/07/2026,#50949,Outdoor,3,$4.85,$14.55,chloe.ito117@example.com
+C00452,"Jul 19, 2026",#50950,Beauty,3,$35.59,"€106,77",quinn.zhang452@example.com
+C00076,20/07/2026,#50951,Stationery,3,15.91,,isla.taylor76@example.com
+C00120,20/07/2026,#50952,Kitchen,2,8.99,$17.98,dan.taylor120@example.com
+c00120,20/07/2026,#50952,Home,3,$5.99,$17.97,dan.taylor120@example.com
+C00290,21/07/2026,#50953,Home,3,12.42,$37.26,rosa.silva290@example.com
+ C00337 ,21/07/2026,#50954,Toys,1,"€13,52",$13.52,elena.zhang337@example.com
+C00337,21/07/2026,#50954,Home,2,6.76,$13.52,elena.zhang337@example.com
+C00351,21/07/2026,#50955,Stationery,3,"€6,87",20.61,priya.martin351@example.com
+C00530,21/07/2026,#50956,Toys,3,"€3,89",11.67,ava.brown530@example.com
+ C00530 ,21/07/2026,#50956,Home,1,$11.68,11.68,ava.brown530@example.com
+C00377,22/07/2026,#50957,Home,1,$22.21,22.21,noor.patel377@example.com
+C00377,22/07/2026,#50957,Outdoor,3,$7.40,,noor.patel377@example.com
+c00464,2026-07-22,#50958,Kitchen,1,37.55,,femi.fischer464@example.com
+C00552,22/07/2026,#50959,Beauty,2,$20.44,"€40,88",tara.lopez552@example.com
+C00279,23/07/2026,#50960,Outdoor,2,"€14,01",28.02,ava.taylor279@example.com
+C00279,23/07/2026,#50960,Home,1,"€28,02",28.02,ava.taylor279@example.com
+ C00279 ,23/07/2026,#50960,Outdoor,3,$9.34,"€28,02",ava.taylor279@example.com
+C00310,23/07/2026,#50961,Home,2,$28.74,"€57,48",noor.zhang310@example.com
+C00355,"Jul 23, 2026",#50962,Toys,2,4.93,9.86,noor.fischer355@example.com
+C00355,"Jul 23, 2026",#50962,Toys,1,9.85,$9.85,noor.fischer355@example.com
+C00355,"Jul 23, 2026",#50962,Beauty,2,$4.93,9.86,noor.fischer355@example.com
+C00428,23/07/2026,#50963,Outdoor,2,68.22,$136.44,jonah.diaz428@example.com
+C00201,2026-07-24,#50964,Kitchen,3,$15.75,"€47,25",chloe.diaz201@example.com
+C00201,2026-07-24,#50964,Beauty,3,15.75,47.25,chloe.diaz201@example.com
+C00201,2026-07-24,#50964,Outdoor,3,$15.75,47.25,chloe.diaz201@example.com
+C00369,24/07/2026,#50965,Outdoor,1,$113.93,$113.93,priya.brown369@example.com
+c00249,2026-07-25,#50966,Kitchen,1,"€37,54",,omar.jones249@example.com
+C00452,"Jul 26, 2026",#50967,Home,3,"€22,71","€68,13",quinn.zhang452@example.com
+C00452,09/08/2026,#R50967,Refund,1,,(34.07),quinn.zhang452@example.com
+C00209,2026-07-27,#50968,Stationery,1,$23.73,$23.73,ben.zhang209@example.com
+C00209,2026-07-27,#50968,Stationery,3,$7.91,$23.73,ben.zhang209@example.com
+,2026-07-27,#50968,Stationery,1,$23.73,23.73,ben.zhang209@example.com
+ C00262 ,27/07/2026,#50969,Kitchen,1,"€188,10",188.10,ben.zhang262@example.com
+C00193,"Jul 28, 2026",#50970,Outdoor,3,"€7,09",$21.27,uma.zhang193@example.com
+C00411,28/07/2026,#50971,Home,3,$10.55,$31.65,chloe.rossi411@example.com
+c00411,28/07/2026,#50971,Outdoor,3,10.55,31.65,chloe.rossi411@example.com
+C00412,2026-07-28,#50972,Stationery,1,$26.86,$26.86,zoe.taylor412@example.com
+C00429,"Jul 28, 2026",#50973,Kitchen,2,20.40,$40.80,femi.martin429@example.com
+C00077,2026-07-29,#50974,Home,2,$7.46,,yara.zhang77@example.com
+C00077,2026-07-29,#50974,Toys,1,$14.91,"€14,91",yara.zhang77@example.com
+C00077,2026-07-29,#50974,Outdoor,1,$14.92,"€14,92",yara.zhang77@example.com
+C00206,29/07/2026,#50975,Kitchen,1,"€89,21",$89.21,yara.jones206@example.com
+ C00547 ,29/07/2026,#50976,Toys,1,$27.91,27.91,priya.ito547@example.com
+C00547,29/07/2026,#50976,Kitchen,3,$9.30,$27.90,priya.ito547@example.com
+C00061,"Jul 30, 2026",#50977,Stationery,2,15.36,$30.72,xavi.diaz61@example.com
+c00061,"Jul 30, 2026",#50977,Stationery,1,"€30,71",$30.71,xavi.diaz61@example.com
+C00229,2026-07-30,#50978,Outdoor,1,33.42,$33.42,quinn.walker229@example.com
+C00287,30/07/2026,#50979,Home,2,16.56,33.12,victor.jones287@example.com
+c00287,30/07/2026,#50979,Outdoor,3,11.04,33.12,victor.jones287@example.com
+C00287,30/07/2026,#50979,Toys,1,$33.11,$33.11,victor.jones287@example.com
+C00554,"Jul 30, 2026",#50980,Stationery,1,"€31,65","€31,65",kira.silva554@example.com
+ C00554 ,"Jul 30, 2026",#50980,Beauty,1,"€31,65",31.65,kira.silva554@example.com
+C00554,"Jul 30, 2026",#50980,Stationery,1,$31.64,$31.64,kira.silva554@example.com
+C00493,31/07/2026,#50981,Beauty,2,$36.20,72.40,priya.taylor493@example.com
+ C00493 ,31/07/2026,#50981,Toys,1,72.39,,priya.taylor493@example.com
+C00062,01/08/2026,#50982,Outdoor,1,26.32,26.32,wen.diaz62@example.com
+C00062,01/08/2026,#50982,Stationery,3,$8.77,"€26,31",wen.diaz62@example.com
+ C00210 ,01/08/2026,#50983,Home,1,$43.96,43.96,hiro.brown210@example.com
+C00285,2026-08-01,#50984,Beauty,3,$6.10,"€18,30",xavi.khan285@example.com
+C00285,2026-08-01,#50984,Kitchen,3,$6.10,"€18,30",xavi.khan285@example.com
+C00285,2026-08-01,#50984,Outdoor,2,9.15,"€18,30",xavi.khan285@example.com
+C00549,01/08/2026,#50985,Beauty,1,$8.84,,ava.chen549@example.com
+C00549,01/08/2026,#50985,Toys,2,4.42,$8.84,ava.chen549@example.com
+C00549,01/08/2026,#50985,Home,2,$4.42,$8.84,ava.chen549@example.com
+C00403,02/08/2026,#50986,Kitchen,1,"€6,38",$6.38,quinn.ito403@example.com
+C00403,02/08/2026,#50986,Outdoor,1,6.38,$6.38,quinn.ito403@example.com
+C00403,02/08/2026,#50986,Outdoor,1,"€6,37",6.37,quinn.ito403@example.com
+C00099,03/08/2026,#50987,Kitchen,2,$2.12,$4.24,uma.evans99@example.com
+C00099,03/08/2026,#50987,Stationery,1,4.23,$4.23,uma.evans99@example.com
+C00099,03/08/2026,#50987,Kitchen,2,$2.12,4.24,uma.evans99@example.com
+C00321,2026-08-03,#50988,Stationery,2,2.74,,uma.jones321@example.com
+C00321,2026-08-03,#50988,Beauty,1,5.47,,uma.jones321@example.com
+C00321,2026-08-03,#50988,Beauty,1,$5.47,,uma.jones321@example.com
+C00323,03/08/2026,#50989,Stationery,2,$30.08,$60.16,victor.zhang323@example.com
+C00533,2026-08-03,#50990,Beauty,3,"€14,97","€44,91",jonah.hughes533@example.com
+C00055,04/08/2026,#50991,Beauty,1,45.84,45.84,priya.khan55@example.com
+C00201,05/08/2026,#50992,Beauty,2,"€16,85",$33.70,chloe.diaz201@example.com
+ C00201 ,05/08/2026,#50992,Stationery,2,$16.85,"€33,70",chloe.diaz201@example.com
+C00331,05/08/2026,#50993,Kitchen,3,$10.16,$30.48,wen.hughes331@example.com
+C00289,06/08/2026,#50994,Outdoor,1,12.35,$12.35,tara.chen289@example.com
+C00289,06/08/2026,#50994,Home,1,$12.35,12.35,tara.chen289@example.com
+C00289,06/08/2026,#50994,Beauty,2,6.18,12.36,tara.chen289@example.com
+C00585,06/08/2026,#50995,Toys,1,18.37,,jonah.chen585@example.com
+ C00585 ,06/08/2026,#50995,Home,1,"€18,37",18.37,jonah.chen585@example.com
+C00103,07/08/2026,#50996,Stationery,1,$11.79,,elena.chen103@example.com
+C00103,07/08/2026,#50996,Home,2,"€5,90",11.80,elena.chen103@example.com
+C00103,07/08/2026,#50996,Kitchen,2,"€5,89","€11,78",elena.chen103@example.com
+C00115,07/08/2026,#50997,Beauty,2,$11.67,$23.34,omar.silva115@example.com
+C00115,07/08/2026,#50997,Home,2,11.67,"€23,34",omar.silva115@example.com
+C00211,2026-08-08,#50998,Stationery,3,$4.29,$12.87,xavi.young211@example.com
+C00211,2026-08-08,#50998,Toys,3,$4.29,$12.87,xavi.young211@example.com
+C00254,08/08/2026,#50999,Beauty,3,$4.17,,maya.brown254@example.com
+C00525,2026-08-08,#51000,Stationery,3,2.02,$6.06,wen.walker525@example.com
+C00525,2026-08-08,#51000,Home,3,2.02,"€6,06",wen.walker525@example.com
+ C00525 ,2026-08-08,#51000,Home,3,$2.02,6.06,wen.walker525@example.com
+C00068,2026-08-09,#51001,Kitchen,1,$35.10,35.10,victor.martin68@example.com
+C00068,2026-08-09,#51001,Stationery,1,$35.11,"€35,11",victor.martin68@example.com
+C00010,11/08/2026,#51002,Home,3,$14.82,44.46,ava.chen10@example.com
+C00010,11/08/2026,#51002,Toys,3,"€14,82","€44,46",ava.chen10@example.com
+C00541,11/08/2026,#51003,Beauty,2,$39.72,$79.44,xavi.ito541@example.com
+C00110,12/08/2026,#51004,Stationery,3,3.07,9.21,ava.garcia110@example.com
+C00110,12/08/2026,#51004,Kitchen,1,9.21,$9.21,ava.garcia110@example.com
+c00110,12/08/2026,#51004,Home,1,9.22,9.22,ava.garcia110@example.com
+C00104,13/08/2026,#51005,Outdoor,2,8.88,$17.76,rosa.evans104@example.com
+C00104,13/08/2026,#51005,Outdoor,2,8.87,17.74,rosa.evans104@example.com
+C00112,13/08/2026,#51006,Home,2,$15.46,30.92,quinn.nguyen112@example.com
+C00112,13/08/2026,#51006,Outdoor,2,$15.46,$30.92,quinn.nguyen112@example.com
+C00136,14/08/2026,#51007,Kitchen,1,"€22,32",22.32,isla.garcia136@example.com
+C00136,14/08/2026,#51007,Kitchen,2,"€11,16",22.32,isla.garcia136@example.com
+C00200,14/08/2026,#51008,Outdoor,2,$69.49,$138.98,liam.fischer200@example.com
+ C00208 ,15/08/2026,#51009,Kitchen,2,"€45,95",,victor.nguyen208@example.com
+ C00028 ,16/08/2026,#51010,Beauty,3,$32.44,$97.32,isla.evans28@example.com
+C00363,2026-08-16,#51011,Home,1,$17.25,,yara.martin363@example.com
+C00363,2026-08-16,#51011,Beauty,3,$5.75,$17.25,yara.martin363@example.com
+C00547,16/08/2026,#51012,Toys,3,$18.27,,priya.ito547@example.com
+C00600,17/08/2026,#51013,Kitchen,3,$19.60,$58.80,tara.evans600@example.com
+C00600,17/08/2026,#51013,Toys,2,$29.40,$58.80,tara.evans600@example.com
+C00600,17/08/2026,#51013,Outdoor,1,58.79,$58.79,tara.evans600@example.com
+C00210,18/08/2026,#51014,Home,1,$45.34,,hiro.brown210@example.com
+C00143,19/08/2026,#51015,Toys,1,"€15,67",$15.67,ava.zhang143@example.com
+C00143,19/08/2026,#51015,Home,1,15.67,$15.67,ava.zhang143@example.com
+C00109,20/08/2026,#51016,Toys,3,9.48,,chloe.zhang109@example.com
+ C00180 ,20/08/2026,#51017,Home,1,$28.39,28.39,zoe.fischer180@example.com
+C00180,20/08/2026,#51017,Stationery,1,28.39,"€28,39",zoe.fischer180@example.com
+C00201,20/08/2026,#51018,Home,3,26.02,$78.06,chloe.diaz201@example.com
+ C00017 ,21/08/2026,#51019,Beauty,1,75.85,75.85,kira.okafor17@example.com
+ C00121 ,22/08/2026,#51020,Kitchen,2,$45.22,"€90,44",chloe.rossi121@example.com
+C00354,25/08/2026,#51021,Outdoor,2,$5.32,"€10,64",grace.adams354@example.com
+C00354,25/08/2026,#51021,Kitchen,3,3.54,,grace.adams354@example.com
+C00354,25/08/2026,#51021,Outdoor,1,$10.64,$10.64,grace.adams354@example.com
+C00552,25/08/2026,#51022,Beauty,3,13.60,$40.80,tara.lopez552@example.com
+ C00552 ,25/08/2026,#51022,Stationery,3,13.60,40.80,tara.lopez552@example.com
+C00351,26/08/2026,#51023,Stationery,3,"€4,15",$12.45,priya.martin351@example.com
+C00351,26/08/2026,#51023,Stationery,2,6.23,$12.46,priya.martin351@example.com
+c00351,26/08/2026,#51023,Kitchen,3,$4.15,12.45,priya.martin351@example.com
+,28/08/2026,#51024,Home,3,$13.21,"€39,63",isla.young498@example.com
+C00498,28/08/2026,#51024,Stationery,3,13.21,39.63,isla.young498@example.com
+C00498,28/08/2026,#51024,Toys,2,$19.82,"€39,64",isla.young498@example.com
+c00379,2026-08-30,#51025,Home,2,$11.56,23.12,grace.fischer379@example.com
+C00379,2026-08-30,#51025,Stationery,3,$7.70,23.10,grace.fischer379@example.com
+c00493,30/08/2026,#51026,Home,1,114.37,$114.37,priya.taylor493@example.com
+C00590,"Aug 30, 2026",#51027,Home,1,$37.52,37.52,elena.fischer590@example.com
+ C00590 ,"Aug 30, 2026",#51027,Beauty,2,18.76,,elena.fischer590@example.com
+C00590,"Aug 30, 2026",#51027,Home,2,$18.77,"€37,54",elena.fischer590@example.com
+C00180,2026-08-31,#51028,Toys,1,46.65,,zoe.fischer180@example.com
+C00180,2026-08-31,#51028,Beauty,3,15.55,46.65,zoe.fischer180@example.com
+C00238,2026-08-31,#51029,Home,1,$42.82,$42.82,victor.evans238@example.com
+C00418,31/08/2026,#51030,Outdoor,3,$4.12,$12.36,noor.garcia418@example.com
+C00418,31/08/2026,#51030,Beauty,3,4.12,,noor.garcia418@example.com
+C00016,01/09/2026,#51031,Outdoor,2,"€3,21",6.42,omar.patel16@example.com
+ C00437 ,01/09/2026,#51032,Outdoor,1,$17.55,$17.55,isla.patel437@example.com
+C00437,01/09/2026,#51032,Beauty,2,$8.78,17.56,isla.patel437@example.com
+C00478,01/09/2026,#51033,Home,1,11.93,11.93,kira.adams478@example.com
+C00478,01/09/2026,#51033,Toys,3,$3.97,11.91,kira.adams478@example.com
+C00559,01/09/2026,#51034,Beauty,2,$9.89,$19.78,kira.diaz559@example.com
+ C00559 ,01/09/2026,#51034,Outdoor,1,"€19,76","€19,76",kira.diaz559@example.com
+C00201,2026-09-02,#51035,Beauty,1,26.37,$26.37,chloe.diaz201@example.com
+C00201,2026-09-02,#51035,Beauty,3,8.79,,chloe.diaz201@example.com
+C00201,2026-09-02,#51035,Home,1,$26.36,26.36,chloe.diaz201@example.com
+C00372,02/09/2026,#51036,Toys,3,12.15,36.45,jonah.jones372@example.com
+C00055,03/09/2026,#51037,Outdoor,3,"€15,51",46.53,priya.khan55@example.com
+C00055,03/09/2026,#51037,Beauty,3,15.51,46.53,priya.khan55@example.com
+C00211,2026-09-03,#51038,Home,2,6.07,12.14,xavi.young211@example.com
+C00211,2026-09-03,#51038,Beauty,2,6.07,$12.14,xavi.young211@example.com
+ C00211 ,2026-09-03,#51038,Kitchen,1,12.12,"€12,12",xavi.young211@example.com
+C00411,03/09/2026,#51039,Stationery,1,19.93,19.93,chloe.rossi411@example.com
+C00411,03/09/2026,#51039,Toys,2,"€9,97",19.94,chloe.rossi411@example.com
+C00415,2026-09-03,#51040,Kitchen,1,$28.04,28.04,dan.zhang415@example.com
+ C00415 ,2026-09-03,#51040,Stationery,3,"€9,35",$28.05,dan.zhang415@example.com
+ C00072 ,04/09/2026,#51041,Stationery,2,$4.28,$8.56,victor.hughes72@example.com
+C00072,04/09/2026,#51041,Stationery,3,$2.85,$8.55,victor.hughes72@example.com
+C00072,04/09/2026,#51041,Outdoor,3,2.85,$8.55,victor.hughes72@example.com
+C00309,2026-09-04,#51042,Home,3,"€22,08",$66.24,liam.patel309@example.com
+C00309,2026-09-04,#51042,Toys,1,66.24,,liam.patel309@example.com
+C00309,2026-09-04,#51042,Stationery,1,$66.23,$66.23,liam.patel309@example.com
+C00507,05/09/2026,#51043,Beauty,1,55.55,55.55,ben.chen507@example.com
+C00507,21/09/2026,#R51043,Refund,1,,(27.78),ben.chen507@example.com
+C00054,2026-09-06,#51044,Home,1,$36.91,36.91,jonah.lopez54@example.com
+c00054,2026-09-06,#51044,Kitchen,3,12.30,36.90,jonah.lopez54@example.com
+C00083,06/09/2026,#51045,Home,1,16.98,,sam.nguyen83@example.com
+ C00083 ,06/09/2026,#51045,Beauty,1,16.98,$16.98,sam.nguyen83@example.com
+C00083,06/09/2026,#51045,Outdoor,2,$8.49,$16.98,sam.nguyen83@example.com
+C00450,06/09/2026,#51046,Stationery,3,$16.50,,liam.chen450@example.com
+C00450,06/09/2026,#51046,Outdoor,2,$24.75,"€49,50",liam.chen450@example.com
+C00450,06/09/2026,#51046,Outdoor,3,16.49,$49.47,liam.chen450@example.com
+C00585,07/09/2026,#51047,Outdoor,1,12.26,$12.26,jonah.chen585@example.com
+ C00585 ,07/09/2026,#51047,Outdoor,2,"€6,13",12.26,jonah.chen585@example.com
+c00585,07/09/2026,#51047,Home,1,$12.25,,jonah.chen585@example.com
+ C00102 ,2026-09-08,#51048,Toys,1,$12.99,$12.99,priya.lopez102@example.com
+C00102,2026-09-08,#51048,Toys,3,$4.33,$12.99,priya.lopez102@example.com
+C00232,08/09/2026,#51049,Outdoor,3,$8.38,$25.14,priya.silva232@example.com
+C00423,08/09/2026,#51050,Home,1,38.27,$38.27,tara.fischer423@example.com
+C00423,08/09/2026,#51050,Outdoor,1,38.26,,tara.fischer423@example.com
+C00555,08/09/2026,#51051,Kitchen,2,17.60,35.20,maya.lopez555@example.com
+C00117,2026-09-09,#51052,Outdoor,1,"€10,18",,chloe.ito117@example.com
+c00117,2026-09-09,#51052,Beauty,1,10.18,10.18,chloe.ito117@example.com
+ C00117 ,2026-09-09,#51052,Outdoor,2,5.09,10.18,chloe.ito117@example.com
+C00007,10/09/2026,#51053,Home,2,$2.19,4.38,xavi.lopez7@example.com
+C00007,10/09/2026,#51053,Beauty,3,$1.46,,xavi.lopez7@example.com
+C00007,10/09/2026,#51053,Home,2,2.19,$4.38,xavi.lopez7@example.com
+C00273,2026-09-10,#51054,Stationery,3,"€1,92",$5.76,liam.okafor273@example.com
+c00273,2026-09-10,#51054,Kitchen,1,5.76,$5.76,liam.okafor273@example.com
+C00273,2026-09-10,#51054,Toys,1,$5.75,5.75,liam.okafor273@example.com
+c00109,"Sep 11, 2026",#51055,Kitchen,2,"€3,92",7.84,chloe.zhang109@example.com
+C00109,"Sep 11, 2026",#51055,Outdoor,2,$3.92,$7.84,chloe.zhang109@example.com
+C00109,"Sep 11, 2026",#51055,Stationery,3,$2.61,$7.83,chloe.zhang109@example.com
+c00200,11/09/2026,#51056,Stationery,2,$14.02,28.04,liam.fischer200@example.com
+C00200,11/09/2026,#51056,Outdoor,3,"€9,35",28.05,liam.fischer200@example.com
+C00200,11/09/2026,#51056,Toys,1,"€28,03",$28.03,liam.fischer200@example.com
+C00243,11/09/2026,#51057,Home,1,"€42,74",$42.74,tara.adams243@example.com
+C00376,2026-09-11,#51058,Toys,1,$9.82,,sam.silva376@example.com
+c00376,2026-09-11,#51058,Outdoor,3,$3.27,9.81,sam.silva376@example.com
+C00376,2026-09-29,#R51058,Refund,1,,(9.82),sam.silva376@example.com
+C00429,13/09/2026,#51059,Home,2,7.47,14.94,femi.martin429@example.com
+C00429,13/09/2026,#51059,Outdoor,3,$4.98,14.94,femi.martin429@example.com
+C00429,13/09/2026,#51059,Outdoor,3,$4.97,14.91,femi.martin429@example.com
+C00549,13/09/2026,#51060,Toys,3,6.66,"€19,98",ava.chen549@example.com
+ C00193 ,14/09/2026,#51061,Beauty,1,$10.24,"€10,24",uma.zhang193@example.com
+C00193,14/09/2026,#51061,Home,3,$3.41,$10.23,uma.zhang193@example.com
+C00240,2026-09-14,#51062,Toys,2,$10.02,,kira.walker240@example.com
+C00240,2026-09-14,#51062,Beauty,1,20.04,$20.04,kira.walker240@example.com
+c00240,2026-09-14,#51062,Toys,1,20.05,20.05,kira.walker240@example.com
+C00547,2026-09-14,#51063,Beauty,1,$30.02,30.02,priya.ito547@example.com
+C00185,2026-09-15,#51064,Stationery,3,53.56,,ava.young185@example.com
+C00279,15/09/2026,#51065,Outdoor,2,10.35,$20.70,ava.taylor279@example.com
+C00279,15/09/2026,#51065,Home,1,20.69,20.69,ava.taylor279@example.com
+c00279,15/09/2026,#51065,Beauty,1,20.69,$20.69,ava.taylor279@example.com
+C00279,05/10/2026,#R51065,Refund,1,,(31.04),ava.taylor279@example.com
+C00105,18/09/2026,#51066,Beauty,3,$39.37,118.11,zoe.walker105@example.com
+c00105,18/09/2026,#51066,Outdoor,2,59.05,$118.10,zoe.walker105@example.com
+C00105,18/09/2026,#51066,Beauty,1,118.11,$118.11,zoe.walker105@example.com
+C00552,19/09/2026,#51067,Beauty,3,8.48,,tara.lopez552@example.com
+C00552,19/09/2026,#51067,Stationery,1,25.43,,tara.lopez552@example.com
+c00372,21/09/2026,#51068,Kitchen,2,$9.99,$19.98,jonah.jones372@example.com
+C00372,21/09/2026,#51068,Beauty,3,$6.66,,jonah.jones372@example.com
+c00533,21/09/2026,#51069,Stationery,1,25.54,$25.54,jonah.hughes533@example.com
+c00533,21/09/2026,#51069,Beauty,1,$25.54,$25.54,jonah.hughes533@example.com
+C00533,21/09/2026,#51069,Kitchen,1,25.54,,jonah.hughes533@example.com
+C00068,"Sep 22, 2026",#51070,Outdoor,2,14.27,$28.54,victor.martin68@example.com
+C00068,"Sep 22, 2026",#51070,Outdoor,2,14.27,$28.54,victor.martin68@example.com
+ C00090 ,2026-09-23,#51071,Kitchen,1,66.85,66.85,jonah.khan90@example.com
+C00117,23/09/2026,#51072,Stationery,2,"€8,49",,chloe.ito117@example.com
+ C00117 ,23/09/2026,#51072,Outdoor,1,16.97,$16.97,chloe.ito117@example.com
+C00117,23/09/2026,#51072,Toys,2,8.49,$16.98,chloe.ito117@example.com
+C00291,23/09/2026,#51073,Beauty,3,"€5,43",$16.29,victor.adams291@example.com
+,23/09/2026,#51073,Toys,2,$8.14,$16.28,victor.adams291@example.com
+C00291,23/09/2026,#51073,Outdoor,3,$5.43,"€16,29",victor.adams291@example.com
+C00363,23/09/2026,#51074,Home,3,"€10,17",$30.51,yara.martin363@example.com
+C00369,"Sep 23, 2026",#51075,Toys,3,$24.65,$73.95,priya.brown369@example.com
+ C00369 ,"Sep 23, 2026",#51075,Home,1,"€73,96",,priya.brown369@example.com
+C00549,23/09/2026,#51076,Beauty,1,$17.94,,ava.chen549@example.com
+C00351,24/09/2026,#51077,Home,3,$2.39,$7.17,priya.martin351@example.com
+C00351,24/09/2026,#51077,Home,2,$3.59,$7.18,priya.martin351@example.com
+C00351,24/09/2026,#51077,Kitchen,1,$7.17,"€7,17",priya.martin351@example.com
+C00376,2026-09-24,#51078,Stationery,1,$6.43,$6.43,sam.silva376@example.com
+C00376,2026-09-24,#51078,Stationery,3,2.14,,sam.silva376@example.com
+C00376,2026-09-24,#51078,Stationery,1,6.42,,sam.silva376@example.com
+C00232,2026-09-25,#51079,Outdoor,3,$9.20,27.60,priya.silva232@example.com
+C00417,25/09/2026,#51080,Home,1,$19.10,$19.10,isla.walker417@example.com
+C00417,25/09/2026,#51080,Stationery,2,9.55,"€19,10",isla.walker417@example.com
+C00417,25/09/2026,#51080,Toys,3,6.37,$19.11,isla.walker417@example.com
+ C00485 ,25/09/2026,#51081,Outdoor,3,$10.28,30.84,victor.rossi485@example.com
+c00593,2026-09-25,#51082,Home,2,$7.79,15.58,xavi.adams593@example.com
+C00593,2026-09-25,#51082,Stationery,2,7.78,$15.56,xavi.adams593@example.com
+C00158,26/09/2026,#51083,Toys,2,9.95,19.90,femi.patel158@example.com
+C00158,26/09/2026,#51083,Stationery,2,$9.95,$19.90,femi.patel158@example.com
+C00479,26/09/2026,#51084,Stationery,3,"€8,04",24.12,victor.ito479@example.com
+C00080,27/09/2026,#51085,Toys,2,$3.83,"€7,66",yara.rossi80@example.com
+C00080,27/09/2026,#51085,Kitchen,1,$7.65,$7.65,yara.rossi80@example.com
+C00180,27/09/2026,#51086,Beauty,2,$21.05,$42.10,zoe.fischer180@example.com
+C00180,27/09/2026,#51086,Home,2,"€21,05","€42,10",zoe.fischer180@example.com
+C00484,27/09/2026,#51087,Outdoor,1,"€16,15",16.15,sam.silva484@example.com
+C00484,27/09/2026,#51087,Kitchen,3,$5.38,16.14,sam.silva484@example.com
+C00496,27/09/2026,#51088,Stationery,2,66.37,132.74,chloe.lopez496@example.com
+C00554,27/09/2026,#51089,Kitchen,1,23.27,"€23,27",kira.silva554@example.com
+C00554,27/09/2026,#51089,Stationery,3,7.76,$23.28,kira.silva554@example.com
+C00554,27/09/2026,#51089,Outdoor,1,23.28,$23.28,kira.silva554@example.com
+C00115,28/09/2026,#51090,Toys,2,27.86,55.72,omar.silva115@example.com
+ C00289 ,28/09/2026,#51091,Toys,1,8.41,8.41,tara.chen289@example.com
+C00289,28/09/2026,#51091,Outdoor,2,4.21,,tara.chen289@example.com
+C00289,28/09/2026,#51091,Kitchen,2,$4.21,8.42,tara.chen289@example.com
+C00210,29/09/2026,#51092,Stationery,1,$35.49,35.49,hiro.brown210@example.com
+C00540,"Sep 29, 2026",#51093,Toys,3,"€6,39",$19.17,rosa.young540@example.com
+C00540,"Sep 29, 2026",#51093,Toys,2,9.59,$19.18,rosa.young540@example.com
+c00043,30/09/2026,#51094,Home,2,$5.03,$10.06,isla.jones43@example.com
+C00043,30/09/2026,#51094,Beauty,3,$3.35,,isla.jones43@example.com
+C00043,30/09/2026,#51094,Toys,1,"€10,06",10.06,isla.jones43@example.com
+C00201,01/10/2026,#51095,Kitchen,2,$17.97,35.94,chloe.diaz201@example.com
+C00201,01/10/2026,#51095,Beauty,1,35.94,$35.94,chloe.diaz201@example.com
+c00268,01/10/2026,#51096,Kitchen,2,$19.84,39.68,elena.patel268@example.com
+C00268,01/10/2026,#51096,Beauty,2,"€19,84",$39.68,elena.patel268@example.com
+C00402,2026-10-01,#51097,Beauty,2,$9.05,$18.10,ava.zhang402@example.com
+C00402,2026-10-01,#51097,Stationery,2,9.05,18.10,ava.zhang402@example.com
+ C00402 ,2026-10-01,#51097,Stationery,1,$18.11,18.11,ava.zhang402@example.com
+C00541,"Oct 1, 2026",#51098,Kitchen,1,27.54,27.54,xavi.ito541@example.com
+ C00541 ,"Oct 1, 2026",#51098,Stationery,3,9.18,,xavi.ito541@example.com
+C00541,"Oct 1, 2026",#51098,Beauty,3,9.18,$27.54,xavi.ito541@example.com
+C00085,2026-10-02,#51099,Beauty,3,$3.91,$11.73,uma.garcia85@example.com
+ C00085 ,2026-10-02,#51099,Stationery,1,$11.73,$11.73,uma.garcia85@example.com
+C00088,02/10/2026,#51100,Kitchen,3,$33.93,,isla.diaz88@example.com
+C00099,03/10/2026,#51101,Home,2,$2.37,,uma.evans99@example.com
+C00099,03/10/2026,#51101,Home,1,$4.74,,uma.evans99@example.com
+C00099,03/10/2026,#51101,Outdoor,3,1.58,,uma.evans99@example.com
+C00292,03/10/2026,#51102,Outdoor,2,$24.26,$48.52,wen.martin292@example.com
+ C00411 ,2026-10-03,#51103,Beauty,3,7.50,22.50,chloe.rossi411@example.com
+C00411,2026-10-03,#51103,Toys,1,22.51,$22.51,chloe.rossi411@example.com
+C00411,2026-10-03,#51103,Toys,1,$22.50,22.50,chloe.rossi411@example.com
+ C00411 ,23/10/2026,#R51103,Refund,1,,(33.76),chloe.rossi411@example.com
+C00437,03/10/2026,#51104,Outdoor,1,16.68,$16.68,isla.patel437@example.com
+C00437,03/10/2026,#51104,Kitchen,3,5.56,$16.68,isla.patel437@example.com
+,,,,,,,
+C00102,04/10/2026,#51105,Home,3,8.65,"€25,95",priya.lopez102@example.com
+C00240,2026-10-04,#51106,Kitchen,3,$25.01,,kira.walker240@example.com
+C00463,04/10/2026,#51107,Home,2,22.03,44.06,jonah.evans463@example.com
+ C00374 ,05/10/2026,#51108,Home,2,36.19,"€72,38",hiro.silva374@example.com
+C00232,06/10/2026,#51109,Stationery,2,13.79,27.58,priya.silva232@example.com
+C00251,06/10/2026,#51110,Home,2,$34.41,68.82,ben.adams251@example.com
+C00563,06/10/2026,#51111,Toys,3,$19.01,$57.03,dan.okafor563@example.com
+C00062,07/10/2026,#51112,Stationery,1,38.99,"€38,99",wen.diaz62@example.com
+C00062,07/10/2026,#51112,Beauty,1,38.98,38.98,wen.diaz62@example.com
+C00370,2026-10-07,#51113,Stationery,2,64.94,$129.88,zoe.adams370@example.com
+C00211,08/10/2026,#51114,Toys,2,$18.72,$37.44,xavi.young211@example.com
+C00342,08/10/2026,#51115,Toys,3,$5.73,,rosa.brown342@example.com
+C00342,08/10/2026,#51115,Outdoor,3,5.73,17.19,rosa.brown342@example.com
+ C00342 ,08/10/2026,#51115,Toys,2,$8.59,17.18,rosa.brown342@example.com
+C00485,08/10/2026,#51116,Home,1,26.23,$26.23,victor.rossi485@example.com
+c00322,2026-10-09,#51117,Stationery,2,$10.76,$21.52,jonah.okafor322@example.com
+C00322,2026-10-09,#51117,Stationery,2,10.76,$21.52,jonah.okafor322@example.com
+ C00322 ,2026-10-09,#51117,Toys,3,"€7,17",$21.51,jonah.okafor322@example.com
+c00126,2026-10-10,#51118,Kitchen,2,"€12,17",$24.34,isla.garcia126@example.com
+C00155,10/10/2026,#51119,Stationery,3,8.91,26.73,uma.evans155@example.com
+c00155,10/10/2026,#51119,Beauty,3,"€8,91",26.73,uma.evans155@example.com
+C00161,10/10/2026,#51120,Beauty,3,$5.79,$17.37,tara.evans161@example.com
+ C00274 ,10/10/2026,#51121,Outdoor,2,$25.36,50.72,omar.walker274@example.com
+C00274,10/10/2026,#51121,Home,2,"€25,36",$50.72,omar.walker274@example.com
+C00274,10/10/2026,#51121,Kitchen,3,"€16,90",$50.70,omar.walker274@example.com
+C00287,10/10/2026,#51122,Outdoor,1,37.26,37.26,victor.jones287@example.com
+C00287,10/10/2026,#51122,Outdoor,2,18.63,"€37,26",victor.jones287@example.com
+C00287,10/10/2026,#51122,Stationery,2,18.63,$37.26,victor.jones287@example.com
+C00297,10/10/2026,#51123,Toys,2,15.57,31.14,yara.jones297@example.com
+C00297,10/10/2026,#51123,Kitchen,2,"€15,57",$31.14,yara.jones297@example.com
+C00297,10/10/2026,#51123,Stationery,3,"€10,38",,yara.jones297@example.com
+ C00441 ,10/10/2026,#51124,Beauty,1,12.03,12.03,elena.adams441@example.com
+C00441,10/10/2026,#51124,Kitchen,3,4.01,,elena.adams441@example.com
+c00180,11/10/2026,#51125,Stationery,2,$17.49,$34.98,zoe.fischer180@example.com
+C00180,11/10/2026,#51125,Outdoor,1,34.97,,zoe.fischer180@example.com
+C00225,2026-10-11,#51126,Home,2,21.71,"€43,42",victor.evans225@example.com
+C00225,2026-10-11,#51126,Home,3,$14.47,43.41,victor.evans225@example.com
+C00496,11/10/2026,#51127,Beauty,1,"€36,38",36.38,chloe.lopez496@example.com
+ C00496 ,11/10/2026,#51127,Outdoor,2,$18.19,"€36,38",chloe.lopez496@example.com
+c00496,11/10/2026,#51127,Beauty,2,$18.20,$36.40,chloe.lopez496@example.com
+C00070,12/10/2026,#51128,Beauty,2,$9.98,$19.96,wen.khan70@example.com
+c00070,12/10/2026,#51128,Toys,1,$19.95,19.95,wen.khan70@example.com
+C00272,2026-10-12,#51129,Home,1,$99.80,$99.80,sam.martin272@example.com
+C00272,2026-10-12,#51129,Beauty,1,$99.80,,sam.martin272@example.com
+C00272,2026-10-12,#51129,Outdoor,3,33.26,99.78,sam.martin272@example.com
+C00291,12/10/2026,#51130,Kitchen,1,90.30,$90.30,victor.adams291@example.com
+ C00371 ,"Oct 12, 2026",#51131,Home,1,"€21,09",$21.09,grace.diaz371@example.com
+C00371,"Oct 12, 2026",#51131,Toys,3,$7.03,$21.09,grace.diaz371@example.com
+C00371,"Oct 12, 2026",#51131,Outdoor,2,"€10,55","€21,10",grace.diaz371@example.com
+C00109,13/10/2026,#51132,Outdoor,1,"€8,91",$8.91,chloe.zhang109@example.com
+C00109,13/10/2026,#51132,Stationery,3,$2.97,$8.91,chloe.zhang109@example.com
+C00201,14/10/2026,#51133,Beauty,2,61.95,123.90,chloe.diaz201@example.com
+C00232,2026-10-14,#51134,Beauty,1,7.64,,priya.silva232@example.com
+ C00232 ,2026-10-14,#51134,Toys,2,$3.82,7.64,priya.silva232@example.com
+C00232,2026-10-14,#51134,Stationery,2,3.82,$7.64,priya.silva232@example.com
+C00573,2026-10-15,#51135,Beauty,2,9.29,18.58,dan.lopez573@example.com
+C00573,2026-10-15,#51135,Home,3,$6.19,18.57,dan.lopez573@example.com
+C00573,2026-10-15,#51135,Toys,2,9.29,,dan.lopez573@example.com
+C00004,16/10/2026,#51136,Kitchen,1,$97.73,97.73,maya.patel4@example.com
+ C00363 ,16/10/2026,#51137,Kitchen,3,$3.29,$9.87,yara.martin363@example.com
+C00363,16/10/2026,#51137,Home,1,"€9,87",9.87,yara.martin363@example.com
+c00363,16/10/2026,#51137,Stationery,3,3.29,,yara.martin363@example.com
+C00389,16/10/2026,#51138,Kitchen,1,"€33,44",33.44,elena.nguyen389@example.com
+c00389,16/10/2026,#51138,Home,1,33.44,$33.44,elena.nguyen389@example.com
+C00389,16/10/2026,#51138,Stationery,3,$11.15,$33.45,elena.nguyen389@example.com
+C00491,16/10/2026,#51139,Kitchen,2,$61.82,123.64,elena.walker491@example.com
+C00491,16/10/2026,#51139,Outdoor,1,123.63,123.63,elena.walker491@example.com
+c00280,17/10/2026,#51140,Outdoor,1,$197.58,197.58,jonah.nguyen280@example.com
+c00369,18/10/2026,#51141,Toys,3,33.52,"€100,56",priya.brown369@example.com
+C00321,20/10/2026,#51142,Beauty,2,$4.19,,uma.jones321@example.com
+C00321,20/10/2026,#51142,Stationery,2,4.19,8.38,uma.jones321@example.com
+C00321,20/10/2026,#51142,Toys,3,2.80,$8.40,uma.jones321@example.com
+C00552,20/10/2026,#51143,Toys,3,7.39,22.17,tara.lopez552@example.com
+c00552,20/10/2026,#51143,Outdoor,3,7.38,22.14,tara.lopez552@example.com
+C00119,21/10/2026,#51144,Beauty,3,3.73,11.19,rosa.brown119@example.com
+C00119,21/10/2026,#51144,Outdoor,3,"€3,73",$11.19,rosa.brown119@example.com
+ C00119 ,21/10/2026,#51144,Stationery,2,$5.60,$11.20,rosa.brown119@example.com
+C00210,21/10/2026,#51145,Kitchen,2,$6.25,,hiro.brown210@example.com
+C00210,21/10/2026,#51145,Kitchen,3,$4.17,$12.51,hiro.brown210@example.com
+C00210,21/10/2026,#51145,Outdoor,3,$4.17,12.51,hiro.brown210@example.com
+C00258,21/10/2026,#51146,Kitchen,3,79.72,"€239,16",chloe.ito258@example.com
+C00279,2026-10-21,#51147,Kitchen,3,9.39,,ava.taylor279@example.com
+C00279,2026-10-21,#51147,Stationery,1,"€28,15",$28.15,ava.taylor279@example.com
+C00377,21/10/2026,#51148,Toys,3,$5.42,$16.26,noor.patel377@example.com
+C00377,21/10/2026,#51148,Stationery,3,"€5,42",16.26,noor.patel377@example.com
+C00377,21/10/2026,#51148,Outdoor,1,16.27,$16.27,noor.patel377@example.com
+C00384,23/10/2026,#51149,Kitchen,3,7.37,"€22,11",xavi.garcia384@example.com
+C00043,24/10/2026,#51150,Outdoor,2,$19.35,"€38,70",isla.jones43@example.com
+C00117,2026-10-24,#51151,Home,1,$53.60,$53.60,chloe.ito117@example.com
+C00431,2026-10-24,#51152,Stationery,3,"€4,58",$13.74,tara.walker431@example.com
+C00431,2026-10-24,#51152,Toys,3,$4.58,,tara.walker431@example.com
+C00431,2026-10-24,#51152,Home,3,"€4,57",$13.71,tara.walker431@example.com
+C00039,2026-10-25,#51153,Toys,3,22.39,67.17,sam.adams39@example.com
+C00191,25/10/2026,#51154,Outdoor,1,21.25,$21.25,chloe.silva191@example.com
+C00191,25/10/2026,#51154,Toys,1,21.25,21.25,chloe.silva191@example.com
+ C00191 ,25/10/2026,#51154,Toys,3,7.08,$21.24,chloe.silva191@example.com
+ C00275 ,27/10/2026,#51155,Stationery,3,"€22,78",$68.34,femi.silva275@example.com
+C00324,27/10/2026,#51156,Beauty,1,$13.21,"€13,21",femi.zhang324@example.com
+C00324,27/10/2026,#51156,Toys,3,"€4,40",13.20,femi.zhang324@example.com
+ C00324 ,27/10/2026,#51156,Home,3,$4.40,,femi.zhang324@example.com
+ C00342 ,2026-10-28,#51157,Kitchen,3,$10.33,$30.99,rosa.brown342@example.com
+C00342,2026-10-28,#51157,Kitchen,3,$10.33,30.99,rosa.brown342@example.com
+ C00549 ,2026-10-28,#51158,Stationery,2,$15.65,$31.30,ava.chen549@example.com
+C00080,29/10/2026,#51159,Toys,3,4.12,$12.36,yara.rossi80@example.com
+c00080,29/10/2026,#51159,Kitchen,1,12.36,12.36,yara.rossi80@example.com
+C00096,"Oct 29, 2026",#51160,Stationery,3,$9.85,29.55,rosa.lopez96@example.com
+C00096,"Oct 29, 2026",#51160,Beauty,1,29.54,29.54,rosa.lopez96@example.com
+C00096,"Oct 29, 2026",#51160,Beauty,3,"€9,85",29.55,rosa.lopez96@example.com
+C00207,29/10/2026,#51161,Stationery,1,20.68,$20.68,ava.taylor207@example.com
+C00207,29/10/2026,#51161,Outdoor,1,$20.68,$20.68,ava.taylor207@example.com
+C00207,29/10/2026,#51161,Toys,1,20.68,20.68,ava.taylor207@example.com
+C00496,2026-10-29,#51162,Home,3,30.63,,chloe.lopez496@example.com
+C00211,2026-10-30,#51163,Stationery,2,$13.52,$27.04,xavi.young211@example.com
+C00478,2026-10-30,#51164,Outdoor,3,$14.41,43.23,kira.adams478@example.com
+c00180,31/10/2026,#51165,Toys,3,$25.29,75.87,zoe.fischer180@example.com
