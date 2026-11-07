@@ -23,8 +23,11 @@ const NEIGHBOURS: Record<SegmentId, SegmentId[]> = {
   regular: ['vip', 'secondTimer'],
   secondTimer: ['regular', 'new'],
   new: ['secondTimer', 'oneAndDone'],
+  slippingVip: ['slipping', 'vip'],
   slipping: ['oneAndDone', 'lost'],
-  lost: ['slipping'],
+  lostVip: ['lostRegular', 'slippingVip'],
+  lostRegular: ['lost', 'lostVip'],
+  lost: ['lostRegular', 'slipping'],
   oneAndDone: ['new', 'slipping'],
 };
 const ACTIVE: SegmentId[] = ['vip', 'regular', 'secondTimer', 'new'];

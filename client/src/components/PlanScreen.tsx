@@ -9,7 +9,7 @@ import type { Derived } from '../useDerived';
 import { AssumptionsPanel } from './AssumptionsPanel';
 import { ControlsPanel } from './ControlsPanel';
 import { SegmentCard } from './SegmentCard';
-import { SegmentMap } from './SegmentMap';
+import { GlanceCarousel } from './GlanceCarousel';
 import { Card, CardTitle, NumberField, SourceTag } from './ui';
 
 interface Props {
@@ -33,27 +33,20 @@ export function PlanScreen({ derived, settings, onSettings, onOpenSegment, onEdi
     <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_320px]">
       <div className={`min-w-0 space-y-6 transition-opacity ${stale ? 'opacity-60' : ''}`}>
         <div>
-          <h1 className="text-2xl font-semibold tracking-tight text-slate-900">This week’s email plan</h1>
+          <h1 className="text-3xl font-light tracking-tight text-slate-900">This week’s email plan</h1>
           {derived.today?.source === 'user' && (
             <p className="mt-1 text-sm text-amber-800">Viewing the plan as it would have looked on a past date.</p>
           )}
         </div>
         <PlanSummaryCard derived={derived} settings={settings} onSettings={onSettings} />
 
-        <Card>
-          <CardTitle hint="Each box is one group. Click one to see who’s in it.">Your customers at a glance</CardTitle>
-          <div className="overflow-x-auto">
-            <div className="min-w-140">
-              <SegmentMap
-                plan={plan}
-                thresholds={derived.thresholds!}
-                settings={settings}
-                totalCustomers={customers.length}
-                onSelect={onOpenSegment}
-              />
-            </div>
-          </div>
-        </Card>
+        <GlanceCarousel
+          plan={plan}
+          thresholds={derived.thresholds!}
+          settings={settings}
+          totalCustomers={customers.length}
+          onSelect={onOpenSegment}
+        />
 
         <div className="space-y-4">
           <h2 className="text-base font-semibold text-slate-900">Groups, biggest opportunity first</h2>
@@ -61,13 +54,13 @@ export function PlanScreen({ derived, settings, onSettings, onOpenSegment, onEdi
             <SegmentCard
               key={x.id}
               x={x}
-              customers={customers}
               settings={settings}
               ctx={ctx}
               repeatRates={derived.repeatRates}
               onOpen={onOpenSegment}
             />
           ))}
+          <TestGroupCard derived={derived} settings={settings} />
           {empty.length > 0 && (
             <div className="rounded-xl border border-dashed border-slate-300 p-4 text-sm text-slate-500">
               <p className="font-medium text-slate-600">Nobody in these groups right now</p>
@@ -84,7 +77,7 @@ export function PlanScreen({ derived, settings, onSettings, onOpenSegment, onEdi
       </div>
 
       <aside id="plan-controls" className="scroll-mt-4 lg:sticky lg:top-4 lg:max-h-[calc(100vh-2rem)] lg:self-start lg:overflow-y-auto">
-        <div className="space-y-4 rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
+        <div className="space-y-4 rounded-xl border border-slate-200 bg-surface p-4 shadow-sm">
           <h2 className="text-sm font-semibold text-slate-900">Adjust the plan</h2>
           <ControlsPanel settings={settings} onSettings={onSettings} derived={derived} onEditData={onEditData} />
           <AssumptionsPanel settings={settings} onSettings={onSettings} derived={derived} />
@@ -94,7 +87,7 @@ export function PlanScreen({ derived, settings, onSettings, onOpenSegment, onEdi
       {/* On phones the controls sit below a long page; give them a shortcut. */}
       <a
         href="#plan-controls"
-        className="fixed right-4 bottom-4 z-10 rounded-full bg-slate-900 px-4 py-2.5 text-sm font-medium text-white shadow-lg lg:hidden"
+        className="fixed right-4 bottom-4 z-10 rounded-full bg-emerald-600 px-4 py-2.5 text-sm font-medium text-on-accent shadow-lg lg:hidden"
       >
         Adjust the plan ↓
       </a>
@@ -123,13 +116,12 @@ function PlanSummaryCard({
   const [applied, setApplied] = useState<number | null>(null);
   const uplift = whatIf ?? s.assumedUplift;
   const profit = whatIf === null ? s.extraProfit : planProfitAtUplift(plan.rows, settings.margin, whatIf);
-  const held = plan.segments.reduce((n, x) => n + x.split.holdout.length, 0);
   const placeholders = defaultSettings().uplift;
   const assumptionsChanged =
     settings.uplift.u0 !== placeholders.u0 || settings.uplift.uRef !== placeholders.uRef || settings.uplift.dRef !== placeholders.dRef;
   const applyWhatIf = () => {
     if (whatIf === null) return;
-    onSettings({ uplift: upliftForTarget(plan, settings.margin, settings.uplift, whatIf) });
+    onSettings({ uplift: upliftForTarget(plan, settings.margin, settings.uplift, whatIf, settings.upliftMultipliers) });
     setApplied(whatIf);
     setWhatIf(null);
   };
@@ -213,7 +205,38 @@ function PlanSummaryCard({
             </button>
           </>
         )}
-        {held > 0 && ` ${plural(held, 'customer')} ${held === 1 ? 'is' : 'are'} held back as a test group.`}
+      </p>
+    </Card>
+  );
+}
+
+/** The one place the plan talks about the test group: how many, and why. */
+function TestGroupCard({ derived, settings }: { derived: Derived; settings: Settings }) {
+  const plan = derived.plan!;
+  const held = plan.segments.reduce((n, x) => n + x.split.holdout.length, 0);
+  const total = plan.segments.reduce((n, x) => n + x.stats.count, 0);
+  if (held === 0) {
+    return (
+      <Card>
+        <CardTitle>Test group</CardTitle>
+        <p className="text-sm text-slate-600">
+          No test group: everyone in an emailed group gets the email. Turn on “Hold back as a test group” to measure what your
+          emails really do.
+        </p>
+      </Card>
+    );
+  }
+  return (
+    <Card>
+      <CardTitle>Test group</CardTitle>
+      <p className="text-sm text-slate-700">
+        <strong className="text-slate-900">{plural(held, 'customer')}</strong> ({pct(total ? held / total : 0, 0)} of each group,
+        picked at random) won’t get this week’s emails.
+      </p>
+      <p className="mt-2 text-sm text-slate-500">
+        Like a control group: after {settings.windowDays} days, compare how many of them bought with how many emailed customers
+        bought. The difference is what your emails really did, and it can replace our guess under “Your assumptions”. Each
+        group’s page has its test list to download.
       </p>
     </Card>
   );

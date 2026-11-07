@@ -1,4 +1,4 @@
-# Win-Back Planner — Project Plan
+# Golden Email — Project Plan
 
 *Working name. Golden Analytics Full Stack Intern Challenge — due Nov 9, 2026.*
 *Revision 2 — see §11 for what changed and why.*

@@ -1,5 +1,5 @@
 /**
- * Deterministic synthetic sample data for the Win-Back Planner.
+ * Deterministic synthetic sample data.
  *
  *   npm run generate-data                 → client/public/samples/{online-store,hair-salon,travel-agency,messy}.csv
  *   npm run generate-data -- --rows 50000 → also client/public/samples/online-store-50k.csv (perf testing, gitignored)

@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import {
+  boostDiscountResponse,
   breakEvenUplift,
   discountSteps,
   expectedRevenueNoEmail,
@@ -27,6 +28,15 @@ describe('uplift', () => {
   });
   it('never goes negative', () => {
     expect(uplift(0.4, { u0: 0.01, uRef: -0.05, dRef: 0.2 })).toBe(0);
+  });
+});
+
+describe('boostDiscountResponse', () => {
+  it('multiplies only the discount-driven part of the uplift', () => {
+    const b = boostDiscountResponse(assumptions, 2);
+    expect(uplift(0, b)).toBeCloseTo(uplift(0, assumptions));
+    expect(uplift(0.2, b) - uplift(0, b)).toBeCloseTo(2 * (uplift(0.2, assumptions) - uplift(0, assumptions)));
+    expect(boostDiscountResponse(assumptions, 1)).toBe(assumptions);
   });
 });
 

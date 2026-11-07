@@ -12,6 +12,19 @@ export function uplift(d: number, a: UpliftAssumptions): number {
   return Math.max(0, a.u0 + (a.uRef - a.u0) * Math.sqrt(d / a.dRef));
 }
 
+/** The base uplift curve scaled for one group (both u₀ and u_ref, so the curve keeps its shape). */
+export function scaleUplift(a: UpliftAssumptions, multiplier = 1): UpliftAssumptions {
+  return multiplier === 1 ? a : { ...a, u0: a.u0 * multiplier, uRef: a.uRef * multiplier };
+}
+
+/**
+ * A group that responds more strongly to a *discount*: the part of uplift that comes from the
+ * discount (u_ref − u₀) is multiplied by k; the plain-email uplift u₀ is unchanged.
+ */
+export function boostDiscountResponse(a: UpliftAssumptions, k = 1): UpliftAssumptions {
+  return k === 1 ? a : { ...a, uRef: a.u0 + k * (a.uRef - a.u0) };
+}
+
 export interface OfferInput {
   /** Baseline buy rate within W days without an email. */
   p0: number;

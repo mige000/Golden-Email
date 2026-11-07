@@ -7,8 +7,8 @@ export function Button({
   ...props
 }: ButtonHTMLAttributes<HTMLButtonElement> & { variant?: 'primary' | 'secondary' | 'ghost' }) {
   const styles = {
-    primary: 'bg-emerald-600 text-white hover:bg-emerald-700 disabled:bg-slate-300 disabled:text-slate-500',
-    secondary: 'border border-slate-300 bg-white text-slate-800 hover:bg-slate-50 disabled:text-slate-400',
+    primary: 'bg-emerald-600 text-on-accent hover:bg-emerald-500 disabled:bg-slate-300 disabled:text-slate-500',
+    secondary: 'border border-slate-300 bg-surface text-slate-800 hover:bg-slate-50 disabled:text-slate-400',
     ghost: 'text-slate-600 hover:bg-slate-100 hover:text-slate-900',
   }[variant];
   return (
@@ -21,7 +21,7 @@ export function Button({
 }
 
 export function Card({ children, className = '' }: { children: ReactNode; className?: string }) {
-  return <section className={`rounded-xl border border-slate-200 bg-white p-5 shadow-sm ${className}`}>{children}</section>;
+  return <section className={`rounded-xl border border-slate-200 bg-surface p-5 shadow-sm ${className}`}>{children}</section>;
 }
 
 export function CardTitle({ children, hint }: { children: ReactNode; hint?: ReactNode }) {
@@ -34,7 +34,8 @@ export function CardTitle({ children, hint }: { children: ReactNode; hint?: Reac
 }
 
 const CONFIDENCE_STYLES: Record<Confidence, string> = {
-  high: 'bg-emerald-50 text-emerald-700 ring-emerald-600/20',
+  // Status "good" green: the orange accent would read too close to medium's amber.
+  high: 'bg-[#0ca30c26] text-[#86cf8c] ring-[#0ca30c]/40',
   medium: 'bg-amber-50 text-amber-800 ring-amber-600/20',
   low: 'bg-rose-50 text-rose-700 ring-rose-600/20',
 };

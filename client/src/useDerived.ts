@@ -72,10 +72,13 @@ export function useDerived(
   const { p0Overrides } = settings;
   const bt = useMemo(() => (rawBacktest ? applyP0Overrides(rawBacktest, p0Overrides) : null), [rawBacktest, p0Overrides]);
 
-  const { margin, uplift, holdoutPercent, seed } = settings;
+  const { margin, uplift, upliftMultipliers, holdoutPercent, seed } = settings;
   const plan = useMemo(
-    () => (customers && stats && bt ? buildPlan(customers, stats, bt, { margin, uplift, holdoutPercent, seed }) : null),
-    [customers, stats, bt, margin, uplift, holdoutPercent, seed],
+    () =>
+      customers && stats && bt
+        ? buildPlan(customers, stats, bt, { margin, uplift, upliftMultipliers, holdoutPercent, seed })
+        : null,
+    [customers, stats, bt, margin, uplift, upliftMultipliers, holdoutPercent, seed],
   );
 
   const reasonCtx: ReasonContext | null = useMemo(

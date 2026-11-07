@@ -104,7 +104,10 @@ export const SEGMENT_IDS = [
   'regular',
   'secondTimer',
   'new',
+  'slippingVip',
   'slipping',
+  'lostVip',
+  'lostRegular',
   'lost',
   'oneAndDone',
 ] as const;
@@ -115,7 +118,10 @@ export const SEGMENT_LABELS: Record<SegmentId, string> = {
   regular: 'Regulars',
   secondTimer: 'Second-timers',
   new: 'New customers',
+  slippingVip: 'VIPs slipping away',
   slipping: 'Slipping away',
+  lostVip: 'Lost VIPs',
+  lostRegular: 'Lost regulars',
   lost: 'Lost',
   oneAndDone: 'One-and-done',
 };
@@ -167,6 +173,11 @@ export interface Settings {
   /** Time window W in days: a purchase counts if it happens within W days of the email. */
   windowDays: number;
   uplift: UpliftAssumptions;
+  /**
+   * How much more (or less) strongly a group responds to a discount than the base uplift
+   * assumption, e.g. 2 = a discount wins twice the extra buyers. Missing = 1. An assumption.
+   */
+  upliftMultipliers: Partial<Record<SegmentId, number>>;
   p0Overrides: Partial<Record<SegmentId, number>>;
   /** Percent of each segment held out as "don't email" (0–30). */
   holdoutPercent: number;

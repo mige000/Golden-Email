@@ -14,7 +14,7 @@ export function BusinessStep({ settings, onSettings, onBack, onContinue }: Props
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="text-2xl font-semibold tracking-tight text-slate-900">Your business</h1>
+        <h1 className="text-3xl font-light tracking-tight text-slate-900">Your business</h1>
         <p className="mt-1 text-slate-600">Two numbers we can’t get from your sales data.</p>
       </div>
 

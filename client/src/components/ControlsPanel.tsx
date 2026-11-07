@@ -68,7 +68,7 @@ export function ControlsPanel({ settings, onSettings, derived, onEditData }: Pro
       </div>
 
       <fieldset className="space-y-4">
-        <legend className="mb-2 text-xs font-semibold tracking-wide text-slate-500 uppercase">Who counts as what</legend>
+        <legend className="mb-2 font-mono text-xs tracking-[0.15em] text-emerald-600 uppercase">Who counts as what</legend>
         <Slider
           label="Customers come back every"
           value={gap.days}
@@ -79,13 +79,12 @@ export function ControlsPanel({ settings, onSettings, derived, onEditData }: Pro
           onChange={(v) => onSettings({ gapOverride: v, missingDaysOverride: null, lostDaysOverride: null })}
         />
         <Slider
-          label="“Missing” after"
+          label="“Slipping away” after"
           value={missing}
           min={1}
           max={Math.max(730, missing)}
           display={days(missing)}
           source={th.missingDays.source}
-          hint="Bought more recently than this = active."
           onChange={(v) => onSettings({ missingDaysOverride: v, lostDaysOverride: settings.lostDaysOverride !== null && settings.lostDaysOverride <= v ? v + 1 : settings.lostDaysOverride })}
         />
         <Slider
@@ -126,7 +125,7 @@ export function ControlsPanel({ settings, onSettings, derived, onEditData }: Pro
       </fieldset>
 
       <fieldset className="space-y-4">
-        <legend className="mb-2 text-xs font-semibold tracking-wide text-slate-500 uppercase">Money</legend>
+        <legend className="mb-2 font-mono text-xs tracking-[0.15em] text-emerald-600 uppercase">Money</legend>
         <Slider
           label="Profit on each sale"
           value={Math.round(settings.margin * 100)}

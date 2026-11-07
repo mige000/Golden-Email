@@ -17,11 +17,12 @@ interface Sample {
 }
 
 const SAMPLES: Sample[] = [
-  { file: 'purchases.csv', title: 'CD store', blurb: 'Real purchase history, 1997–98 · 23,570 customers', businessType: 'online_store' },
-  { file: 'online-store.csv', title: 'Online store', blurb: 'Clean export, one row per order', businessType: 'online_store' },
-  { file: 'hair-salon.csv', title: 'Hair salon', blurb: 'Members visiting every few weeks', businessType: 'salon' },
-  { file: 'travel-agency.csv', title: 'Travel agency', blurb: 'Rare trips, no customer ID column', businessType: 'travel' },
-  { file: 'messy.csv', title: 'Messy file', blurb: 'Odd headers, mixed formats, line items', businessType: 'online_store' },
+  { file: 'purchases.csv', title: 'CD store', blurb: 'Real purchase history, 1997–98 · 23,572 customers', businessType: 'online_store' },
+  { file: 'online-retail.csv', title: 'Online retail', blurb: 'Real purchase history, 2010-11 · 4,374 customers', businessType: 'online_store' },
+  { file: 'online-store.csv', title: 'Online store', blurb: 'Clean export, one row per order (generated)', businessType: 'online_store' },
+  { file: 'hair-salon.csv', title: 'Hair salon', blurb: 'Members visiting every few weeks (generated)', businessType: 'salon' },
+  { file: 'travel-agency.csv', title: 'Travel agency', blurb: 'Rare trips, no customer ID column (generated)', businessType: 'travel' },
+  { file: 'messy.csv', title: 'Messy file', blurb: 'Odd headers, mixed formats, line items (generated)', businessType: 'online_store' },
 ];
 
 const MAX_BYTES = 50 * 1024 * 1024;
@@ -77,7 +78,7 @@ export function UploadStep({ onLoad }: { onLoad: (d: LoadedDataset) => void }) {
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="text-2xl font-semibold tracking-tight text-slate-900">Who should you email this week?</h1>
+        <h1 className="text-3xl font-light tracking-tight text-slate-900">Who should you email this week?</h1>
         <p className="mt-2 max-w-2xl text-slate-600">
           Upload your sales history and get a weekly email plan: who to email, what to say, and whether a
           discount will actually make you money.
@@ -92,7 +93,7 @@ export function UploadStep({ onLoad }: { onLoad: (d: LoadedDataset) => void }) {
         onDragLeave={() => setDragging(false)}
         onDrop={onDrop}
         className={`rounded-xl border-2 border-dashed p-10 text-center transition-colors ${
-          dragging ? 'border-emerald-500 bg-emerald-50' : 'border-slate-300 bg-white'
+          dragging ? 'border-emerald-500 bg-emerald-50' : 'border-slate-300 bg-surface'
         }`}
       >
         <p className="text-base font-medium text-slate-900">Drop your sales CSV here</p>
@@ -103,7 +104,7 @@ export function UploadStep({ onLoad }: { onLoad: (d: LoadedDataset) => void }) {
         <button
           type="button"
           onClick={() => input.current?.click()}
-          className="mt-4 rounded-lg bg-emerald-600 px-4 py-2 text-sm font-medium text-white hover:bg-emerald-700"
+          className="mt-4 rounded-lg bg-emerald-600 px-4 py-2 text-sm font-medium text-on-accent hover:bg-emerald-500"
         >
           {busy && !SAMPLES.some((s) => s.file === busy) ? 'Reading…' : 'Choose a file'}
         </button>

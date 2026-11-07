@@ -1,1 +1,85 @@
 @import 'tailwindcss';
+
+/*
+ * Dark theme modelled on Golden Analytics: navy header (#181833), #21211f page, warm dark cards
+ * (#2b271e) and an orange accent (#ff7b2c in the header, toned down elsewhere). Components keep
+ * their existing utility classes; the colour tokens they use are remapped here, so the whole UI
+ * switches in one place.
+ */
+@theme {
+  --font-sans: 'Barlow', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+
+  --color-page: #181833;
+  --color-canvas: #21211f;
+  --color-surface: #2b271e;
+  --color-on-accent: #181833;
+
+  /* Header-only colours, kept exactly as designed. */
+  --color-brand: #ff7b2c;
+  --color-header-ink: #f6f4ef;
+  --color-header-ink-2: #c3beb3;
+  --color-header-ink-3: #8f8a80;
+  --color-header-sep: #ffffff38;
+
+  /* Neutrals, inverted for a dark surface: 50–300 are translucent fills/borders, 400–900 text. */
+  --color-slate-50: #ffffff0a;
+  --color-slate-100: #ffffff12;
+  --color-slate-200: #ffffff1f;
+  --color-slate-300: #ffffff38;
+  /* Softer, warm off-white text: primary is ~11:1 on the cards, muted stays above 4:1. */
+  --color-slate-400: #8a8579;
+  --color-slate-500: #a09b8f;
+  --color-slate-600: #b5b0a4;
+  --color-slate-700: #c7c2b6;
+  --color-slate-800: #d4cfc4;
+  --color-slate-900: #e2ddd2;
+
+  /* The accent (was emerald): Golden's orange, toned down outside the header. */
+  --color-emerald-50: #db7a421f;
+  --color-emerald-200: #db7a4259;
+  --color-emerald-500: #e48c58;
+  --color-emerald-600: #db7a42;
+  --color-emerald-700: #e39a6e;
+  --color-emerald-800: #e8ae8a;
+
+  /* Tags and notes: translucent tints with light text. */
+  --color-sky-50: #38bdf81f;
+  --color-sky-200: #38bdf84d;
+  --color-sky-700: #7cc4e6;
+  --color-sky-900: #a8d4ea;
+  --color-amber-50: #f59e0b1f;
+  --color-amber-200: #f59e0b4d;
+  --color-amber-700: #e6b04a;
+  --color-amber-800: #e9c26a;
+  --color-amber-900: #ecd394;
+  --color-rose-50: #f43f5e1f;
+  --color-rose-200: #f43f5e4d;
+  --color-rose-600: #e5737f;
+  --color-rose-700: #eb9ca5;
+  --color-rose-900: #efc3c8;
+  --color-violet-50: #8b5cf624;
+  --color-violet-100: #8b5cf633;
+  --color-violet-200: #8b5cf64d;
+  --color-violet-700: #b7aaea;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background-color: var(--color-canvas);
+  color: var(--color-slate-900);
+}
+
+/* Native form controls on the dark surface. */
+input,
+select,
+textarea {
+  background-color: #ffffff0d;
+  color: inherit;
+}
+select option {
+  background-color: var(--color-surface);
+}

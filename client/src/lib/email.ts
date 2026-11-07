@@ -102,6 +102,33 @@ const COPY: Record<SegmentId, SegmentCopy> = {
       playful: 'It’s been a while and, honestly, it’s not the same without you.',
     },
   },
+  slippingVip: {
+    subject: { friendly: 'We’ve missed you, and we saved something for you', professional: 'A personal note for one of our best customers', playful: 'Our favourite customer has gone quiet…' },
+    preheader: 'You’re one of our best customers. We’d love to see you again.',
+    opening: {
+      friendly: 'You’ve been one of our very best customers, and we noticed it’s been a little while. We’d love to see you again.',
+      professional: 'As one of our most valued customers, we noticed it has been some time since your last visit, and we wanted to reach out personally.',
+      playful: 'You’re one of our all-time favourite customers, and it’s been way too quiet without you.',
+    },
+  },
+  lostVip: {
+    subject: { friendly: 'We’d love to welcome you back', professional: 'An invitation for one of our most valued customers', playful: 'Come back, we’ve kept your spot warm' },
+    preheader: 'You were one of our best customers. Here’s a reason to return.',
+    opening: {
+      friendly: 'You used to be one of our very best customers, and we’ve genuinely missed you.',
+      professional: 'You were among our most valued customers, and we would very much like to welcome you back.',
+      playful: 'You were basically royalty around here. The throne is still yours.',
+    },
+  },
+  lostRegular: {
+    subject: { friendly: 'It’s been a while. Come back and see us', professional: 'We would love to welcome you back', playful: 'Remember all those good times?' },
+    preheader: 'You used to visit often. We’d love to see you again.',
+    opening: {
+      friendly: 'You used to visit us often, and it’s been a long time. We’d love to see you again.',
+      professional: 'You were a regular customer of ours, and we would welcome the chance to serve you again.',
+      playful: 'You used to be a regular. We still remember your order (okay, almost).',
+    },
+  },
   lost: {
     subject: { friendly: 'One last hello', professional: 'Before we say goodbye', playful: 'Is this goodbye?' },
     preheader: 'We’d love to see you again.',
@@ -126,7 +153,8 @@ function offerLine(req: DraftRequest): string {
   if (req.discountPercent > 0) {
     return `As a thank-you, here’s ${req.discountPercent}% off your next order with the code {{discount_code}}. It’s valid for the next ${req.windowDays} days.`;
   }
-  return req.segmentId === 'lost' || req.segmentId === 'oneAndDone' || req.segmentId === 'slipping'
+  const lapsed: SegmentId[] = ['lost', 'lostVip', 'lostRegular', 'oneAndDone', 'slipping', 'slippingVip'];
+  return lapsed.includes(req.segmentId)
     ? 'Whenever you’re ready, we’ll be here.'
     : 'We’d love to see you again soon.';
 }

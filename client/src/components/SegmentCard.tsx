@@ -1,13 +1,12 @@
-import { secondTimerEvidence, segmentRule, customerReason, type ReasonContext } from '../lib/segments';
+import { secondTimerEvidence, segmentRule, type ReasonContext } from '../lib/segments';
 import type { RepeatRate } from '../lib/customers';
 import { count, money, pct, plural } from '../lib/format';
 import { breakEvenSentence, explainOffer, offerHeadline, type PlanSegment } from '../lib/plan';
-import { SEGMENT_LABELS, type Customer, type SegmentId, type Settings } from '../lib/types';
+import { SEGMENT_LABELS, type SegmentId, type Settings } from '../lib/types';
 import { SourceTag } from './ui';
 
 interface Props {
   x: PlanSegment;
-  customers: Customer[];
   settings: Settings;
   ctx: ReasonContext;
   repeatRates: RepeatRate[] | null;
@@ -15,28 +14,24 @@ interface Props {
 }
 
 export const ACTION_STYLES = {
-  'email-discount': 'bg-emerald-600 text-white',
+  'email-discount': 'bg-emerald-600 text-on-accent',
   'email-no-discount': 'bg-emerald-50 text-emerald-800 ring-1 ring-inset ring-emerald-600/30',
   'no-email': 'bg-slate-100 text-slate-600',
 } as const;
 
-export function SegmentCard({ x, customers, settings, ctx, repeatRates, onOpen }: Props) {
+export function SegmentCard({ x, settings, ctx, repeatRates, onOpen }: Props) {
   const W = settings.windowDays;
   const lowConfidence = x.p0.source === 'measured' && x.p0.confidence === 'low';
-  const example = x.stats.members[0] !== undefined ? customers[x.stats.members[0]] : undefined;
   const be = breakEvenSentence(x.rec);
   const isVip = x.atRiskIfLapsed !== null;
   const stake = isVip ? x.atRiskIfLapsed! : x.revenueAtStake;
 
   return (
-    <article className="rounded-xl border border-slate-200 bg-white p-5 shadow-sm">
+    <article className="rounded-xl border border-slate-200 bg-surface p-5 shadow-sm">
       <header className="flex flex-wrap items-start justify-between gap-3">
         <div>
           <h3 className="text-lg font-semibold text-slate-900">{SEGMENT_LABELS[x.id]}</h3>
-          <p className="text-sm text-slate-500">
-            {plural(x.stats.count, 'customer')}
-            {x.split.holdout.length > 0 && ` · ${count(x.split.holdout.length)} held back as a test group`}
-          </p>
+          <p className="text-sm text-slate-500">{plural(x.stats.count, 'customer')}</p>
         </div>
         <span className={`rounded-full px-3 py-1 text-sm font-medium ${ACTION_STYLES[x.rec.action]}`}>{offerHeadline(x.rec)}</span>
       </header>
@@ -93,11 +88,6 @@ export function SegmentCard({ x, customers, settings, ctx, repeatRates, onOpen }
         </p>
         {x.id === 'secondTimer' && repeatRates && (
           <p className="text-slate-500">{secondTimerEvidence(repeatRates, ctx.thresholds.missingDays.value)}</p>
-        )}
-        {example && (
-          <p className="border-l-2 border-slate-200 pl-3 text-slate-500 italic">
-            e.g. {example.name ?? `Customer ${example.id}`}: {customerReason(example, x.id, ctx)}
-          </p>
         )}
       </div>
 

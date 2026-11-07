@@ -1,4 +1,4 @@
-# Running the Win-Back Planner
+# Running Golden Email
 
 ## Requirements
 

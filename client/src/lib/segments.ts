@@ -53,7 +53,12 @@ export function segmentOf(
   if (active && c.orders >= s.regularsMinOrders) return 'regular';
   if (active && c.orders >= 2) return 'secondTimer'; // 2 … regulars cutoff − 1
   if (active) return 'new';
-  if (c.recency > t.lostDays.value) return 'lost';
+  const topSpender = c.totalSpend >= vipCutoff;
+  if (c.recency > t.lostDays.value) {
+    if (topSpender) return 'lostVip';
+    return c.orders >= s.regularsMinOrders ? 'lostRegular' : 'lost';
+  }
+  if (topSpender) return 'slippingVip';
   if (c.orders >= 2) return 'slipping';
   return 'oneAndDone';
 }
@@ -126,8 +131,14 @@ export function customerReason(c: Customer, id: SegmentId, ctx: ReasonContext): 
       return `Came back for purchase #${c.orders} ${days(c.recency)} ago.`;
     case 'new':
       return `First purchase was ${days(c.recency)} ago.`;
+    case 'slippingVip':
+      return `One of your top ${ctx.settings.vipPercent}% of spenders (${money(c.totalSpend)} in total), but hasn't purchased in ${days(c.recency)}. ${usual}`;
     case 'slipping':
       return `Bought ${times(c.orders)}, but hasn't purchased in ${days(c.recency)}. ${usual}`;
+    case 'lostVip':
+      return `Spent ${money(c.totalSpend)} with you in total, but the last purchase was ${days(c.recency)} ago.`;
+    case 'lostRegular':
+      return `Bought ${times(c.orders)}, but the last purchase was ${days(c.recency)} ago, past the ${days(ctx.thresholds.lostDays.value)} mark you count as lost.`;
     case 'lost':
       return `Last purchase was ${days(c.recency)} ago, past the ${days(ctx.thresholds.lostDays.value)} mark you count as lost.`;
     case 'oneAndDone':
@@ -151,10 +162,16 @@ export function segmentRule(id: SegmentId, ctx: ReasonContext): string {
         : `Bought in the last ${m}, with 2 to ${r - 1} orders.`;
     case 'new':
       return `Bought in the last ${m}, and only once so far.`;
+    case 'slippingVip':
+      return `Top ${ctx.settings.vipPercent}% of all customers by total spend, but nothing in the last ${m} (and not gone longer than ${l}).`;
     case 'slipping':
       return `Bought 2 or more times, but not in the last ${m} (and not gone longer than ${l}).`;
+    case 'lostVip':
+      return `Top ${ctx.settings.vipPercent}% of all customers by total spend, but haven't bought in more than ${l}.`;
+    case 'lostRegular':
+      return `Bought ${r} or more times, but haven't bought in more than ${l}.`;
     case 'lost':
-      return `Haven't bought in more than ${l}.`;
+      return `Bought ${r > 3 ? `fewer than ${r} times` : 'once or twice'}, and haven't bought in more than ${l}.`;
     case 'oneAndDone':
       return `Bought once, more than ${m} ago (but less than ${l}).`;
   }

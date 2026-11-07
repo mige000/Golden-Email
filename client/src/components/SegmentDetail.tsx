@@ -46,10 +46,9 @@ export function SegmentDetail({ id, derived, settings, onSettings, onBack }: Pro
       </button>
       <header className="flex flex-wrap items-start justify-between gap-3">
         <div>
-          <h1 className="text-2xl font-semibold tracking-tight text-slate-900">{label}</h1>
+          <h1 className="text-3xl font-light tracking-tight text-slate-900">{label}</h1>
           <p className="text-slate-600">
             {plural(x.stats.count, 'customer')} · {count(x.split.emailed.length)} to email
-            {x.split.holdout.length > 0 && ` · ${count(x.split.holdout.length)} in the test group`}
           </p>
         </div>
         <span className={`rounded-full px-3 py-1 text-sm font-medium ${ACTION_STYLES[x.rec.action]}`}>{offerHeadline(x.rec)}</span>
@@ -184,7 +183,7 @@ function CustomerList({
         setList(id);
         setPage(0);
       }}
-      className={`rounded-md px-3 py-1.5 text-sm ${list === id ? 'bg-slate-900 text-white' : 'text-slate-600 hover:bg-slate-100'}`}
+      className={`rounded-md px-3 py-1.5 text-sm ${list === id ? 'bg-emerald-600 text-on-accent' : 'text-slate-600 hover:bg-slate-100'}`}
     >
       {text}
     </button>

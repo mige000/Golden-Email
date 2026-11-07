@@ -1,5 +1,6 @@
 import type { BacktestResult, SegmentP0 } from './backtest';
 import {
+  boostDiscountResponse,
   expectedRevenueNoEmail,
   planSummary,
   recommend,
@@ -37,7 +38,10 @@ export interface Plan {
   rows: PlanRow[];
 }
 
-export type PlanSettings = Pick<Settings, 'margin' | 'uplift' | 'holdoutPercent' | 'seed'>;
+export type PlanSettings = Pick<Settings, 'margin' | 'uplift' | 'upliftMultipliers' | 'holdoutPercent' | 'seed'>;
+
+/** How strongly a group responds to a discount relative to the base assumption (1 = the same). */
+export const multiplierFor = (m: Settings['upliftMultipliers'], id: SegmentId) => m[id] ?? 1;
 
 /** The decision for each group: who's emailed, which offer, and what's at stake. */
 export function buildPlan(
@@ -49,7 +53,8 @@ export function buildPlan(
   const segments = SEGMENT_IDS.map((id): PlanSegment => {
     const st = stats[id];
     const p0 = bt.bySegment[id];
-    const offer: OfferInput = { p0: p0.p0, aov: st.aov, margin: s.margin, assumptions: s.uplift };
+    const assumptions = boostDiscountResponse(s.uplift, multiplierFor(s.upliftMultipliers, id));
+    const offer: OfferInput = { p0: p0.p0, aov: st.aov, margin: s.margin, assumptions };
     const split = splitHoldout(st.members, (i) => customers[i]!.id, s.holdoutPercent, s.seed);
     return {
       id,
@@ -81,6 +86,9 @@ export function offerHeadline(rec: Recommendation): string {
   return rec.action === 'email-discount' ? `Email · ${wholePct(rec.discount)} off` : 'Email · no discount';
 }
 
+/** Lapsed high-value groups: assumed to respond more strongly to an offer. */
+const RESPONSIVE = new Set<SegmentId>(['lostVip', 'slippingVip', 'lostRegular']);
+
 /** Why this offer, in one or two sentences. */
 export function explainOffer(x: PlanSegment, windowDays: number): string {
   const p = pct(x.p0.p0);
@@ -89,10 +97,13 @@ export function explainOffer(x: PlanSegment, windowDays: number): string {
     case 'no-email':
       return 'Under your current assumptions, emailing this group brings in nothing extra.';
     case 'email-no-discount':
-      return x.p0.p0 >= 0.1
+      return x.p0.p0 >= 0.1 && !RESPONSIVE.has(x.id)
         ? `No discount: ${p} of them buy ${within} anyway, so a discount would mostly go to people who’d pay full price. A plain email still nudges a few more.`
         : `No discount: the extra buyers a discount would win don’t cover the cost of discounting everyone who uses it. A plain email still nudges a few more.`;
     case 'email-discount':
+      if (RESPONSIVE.has(x.id)) {
+        return `They used to spend a lot with you, so an offer is more likely to win them back than it is for other lapsed customers. Only ${p} buy ${within} on their own, so a ${wholePct(x.rec.discount)} offer mostly goes to people it brings back.`;
+      }
       return `Only ${p} of them buy ${within} on their own, so a ${wholePct(x.rec.discount)} offer costs little on purchases you’d get anyway, and can win back a few more.`;
   }
 }
@@ -115,13 +126,16 @@ export function curveTitle(rec: Recommendation): string {
 
 // ---------- Applying a headline uplift to the assumptions ----------
 
-/** Plan-level assumed uplift if every group's uplift curve were `assumptions`. */
-function blendedUplift(plan: Plan, margin: number, assumptions: UpliftAssumptions): number {
+/** Plan-level assumed uplift if the base uplift curve were `assumptions` (group multipliers kept). */
+function blendedUplift(plan: Plan, margin: number, assumptions: UpliftAssumptions, multipliers: Settings['upliftMultipliers']): number {
   const rows = plan.segments.map((x) => ({
     id: x.id,
     aov: x.stats.aov,
     p0: x.p0.p0,
-    rec: recommend({ ...x.offer, margin, assumptions }, x.split.emailed.length),
+    rec: recommend(
+      { ...x.offer, margin, assumptions: boostDiscountResponse(assumptions, multiplierFor(multipliers, x.id)) },
+      x.split.emailed.length,
+    ),
   }));
   return planSummary(rows, margin).assumedUplift;
 }
@@ -133,19 +147,25 @@ function blendedUplift(plan: Plan, margin: number, assumptions: UpliftAssumption
  * "5% off") the plan's average jumps, so the exact target may be unreachable: we return whichever
  * side of the jump is closer.
  */
-export function upliftForTarget(plan: Plan, margin: number, base: UpliftAssumptions, target: number): UpliftAssumptions {
+export function upliftForTarget(
+  plan: Plan,
+  margin: number,
+  base: UpliftAssumptions,
+  target: number,
+  multipliers: Settings['upliftMultipliers'] = {},
+): UpliftAssumptions {
   if (target <= 0) return { ...base, u0: 0, uRef: 0 };
   if (base.u0 <= 0 && base.uRef <= 0) return { ...base, u0: target, uRef: target };
   const scaled = (k: number): UpliftAssumptions => ({ ...base, u0: base.u0 * k, uRef: base.uRef * k });
   let lo = 0;
   let hi = 1;
-  while (blendedUplift(plan, margin, scaled(hi)) < target && hi < 1e4) hi *= 2;
+  while (blendedUplift(plan, margin, scaled(hi), multipliers) < target && hi < 1e4) hi *= 2;
   for (let i = 0; i < 50; i++) {
     const mid = (lo + hi) / 2;
-    if (blendedUplift(plan, margin, scaled(mid)) < target) lo = mid;
+    if (blendedUplift(plan, margin, scaled(mid), multipliers) < target) lo = mid;
     else hi = mid;
   }
-  const below = Math.abs(blendedUplift(plan, margin, scaled(lo)) - target);
-  const above = Math.abs(blendedUplift(plan, margin, scaled(hi)) - target);
+  const below = Math.abs(blendedUplift(plan, margin, scaled(lo), multipliers) - target);
+  const above = Math.abs(blendedUplift(plan, margin, scaled(hi), multipliers) - target);
   return scaled(below < above ? lo : hi);
 }

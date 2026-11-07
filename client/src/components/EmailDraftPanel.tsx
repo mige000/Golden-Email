@@ -119,7 +119,7 @@ export function EmailDraftPanel({ x, ctx, settings, onSettings }: Props) {
               type="button"
               aria-pressed={settings.tone === t.id}
               onClick={() => onSettings({ tone: t.id })}
-              className={`rounded-md px-3 py-1.5 text-sm ${settings.tone === t.id ? 'bg-slate-900 text-white' : 'text-slate-600 hover:bg-slate-100'}`}
+              className={`rounded-md px-3 py-1.5 text-sm ${settings.tone === t.id ? 'bg-emerald-600 text-on-accent' : 'text-slate-600 hover:bg-slate-100'}`}
             >
               {t.label}
             </button>

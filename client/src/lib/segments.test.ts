@@ -46,10 +46,11 @@ describe('segmentOf rule boundaries (missing = 60, lost = 180)', () => {
     expect(seg(customer('a', 1, 10))).toBe('new');
   });
 
-  it('VIPs must be top spenders AND active', () => {
+  it('VIPs must be top spenders AND active; lapsed top spenders keep their own groups', () => {
     expect(seg(customer('v', 1, 10, 900), 500)).toBe('vip');
-    expect(seg(customer('v', 4, 61, 900), 500)).toBe('slipping');
-    expect(seg(customer('v', 4, 181, 900), 500)).toBe('lost');
+    expect(seg(customer('v', 4, 61, 900), 500)).toBe('slippingVip');
+    expect(seg(customer('v', 1, 61, 900), 500)).toBe('slippingVip');
+    expect(seg(customer('v', 4, 181, 900), 500)).toBe('lostVip');
   });
 
   it('inactive groups', () => {
@@ -57,7 +58,9 @@ describe('segmentOf rule boundaries (missing = 60, lost = 180)', () => {
     expect(seg(customer('a', 1, 61))).toBe('oneAndDone');
     expect(seg(customer('a', 1, 180))).toBe('oneAndDone'); // recency == lost is not yet lost
     expect(seg(customer('a', 1, 181))).toBe('lost');
-    expect(seg(customer('a', 9, 181))).toBe('lost');
+    expect(seg(customer('a', 2, 181))).toBe('lost');
+    expect(seg(customer('a', 3, 181))).toBe('lostRegular');
+    expect(seg(customer('a', 9, 181))).toBe('lostRegular');
   });
 
   it('moving the Regulars cutoff shifts Second-timers', () => {
@@ -82,6 +85,9 @@ describe('segmentCustomers + segmentStats', () => {
     const cs = [customer('a', 5, 10, 1000), customer('b', 3, 10), customer('c', 2, 10), customer('d', 1, 10), customer('e', 4, 100), customer('f', 1, 100), customer('g', 1, 400)];
     const seg = segmentCustomers(cs, t, s);
     expect(seg.assignments).toEqual(['vip', 'regular', 'secondTimer', 'new', 'slipping', 'oneAndDone', 'lost']);
+    // The same big spender lands in VIPs / VIPs slipping away / Lost VIPs as they lapse.
+    const big = (recency: number) => segmentCustomers([...cs.slice(1), customer('big', 5, recency, 5000)], t, s).assignments.at(-1);
+    expect([big(10), big(100), big(400)]).toEqual(['vip', 'slippingVip', 'lostVip']);
     const stats = segmentStats(cs, seg);
     expect(stats.vip).toMatchObject({ count: 1, totalSpend: 1000, aov: 200, avgOrders: 5 });
     expect(stats.slipping.medianRecency).toBe(100);
@@ -100,7 +106,9 @@ describe('reasons', () => {
   it('describes the rules, including a moved Regulars cutoff', () => {
     expect(segmentRule('secondTimer', ctx)).toMatch(/exactly 2 orders/);
     expect(segmentRule('secondTimer', { ...ctx, settings: { ...s, regularsMinOrders: 5 } })).toMatch(/2 to 4 orders/);
-    expect(segmentRule('lost', ctx)).toBe("Haven't bought in more than 180 days.");
+    expect(segmentRule('lost', ctx)).toBe("Bought once or twice, and haven't bought in more than 180 days.");
+    expect(segmentRule('lostRegular', ctx)).toBe("Bought 3 or more times, but haven't bought in more than 180 days.");
+    expect(segmentRule('lostVip', ctx)).toMatch(/^Top 10% of all customers by total spend, but haven't bought/);
   });
 
   const rates = (r1: number, r2: number, n = 100): RepeatRate[] => [

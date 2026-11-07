@@ -46,13 +46,13 @@ describe('buildPlan (end to end on the online-store sample)', () => {
 
   it('scales the uplift assumptions so the re-run plan averages the target uplift', () => {
     for (const target of [0.01, 0.06]) {
-      const u = upliftForTarget(plan, s.margin, s.uplift, target);
+      const u = upliftForTarget(plan, s.margin, s.uplift, target, s.upliftMultipliers);
       expect(u.uRef / u.u0).toBeCloseTo(s.uplift.uRef / s.uplift.u0); // same curve shape
       const rerun = buildPlan(customers, stats, bt, { ...s, uplift: u });
       expect(rerun.summary.assumedUplift).toBeCloseTo(target, 4);
     }
     // A much higher uplift makes bigger discounts worth it for at least one group.
-    const high = buildPlan(customers, stats, bt, { ...s, uplift: upliftForTarget(plan, s.margin, s.uplift, 0.06) });
+    const high = buildPlan(customers, stats, bt, { ...s, uplift: upliftForTarget(plan, s.margin, s.uplift, 0.06, s.upliftMultipliers) });
     const discounts = (p: typeof plan) => p.segments.reduce((n, x) => n + x.rec.discount, 0);
     expect(discounts(high)).toBeGreaterThan(discounts(plan));
     expect(upliftForTarget(plan, s.margin, s.uplift, 0)).toMatchObject({ u0: 0, uRef: 0 });
@@ -61,9 +61,19 @@ describe('buildPlan (end to end on the online-store sample)', () => {
   it('lands on the closer side when an offer flip makes the target unreachable', () => {
     // Sweep targets; wherever the re-run plan misses, nothing between the two sides of the jump is reachable.
     for (let t = 0.005; t <= 0.08; t += 0.0025) {
-      const got = buildPlan(customers, stats, bt, { ...s, uplift: upliftForTarget(plan, s.margin, s.uplift, t) }).summary.assumedUplift;
+      const got = buildPlan(customers, stats, bt, { ...s, uplift: upliftForTarget(plan, s.margin, s.uplift, t, s.upliftMultipliers) }).summary.assumedUplift;
       expect(Math.abs(got - t)).toBeLessThan(0.006);
     }
+  });
+
+  it('gives lapsed VIPs a stronger offer response, and a bigger discount than with no multiplier', () => {
+    const lostVip = plan.segments.find((x) => x.id === 'lostVip')!;
+    expect(lostVip.stats.count).toBeGreaterThan(0);
+    // Only the discount-driven part of the uplift is doubled; a plain email's effect is unchanged.
+    expect(lostVip.offer.assumptions.u0).toBeCloseTo(s.uplift.u0);
+    expect(lostVip.offer.assumptions.uRef).toBeCloseTo(s.uplift.u0 + 2 * (s.uplift.uRef - s.uplift.u0));
+    const flat = buildPlan(customers, stats, bt, { ...s, upliftMultipliers: {} }).segments.find((x) => x.id === 'lostVip')!;
+    expect(lostVip.rec.discount).toBeGreaterThan(flat.rec.discount);
   });
 
   it('applies p₀ overrides without re-running the backtest', () => {

@@ -15,17 +15,18 @@ import { extraProfitPerRecipient, profitCurve } from '../lib/economics';
 import { money, pct } from '../lib/format';
 import { curveTitle, type PlanSegment } from '../lib/plan';
 
-// Reference palette: categorical slot 1 (blue) for the single series, its 100 step for the band,
-// and the light chart chrome tokens.
+// Dark theme: the single series is the toned-down accent (4.9:1 on the card surface), the band is
+// the same hue at low opacity, and grid/axis sit one step off the surface.
 const C = {
-  line: '#2a78d6',
-  band: '#cde2fb',
-  grid: '#e1e0d9',
-  axis: '#c3c2b7',
-  muted: '#898781',
-  ink: '#0b0b0b',
-  ink2: '#52514e',
-  surface: '#fcfcfb',
+  line: '#db7a42',
+  band: '#db7a42',
+  bandOpacity: 0.2,
+  grid: '#3d382d',
+  axis: '#4d473b',
+  muted: '#a09b8f',
+  ink: '#e2ddd2',
+  ink2: '#b5b0a4',
+  surface: '#2b271e',
 };
 
 interface Point {
@@ -38,7 +39,7 @@ function TooltipBody({ active, payload }: { active?: boolean; payload?: { payloa
   const p = payload?.[0]?.payload;
   if (!active || !p) return null;
   return (
-    <div className="rounded-lg border border-slate-200 bg-white px-3 py-2 text-xs shadow-md">
+    <div className="rounded-lg border border-slate-200 bg-surface px-3 py-2 text-xs shadow-md">
       <div className="font-medium text-slate-900">{p.discount === 0 ? 'No discount' : `${pct(p.discount, 0)} off`}</div>
       <div className="mt-0.5 tabular-nums text-slate-700">
         {money(p.profit)} extra profit
@@ -102,7 +103,7 @@ export function ProfitCurve({ x, windowDays }: { x: PlanSegment; windowDays: num
               width={72}
             />
             <Tooltip content={<TooltipBody />} cursor={{ stroke: C.axis, strokeWidth: 1 }} />
-            <Area dataKey="band" stroke="none" fill={C.band} fillOpacity={0.7} isAnimationActive={false} activeDot={false} />
+            <Area dataKey="band" stroke="none" fill={C.band} fillOpacity={C.bandOpacity} isAnimationActive={false} activeDot={false} />
             <ReferenceLine y={0} stroke={C.ink2} strokeWidth={1} />
             <Line
               dataKey="profit"
@@ -143,7 +144,7 @@ export function ProfitCurve({ x, windowDays }: { x: PlanSegment; windowDays: num
           <span className="h-0.5 w-5 rounded" style={{ backgroundColor: C.line }} /> With your assumptions
         </span>
         <span className="flex items-center gap-1.5">
-          <span className="h-3 w-5 rounded-sm" style={{ backgroundColor: C.band }} /> If the email wins half to 1½× as many extra buyers as we assumed
+          <span className="h-3 w-5 rounded-sm" style={{ backgroundColor: C.band, opacity: C.bandOpacity }} /> If the email wins half to 1½× as many extra buyers as we assumed
         </span>
       </div>
     </figure>

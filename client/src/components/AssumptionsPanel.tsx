@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { uplift } from '../lib/economics';
 import { pct } from '../lib/format';
-import { defaultSettings } from '../lib/settings';
+import { DEFAULT_UPLIFT_MULTIPLIERS, defaultSettings } from '../lib/settings';
 import { SEGMENT_IDS, SEGMENT_LABELS, type SegmentId, type Settings } from '../lib/types';
 import type { Derived } from '../useDerived';
 import { NumberField, SourceTag } from './ui';
@@ -92,6 +92,51 @@ export function AssumptionsPanel({ settings, onSettings, derived }: Props) {
                 Back to our placeholders
               </button>
             )}
+          </div>
+
+          <div>
+            <p className="text-sm font-medium text-slate-900">
+              How strongly lapsed big spenders respond to a discount <SourceTag source="assumed" />
+            </p>
+            <p className="text-xs text-slate-500">
+              People who used to spend a lot already know and liked you, so we assume a discount wins back more of them. 2× means
+              a discount brings twice as many extra buyers as above. Higher numbers can mean bigger recommended discounts.
+            </p>
+            <table className="mt-2 w-full text-sm">
+              <tbody className="divide-y divide-violet-100">
+                {(['lostVip', 'slippingVip', 'lostRegular'] as SegmentId[]).map((id) => {
+                  const v = settings.upliftMultipliers[id] ?? 1;
+                  const changed = v !== (DEFAULT_UPLIFT_MULTIPLIERS[id] ?? 1);
+                  return (
+                    <tr key={id}>
+                      <td className="py-1.5 pr-2 text-slate-700">{SEGMENT_LABELS[id]}</td>
+                      <td className="py-1.5 text-right">
+                        <NumberField
+                          ariaLabel={`How strongly ${SEGMENT_LABELS[id]} respond, times`}
+                          value={v}
+                          min={0}
+                          max={10}
+                          step={0.25}
+                          suffix="×"
+                          onCommit={(n) => onSettings({ upliftMultipliers: { ...settings.upliftMultipliers, [id]: n } })}
+                        />
+                      </td>
+                      <td className="w-12 py-1.5 pl-1 text-right">
+                        {changed && (
+                          <button
+                            type="button"
+                            className="text-xs text-emerald-700 underline"
+                            onClick={() => onSettings({ upliftMultipliers: { ...settings.upliftMultipliers, [id]: DEFAULT_UPLIFT_MULTIPLIERS[id] ?? 1 } })}
+                          >
+                            reset
+                          </button>
+                        )}
+                      </td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
           </div>
 
           <div>

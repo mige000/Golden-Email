@@ -14,14 +14,22 @@ const body: DraftRequestBody = {
   tone: 'friendly',
 };
 
-let close: (() => void) | null = null;
-afterEach(() => close?.());
+let close: (() => Promise<void>) | null = null;
+afterEach(async () => {
+  await close?.();
+  close = null;
+});
+
+/** Start the app on a free port bound to the same address the tests fetch from. */
+async function listen(drafter: Drafter, aiConfigured: boolean) {
+  const server = createApp(drafter, aiConfigured).listen(0, '127.0.0.1');
+  await new Promise((r) => server.once('listening', r));
+  close = () => new Promise<void>((r) => server.close(() => r()));
+  return `http://127.0.0.1:${(server.address() as AddressInfo).port}`;
+}
 
 async function serve(drafter: Drafter) {
-  const server = createApp(drafter, true).listen(0);
-  await new Promise((r) => server.once('listening', r));
-  close = () => server.close();
-  const url = `http://127.0.0.1:${(server.address() as AddressInfo).port}`;
+  const url = await listen(drafter, true);
   return (payload: unknown) =>
     fetch(`${url}/api/draft-email`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) });
 }
@@ -55,13 +63,10 @@ describe('POST /api/draft-email', () => {
 
 describe('without credentials', () => {
   it('answers 503 "not set up" without calling the drafter', async () => {
-    const server = createApp(async () => {
+    const url = await listen(async () => {
       throw new Error('should not be called');
-    }, false).listen(0);
-    await new Promise((r) => server.once('listening', r));
-    close = () => server.close();
-    const port = (server.address() as AddressInfo).port;
-    const res = await fetch(`http://127.0.0.1:${port}/api/draft-email`, {
+    }, false);
+    const res = await fetch(`${url}/api/draft-email`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(body),

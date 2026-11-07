@@ -25,7 +25,7 @@ interface Props {
 const FIELD_HELP: Partial<Record<Field, string>> = {
   customer_id: 'Who bought. Falls back to email, then name.',
   order_date: 'When they bought.',
-  amount: 'How much they paid for the order (or line).',
+  amount: 'How much they paid for the order (if missing, fill in quantity and unit price below).',
   quantity: 'Only used when an amount is missing.',
   unit_price: 'Only used when an amount is missing.',
   order_id: 'Lets us combine line items into one order.',
@@ -38,7 +38,7 @@ export function MappingStep(props: Props) {
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="text-2xl font-semibold tracking-tight text-slate-900">Check your data</h1>
+        <h1 className="text-3xl font-light tracking-tight text-slate-900">Check your data</h1>
         <p className="mt-1 text-slate-600">
           {dataset.name}: {plural(dataset.table.rows.length, 'row')}, {plural(dataset.table.headers.length, 'column')}. We’ve guessed
           what each column means. Fix anything that looks wrong.
@@ -105,7 +105,7 @@ function ColumnsCard({ table, mapping, onMapping, derived }: { table: RawTable; 
             aria-label={`Column for ${FIELD_LABELS[field]}`}
             value={g.column ?? ''}
             onChange={(e) => onMapping(setField(mapping, field, e.target.value === '' ? null : Number(e.target.value)))}
-            className="w-full max-w-64 rounded-md border border-slate-300 bg-white px-2 py-1.5 text-sm focus:border-emerald-600 focus:outline-none focus:ring-1 focus:ring-emerald-600"
+            className="w-full max-w-64 rounded-md border border-slate-300 bg-surface px-2 py-1.5 text-sm focus:border-emerald-600 focus:outline-none focus:ring-1 focus:ring-emerald-600"
           >
             <option value="">— none —</option>
             {table.headers.map((h, i) => (
@@ -143,7 +143,7 @@ function ColumnsCard({ table, mapping, onMapping, derived }: { table: RawTable; 
           <tbody className="divide-y divide-slate-100">
             {REQUIRED_FIELDS.map(row)}
             <tr>
-              <td colSpan={3} className="pt-5 pb-1 text-xs font-semibold tracking-wide text-slate-500 uppercase">
+              <td colSpan={3} className="pt-5 pb-1 font-mono text-xs tracking-[0.15em] text-emerald-600 uppercase">
                 Optional
               </td>
             </tr>

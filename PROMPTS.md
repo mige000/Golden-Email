@@ -49,3 +49,15 @@ What I changed: I asked for an option to let that number change the recommendati
 Prompt: Switch the email-drafting API from Anthropic Claude to Google's Gemini free tier (Gemini 3.1 Flash-Lite), because I don't want to pay for usage. Keep the endpoint, the response format, validation, the missing-key error and the template fallback, and update the tests.
 What the AI did: replaced only the server-side drafter with Google's `@google/genai` SDK (`gemini-3.1-flash-lite`, structured JSON output, low thinking) and removed the Anthropic SDK. The frontend is unchanged. Gemini errors (bad key, free quota used up, server errors, network) map to the same kind of clear messages as before, and the key is read from GEMINI_API_KEY only on the server.
 What testing found: Flash-Lite sometimes returned the body as one run-on line without paragraph breaks. The server now asks Gemini for a list of paragraphs and joins them itself, so formatting no longer depends on the model. The response to the browser is still { subject, preheader, body }.
+
+## Nov 3 — UI review round
+Prompt: after reviewing the UI I asked for five changes:
+1. Show the test-group size once, in a section at the bottom, not under every group and in the summary.
+2. Split the big "Lost" and "Slipping away" boxes so lapsed VIPs are separate from customers who bought only once or twice, with discounts adjusted for lapsed VIPs.
+3. A dark theme modelled on the Golden Analytics site (#181833, #ff7b2c, #2b271e).
+4. A carousel of visualizations showing group size and potential revenue.
+5. Removing the example-customer callout from each group card.
+
+What the AI did: added three groups (VIPs slipping away, Lost VIPs, Lost regulars), each with its own box on the map, and a "responds to a discount" multiplier per group (Lost VIPs 2×, VIPs slipping away 1.5×, Lost regulars 1.25×), labelled as an assumption and editable. It remapped the colour tokens in one place for the dark theme, and added "Group sizes" and "Where the money is" bar-chart slides next to the map.
+
+What testing found: as a plain multiplier on the whole response, it didn't move the CD store's Lost VIPs offer at all. When almost nobody in a group buys anyway, scaling the whole response scales profit at every discount equally, so the best discount stays put. The AI switched the multiplier to boost only the discount-driven part of the response, which matches "more likely to come back if offered a discount". That raised the online store's Lost VIPs from 5% to 10% off, and the CD store's VIPs slipping away from no discount to 5% off.

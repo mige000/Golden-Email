@@ -63,12 +63,12 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-50">
-      <header className="border-b border-slate-200 bg-white">
+    <div className="min-h-screen bg-canvas">
+      <header className="border-b border-[#34346a] bg-page">
         <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4 px-4 py-3 sm:px-6">
           <div className="flex items-center gap-2">
-            <span className="grid size-7 place-items-center rounded-md bg-emerald-600 text-sm font-bold text-white">W</span>
-            <span className="font-semibold text-slate-900">Win-Back Planner</span>
+            <span className="grid size-7 place-items-center rounded-md bg-brand text-sm font-bold text-on-accent">G</span>
+            <span className="text-lg font-semibold tracking-tight text-brand">Golden Email</span>
           </div>
           <nav aria-label="Steps">
             <ol className="flex flex-wrap items-center gap-1 text-sm">
@@ -77,7 +77,7 @@ export default function App() {
                 const enabled = reachable(s.id);
                 return (
                   <li key={s.id} className="flex items-center gap-1">
-                    {i > 0 && <span className="text-slate-300">›</span>}
+                    {i > 0 && <span className="text-header-sep">›</span>}
                     <button
                       type="button"
                       disabled={!enabled}
@@ -86,8 +86,12 @@ export default function App() {
                         setOpenSegment(null);
                       }}
                       aria-current={current ? 'step' : undefined}
-                      className={`rounded-md px-2 py-1 ${
-                        current ? 'bg-emerald-50 font-medium text-emerald-800' : enabled ? 'text-slate-600 hover:bg-slate-100' : 'text-slate-300'
+                      className={`border-b-2 px-2 py-1.5 font-mono text-xs tracking-[0.15em] uppercase ${
+                        current
+                          ? 'border-brand text-header-ink'
+                          : enabled
+                            ? 'border-transparent text-header-ink-2 hover:text-header-ink'
+                            : 'border-transparent text-header-ink-3'
                       }`}
                     >
                       {i + 1}. {s.label}

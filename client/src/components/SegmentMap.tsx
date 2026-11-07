@@ -10,8 +10,8 @@ interface Props {
   onSelect: (id: SegmentId) => void;
 }
 
-/** One-hue ordinal shading by share of customers; text stays dark ink on every step. */
-const SHADES = ['#f4f8fe', '#cde2fb', '#b7d3f6', '#9ec5f4'];
+/** One-hue ordinal shading by share of customers (accent at rising opacity); text stays light on every step. */
+const SHADES = ['#db7a4214', '#db7a422e', '#db7a424d', '#db7a4273'];
 function shade(share: number): string {
   if (share < 0.02) return SHADES[0]!;
   if (share < 0.1) return SHADES[1]!;
@@ -25,9 +25,12 @@ const PLACEMENT: Record<SegmentId, string> = {
   regular: 'col-start-2 row-start-3',
   secondTimer: 'col-start-2 row-start-4',
   new: 'col-start-2 row-start-5',
-  slipping: 'col-start-3 row-start-2 row-span-3',
+  slippingVip: 'col-start-3 row-start-2',
+  slipping: 'col-start-3 row-start-3 row-span-2',
   oneAndDone: 'col-start-3 row-start-5',
-  lost: 'col-start-4 row-start-2 row-span-4',
+  lostVip: 'col-start-4 row-start-2',
+  lostRegular: 'col-start-4 row-start-3',
+  lost: 'col-start-4 row-start-4 row-span-2',
 };
 
 /**
@@ -62,7 +65,7 @@ export function SegmentMap({ plan, thresholds, settings, totalCustomers, onSelec
               disabled={empty}
               onClick={() => onSelect(x.id)}
               title={empty ? 'No customers in this group right now' : `See ${SEGMENT_LABELS[x.id]}`}
-              style={{ backgroundColor: empty ? '#fafaf9' : shade(share) }}
+              style={{ backgroundColor: empty ? '#ffffff08' : shade(share) }}
               className={`${PLACEMENT[x.id]} flex flex-col items-start justify-center rounded-md px-3 py-2 text-left ring-emerald-600 transition hover:ring-2 focus-visible:ring-2 focus-visible:outline-none disabled:cursor-default disabled:hover:ring-0`}
             >
               <span className={`font-medium ${empty ? 'text-slate-400' : 'text-slate-900'}`}>{SEGMENT_LABELS[x.id]}</span>
@@ -80,7 +83,7 @@ export function SegmentMap({ plan, thresholds, settings, totalCustomers, onSelec
           <span key={c} className="h-3 w-6 rounded-sm" style={{ backgroundColor: c }} />
         ))}
         <span>More customers</span>
-        <span className="ml-auto">VIPs who stop buying move into Slipping away or Lost.</span>
+        <span className="ml-auto">Top spenders stay in the top row, even after they stop buying.</span>
       </div>
     </div>
   );

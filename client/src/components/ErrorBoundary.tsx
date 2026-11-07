@@ -21,7 +21,7 @@ export class ErrorBoundary extends Component<Props, { error: Error | null }> {
   render() {
     if (!this.state.error) return this.props.children;
     return (
-      <div className="mx-auto max-w-lg rounded-xl border border-rose-200 bg-white p-6 text-center shadow-sm">
+      <div className="mx-auto max-w-lg rounded-xl border border-rose-200 bg-surface p-6 text-center shadow-sm">
         <h1 className="text-lg font-semibold text-slate-900">Something went wrong</h1>
         <p className="mt-2 text-sm text-slate-600">
           We couldn’t finish building the plan from this file. Your data hasn’t left your browser. Try another file, or
