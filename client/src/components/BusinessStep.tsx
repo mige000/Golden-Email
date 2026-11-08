@@ -19,7 +19,7 @@ export function BusinessStep({ settings, onSettings, onBack, onContinue }: Props
       </div>
 
       <Card>
-        <CardTitle hint="After the cost of the product or service, how much of each sale do you keep? A discount comes out of this.">
+        <CardTitle hint="After the cost of the product or service, how much of each sale do you keep?">
           What % of each sale is profit?
         </CardTitle>
         <div className="flex items-center gap-4">
@@ -34,9 +34,6 @@ export function BusinessStep({ settings, onSettings, onBack, onContinue }: Props
           />
           <span className="w-14 text-lg font-semibold tabular-nums text-slate-900">{marginPct}%</span>
         </div>
-        <p className="mt-2 text-sm text-slate-500">
-          On a $100 sale you keep about ${marginPct}. A discount bigger than {marginPct}% loses money on every sale.
-        </p>
       </Card>
 
       <Card>
